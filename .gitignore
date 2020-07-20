@@ -6,17 +6,9 @@ node_modules/
 coverage/
 docs/
 
-# Ignore bwd folders
-dist/
-
-# Ignore JavaScript files
-**/*.js
-**/*.mjs
-**/*.js.map
-**/*.d.ts
-!src/**/*.d.ts
-**/*.tsbuildinfo
-!jest.config.js
+# Ignore source and test files
+src/
+tests/
 
 # Ignore heapsnapshot and log files
 *.heapsnapshot
