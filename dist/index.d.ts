@@ -1,3 +1,3 @@
-declare const _default: () => string;
-export default _default;
+export declare const main: () => string;
+export default main;
 //# sourceMappingURL=index.d.ts.map
