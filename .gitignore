@@ -5,6 +5,7 @@ node_modules/
 *.iml
 coverage/
 docs/
+.tsbuildinfo
 
 # Ignore source and test files
 src/
