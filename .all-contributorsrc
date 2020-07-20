@@ -21,7 +21,7 @@
         "design",
         "ideas",
         "infra",
-        "projectManagement",
+        "projectManagement"
       ]
     },
     {
@@ -35,7 +35,7 @@
         "infra",
         "projectManagement"
       ]
-    },
+    }
   ],
   "contributorsPerLine": 7
 }
