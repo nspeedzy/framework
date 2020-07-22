@@ -1,5 +1,5 @@
 import { Piece, PieceOptions, Message } from '@klasa/core';
-import type { MonitorStore } from '../stores/MonitorStore';
+import type { MonitorStore } from './MonitorStore';
 export declare abstract class Monitor extends Piece {
     /**
      * Should this monitor ignore bots

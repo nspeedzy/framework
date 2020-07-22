@@ -576,107 +576,107 @@
         "signature": "5e5e5a119fab8a61cb305faa6f92155b92b076bfa36233ba165d776922132d3a",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/arrayStrictEquals.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/lib/arrayStrictEquals.d.ts": {
         "version": "ab318edaac6f7ddbe7063a95acfd75d756c9f7769451883e97e0b74efc9b4039",
         "signature": "ab318edaac6f7ddbe7063a95acfd75d756c9f7769451883e97e0b74efc9b4039",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/chunk.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/lib/chunk.d.ts": {
         "version": "fc7f9ae37a2249ae9c3552fbfcc0c9eb3f543786566b2dc0ac2c64e38dd8c06c",
         "signature": "fc7f9ae37a2249ae9c3552fbfcc0c9eb3f543786566b2dc0ac2c64e38dd8c06c",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/codeBlock.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/lib/codeBlock.d.ts": {
         "version": "2cf553d462772fc3f9b1728590c7abb84040318f233851ea06566d191a58a29e",
         "signature": "2cf553d462772fc3f9b1728590c7abb84040318f233851ea06566d191a58a29e",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/deepClone.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/lib/deepClone.d.ts": {
         "version": "1966b8d58071a6459015714b2e0a365ca5cb0a6b7621d8883427291b39ec8a15",
         "signature": "1966b8d58071a6459015714b2e0a365ca5cb0a6b7621d8883427291b39ec8a15",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/exec.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/lib/exec.d.ts": {
         "version": "cdbfea776a7bfbeeef03170ae47ec6bfab22db0da09367ea0ecf4666c5bec2b8",
         "signature": "cdbfea776a7bfbeeef03170ae47ec6bfab22db0da09367ea0ecf4666c5bec2b8",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isClass.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/lib/isClass.d.ts": {
         "version": "9f6e93aceeb5639c3af4f6c868157a34b8a4d298fde614bb1841b130ab6fd155",
         "signature": "9f6e93aceeb5639c3af4f6c868157a34b8a4d298fde614bb1841b130ab6fd155",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isFunction.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/lib/isFunction.d.ts": {
         "version": "cdad2f43033f5699bce53edbe0743ad58cdfc10740d5e97df57f3b6d8fe91427",
         "signature": "cdad2f43033f5699bce53edbe0743ad58cdfc10740d5e97df57f3b6d8fe91427",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isNumber.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/lib/isNumber.d.ts": {
         "version": "1d22015f9cc82c77ef4ed47422350891981e77b2bc5d999e2fb5550b940ce8c6",
         "signature": "1d22015f9cc82c77ef4ed47422350891981e77b2bc5d999e2fb5550b940ce8c6",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isObject.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/lib/isObject.d.ts": {
         "version": "7924d99e6d541b8e2687cb292e39360048aec44feddbbb92d445f34389ee3279",
         "signature": "7924d99e6d541b8e2687cb292e39360048aec44feddbbb92d445f34389ee3279",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isPrimitive.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/lib/isPrimitive.d.ts": {
         "version": "63a369cf4b6aaf06998d12d6489481a4dbeebc10eec3135e36f8a76976077b95",
         "signature": "63a369cf4b6aaf06998d12d6489481a4dbeebc10eec3135e36f8a76976077b95",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isThenable.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/lib/isThenable.d.ts": {
         "version": "36ab5630f0d0b5cc55e0c0633e31ee37b48c4eadb9c20e034f6a5794d8cbabbf",
         "signature": "36ab5630f0d0b5cc55e0c0633e31ee37b48c4eadb9c20e034f6a5794d8cbabbf",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/makeObject.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/lib/makeObject.d.ts": {
         "version": "595be811328f0d80db9957575d4a450656b41ee254f71ee13062545214c4984e",
         "signature": "595be811328f0d80db9957575d4a450656b41ee254f71ee13062545214c4984e",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/utilityTypes.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/lib/utilityTypes.d.ts": {
         "version": "1502663bdea0cdd65b7c6790c213ea8d527754c18f6a1cfdb156dddd24e3ee2e",
         "signature": "1502663bdea0cdd65b7c6790c213ea8d527754c18f6a1cfdb156dddd24e3ee2e",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/mergeDefault.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/lib/mergeDefault.d.ts": {
         "version": "7f9177c1a6149cc528f354abf00a2f55e8759fda893d90c1cdc38071fe9e2cf4",
         "signature": "7f9177c1a6149cc528f354abf00a2f55e8759fda893d90c1cdc38071fe9e2cf4",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/mergeObjects.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/lib/mergeObjects.d.ts": {
         "version": "666e6c1039051400fc538fd0cd5fb3376e06597262a365934b62be0acf857844",
         "signature": "666e6c1039051400fc538fd0cd5fb3376e06597262a365934b62be0acf857844",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/objectToTuples.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/lib/objectToTuples.d.ts": {
         "version": "995ba4de11812b22e3f684ecbb7770dfbd6c6b8eb558ecba5cdc9deeb38be7e0",
         "signature": "995ba4de11812b22e3f684ecbb7770dfbd6c6b8eb558ecba5cdc9deeb38be7e0",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/regExpEsc.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/lib/regExpEsc.d.ts": {
         "version": "c7388e2a32ee5573608c65cf87623af35632982dd21d0c86048ca38e8f50c5e6",
         "signature": "c7388e2a32ee5573608c65cf87623af35632982dd21d0c86048ca38e8f50c5e6",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/sleep.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/lib/sleep.d.ts": {
         "version": "d906325ed1d433dc6e55e9fb045c3861b237c17ea8583936308d649bb847581d",
         "signature": "d906325ed1d433dc6e55e9fb045c3861b237c17ea8583936308d649bb847581d",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/toTitleCase.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/lib/toTitleCase.d.ts": {
         "version": "d63cecb422a9b6fd0be19d1638723e7149483bbf4ba1a9670b25620a0c294623",
         "signature": "d63cecb422a9b6fd0be19d1638723e7149483bbf4ba1a9670b25620a0c294623",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/tryParse.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/lib/tryParse.d.ts": {
         "version": "dc52af874744a5145703b8f39bd48a65a6d5f482b6a2a6b5e16b5006bfeb6db4",
         "signature": "dc52af874744a5145703b8f39bd48a65a6d5f482b6a2a6b5e16b5006bfeb6db4",
         "affectsGlobalScope": false
       },
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/index.d.ts": {
+      "../node_modules/@klasa/utils/dist/src/index.d.ts": {
         "version": "0c575e81da5fc2790111d5c110c008a3b0296e3e1e91b79bebe1add4a89fe670",
         "signature": "0c575e81da5fc2790111d5c110c008a3b0296e3e1e91b79bebe1add4a89fe670",
         "affectsGlobalScope": false
@@ -1146,14 +1146,54 @@
         "signature": "0104216eca9da1dc3753cf5fd108b9831f9142408c6239f7a5d9f8a9ae74f942",
         "affectsGlobalScope": false
       },
-      "../src/lib/structures/Monitor.ts": {
-        "version": "5832209b956e3674b3da50f09d2034445ddf71a1fcbf141d11f2d21c43d951eb",
-        "signature": "95879d7313c992bc701beb574464fea67fe746c22a70a48f578b6278cc7e7907",
+      "../src/lib/structures/CommandStore.ts": {
+        "version": "b8ace53dc34abfd8fa6f4f58e44b24b6ebe5d6369368c177a6ff79b6ab3dd639",
+        "signature": "fb7c77f55e2f39c6a8e44bfe591efb07a0cbfc591324a76ef9e8981726ab2f86",
         "affectsGlobalScope": false
       },
-      "../src/lib/stores/MonitorStore.ts": {
-        "version": "19e44078c2e13dcf89f273f91b956a17306bf85fd6ffe4c455eeab9e30828742",
-        "signature": "23a5b98fffdaeb801c1708d5fc9b6cfacfb7eedd4310f438785dcc23ba6d1e2b",
+      "../node_modules/@klasa/ratelimits/dist/src/RateLimitToken.d.ts": {
+        "version": "9af9b0dad4549c47a2281df0da3760ba5da0bdfab100d256221ba064807f1d0d",
+        "signature": "9af9b0dad4549c47a2281df0da3760ba5da0bdfab100d256221ba064807f1d0d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@klasa/ratelimits/dist/src/RateLimitManager.d.ts": {
+        "version": "4cbcb0350b9efc6d371f5483f73cbdb70c2897da1a332b383eaa2db800d2bed0",
+        "signature": "4cbcb0350b9efc6d371f5483f73cbdb70c2897da1a332b383eaa2db800d2bed0",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@klasa/ratelimits/dist/src/RateLimit.d.ts": {
+        "version": "273fce1d53d32edd2f4e4ec7f716bedfd00798e30732b70a55667860b84792fa",
+        "signature": "273fce1d53d32edd2f4e4ec7f716bedfd00798e30732b70a55667860b84792fa",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@klasa/ratelimits/dist/src/index.d.ts": {
+        "version": "f5032a832d89bd1485ca76b1c11902bf87d9714215654811168a6eae35d600af",
+        "signature": "f5032a832d89bd1485ca76b1c11902bf87d9714215654811168a6eae35d600af",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/types/Enums.d.ts": {
+        "version": "ea1a82bc0dd4abdffa2705584641bfd058b557813ace53d58762338c39b41c83",
+        "signature": "ea1a82bc0dd4abdffa2705584641bfd058b557813ace53d58762338c39b41c83",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/structures/Command.ts": {
+        "version": "ef705fb21a7b45c0438e8ebe49e5e28efb487fba934cc978862c5f747bbe8020",
+        "signature": "3ef99287570b3ca89904e83ea32a8bdc99d85873b1edaedec4945886fc5a56d9",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/structures/MonitorStore.ts": {
+        "version": "693c39d106b1bf08d4fe6775d924a485c7e79205abdd877e9435b1d981fe8dde",
+        "signature": "8079a6b93fde70822efd41ab431e388fafb89d3d73823af7e99a847c209d14aa",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/structures/Monitor.ts": {
+        "version": "d831f99373175db8e4d1706bfe587c63e92ed50004e3ee0e69f1f7c1404c11e2",
+        "signature": "f3719f37ee24345bcf1c15d5709c22d851810646a6ce97483004b319658caf29",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/util/constants.ts": {
+        "version": "4ac748b43717db26192a479f4c1d6994b1797e5bf8d3b01074c8e81647e4f292",
+        "signature": "64af4ab4f4fb041e8d569a608f23d81d5322cf24149dca5cb9645a7db5b587e8",
         "affectsGlobalScope": false
       },
       "../node_modules/@babel/types/lib/index.d.ts": {
@@ -2274,9 +2314,9 @@
       ],
       "../node_modules/@klasa/core/dist/src/lib/caching/structures/messages/MessageBuilder.d.ts": [
         "../node_modules/@klasa/core/dist/src/lib/caching/structures/Embed.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/index.d.ts",
         "../node_modules/@klasa/dapi-types/dist/index.d.ts",
         "../node_modules/@klasa/rest/dist/src/index.d.ts",
+        "../node_modules/@klasa/utils/dist/src/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -2315,9 +2355,9 @@
       "../node_modules/@klasa/core/dist/src/lib/caching/structures/messages/WebhookMessageBuilder.d.ts": [
         "../node_modules/@klasa/core/dist/src/lib/caching/structures/Embed.d.ts",
         "../node_modules/@klasa/core/dist/src/lib/caching/structures/messages/MessageBuilder.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/index.d.ts",
         "../node_modules/@klasa/dapi-types/dist/index.d.ts",
         "../node_modules/@klasa/rest/dist/src/index.d.ts",
+        "../node_modules/@klasa/utils/dist/src/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -2456,7 +2496,7 @@
         "../node_modules/@klasa/core/dist/src/lib/pieces/EventStore.d.ts",
         "../node_modules/@klasa/core/dist/src/lib/pieces/base/Piece.d.ts",
         "../node_modules/@klasa/core/dist/src/lib/pieces/base/Store.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/index.d.ts",
+        "../node_modules/@klasa/utils/dist/src/index.d.ts",
         "../node_modules/@klasa/ws/dist/src/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -2768,218 +2808,6 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/index.d.ts": [
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/arrayStrictEquals.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/chunk.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/codeBlock.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/deepClone.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/exec.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isClass.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isFunction.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isNumber.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isObject.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isPrimitive.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isThenable.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/makeObject.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/mergeDefault.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/mergeObjects.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/objectToTuples.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/regExpEsc.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/sleep.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/toTitleCase.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/tryParse.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/utilityTypes.d.ts",
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/arrayStrictEquals.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/chunk.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/codeBlock.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/deepClone.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/exec.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/child_process.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/ts3.7/index.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isClass.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isFunction.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isNumber.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isObject.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isPrimitive.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isThenable.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/makeObject.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/mergeDefault.d.ts": [
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/utilityTypes.d.ts",
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/mergeObjects.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/objectToTuples.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/regExpEsc.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/sleep.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/toTitleCase.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/tryParse.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/utilityTypes.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
       "../node_modules/@klasa/dapi-types/dist/index.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -2998,6 +2826,49 @@
         "../node_modules/@types/node/ts3.2/process.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/ts3.7/index.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/ratelimits/dist/src/RateLimit.d.ts": [
+        "../node_modules/@klasa/ratelimits/dist/src/RateLimitManager.d.ts",
+        "../node_modules/@klasa/ratelimits/dist/src/RateLimitToken.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/ratelimits/dist/src/RateLimitManager.d.ts": [
+        "../node_modules/@klasa/cache/dist/index.d.ts",
+        "../node_modules/@klasa/ratelimits/dist/src/RateLimit.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/ratelimits/dist/src/RateLimitToken.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/ratelimits/dist/src/index.d.ts": [
+        "../node_modules/@klasa/ratelimits/dist/src/RateLimit.d.ts",
+        "../node_modules/@klasa/ratelimits/dist/src/RateLimitManager.d.ts",
+        "../node_modules/@klasa/ratelimits/dist/src/RateLimitToken.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
       "../node_modules/@klasa/rest/dist/src/errors/DiscordAPIError.d.ts": [
@@ -3081,6 +2952,218 @@
       ],
       "../node_modules/@klasa/rest/dist/src/util/Constants.d.ts": [
         "../node_modules/@klasa/rest/dist/src/lib/RESTManager.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/index.d.ts": [
+        "../node_modules/@klasa/utils/dist/src/lib/arrayStrictEquals.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/chunk.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/codeBlock.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/deepClone.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/exec.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/isClass.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/isFunction.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/isNumber.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/isObject.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/isPrimitive.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/isThenable.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/makeObject.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/mergeDefault.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/mergeObjects.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/objectToTuples.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/regExpEsc.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/sleep.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/toTitleCase.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/tryParse.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/utilityTypes.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/arrayStrictEquals.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/chunk.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/codeBlock.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/deepClone.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/exec.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/ts3.7/index.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/isClass.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/isFunction.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/isNumber.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/isObject.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/isPrimitive.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/isThenable.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/makeObject.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/mergeDefault.d.ts": [
+        "../node_modules/@klasa/utils/dist/src/lib/utilityTypes.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/mergeObjects.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/objectToTuples.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/regExpEsc.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/sleep.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/toTitleCase.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/tryParse.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/utilityTypes.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -4409,7 +4492,21 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../src/lib/stores/MonitorStore.ts": [
+      "../src/lib/structures/Command.ts": [
+        "../node_modules/@klasa/core/dist/src/index.d.ts",
+        "../node_modules/@klasa/dapi-types/dist/index.d.ts",
+        "../node_modules/@klasa/ratelimits/dist/src/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/lib/structures/CommandStore.ts",
+        "../src/lib/types/Enums.d.ts"
+      ],
+      "../src/lib/structures/CommandStore.ts": [
         "../node_modules/@klasa/core/dist/src/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -4418,7 +4515,7 @@
         "../node_modules/@types/node/ts3.2/process.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../src/lib/structures/Monitor.ts"
+        "../src/lib/structures/Command.ts"
       ],
       "../src/lib/structures/Monitor.ts": [
         "../node_modules/@klasa/core/dist/src/index.d.ts",
@@ -4429,7 +4526,38 @@
         "../node_modules/@types/node/ts3.2/process.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../src/lib/stores/MonitorStore.ts"
+        "../src/lib/structures/MonitorStore.ts"
+      ],
+      "../src/lib/structures/MonitorStore.ts": [
+        "../node_modules/@klasa/core/dist/src/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/lib/structures/Monitor.ts"
+      ],
+      "../src/lib/types/Enums.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/lib/util/constants.ts": [
+        "../node_modules/@klasa/dapi-types/dist/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/lib/types/Enums.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -5378,9 +5506,9 @@
       ],
       "../node_modules/@klasa/core/dist/src/lib/caching/structures/messages/MessageBuilder.d.ts": [
         "../node_modules/@klasa/core/dist/src/lib/caching/structures/Embed.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/index.d.ts",
         "../node_modules/@klasa/dapi-types/dist/index.d.ts",
         "../node_modules/@klasa/rest/dist/src/index.d.ts",
+        "../node_modules/@klasa/utils/dist/src/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -5419,9 +5547,9 @@
       "../node_modules/@klasa/core/dist/src/lib/caching/structures/messages/WebhookMessageBuilder.d.ts": [
         "../node_modules/@klasa/core/dist/src/lib/caching/structures/Embed.d.ts",
         "../node_modules/@klasa/core/dist/src/lib/caching/structures/messages/MessageBuilder.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/index.d.ts",
         "../node_modules/@klasa/dapi-types/dist/index.d.ts",
         "../node_modules/@klasa/rest/dist/src/index.d.ts",
+        "../node_modules/@klasa/utils/dist/src/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -5560,7 +5688,7 @@
         "../node_modules/@klasa/core/dist/src/lib/pieces/EventStore.d.ts",
         "../node_modules/@klasa/core/dist/src/lib/pieces/base/Piece.d.ts",
         "../node_modules/@klasa/core/dist/src/lib/pieces/base/Store.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/index.d.ts",
+        "../node_modules/@klasa/utils/dist/src/index.d.ts",
         "../node_modules/@klasa/ws/dist/src/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -5872,218 +6000,6 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/index.d.ts": [
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/arrayStrictEquals.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/chunk.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/codeBlock.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/deepClone.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/exec.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isClass.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isFunction.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isNumber.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isObject.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isPrimitive.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isThenable.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/makeObject.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/mergeDefault.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/mergeObjects.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/objectToTuples.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/regExpEsc.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/sleep.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/toTitleCase.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/tryParse.d.ts",
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/utilityTypes.d.ts",
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/arrayStrictEquals.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/chunk.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/codeBlock.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/deepClone.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/exec.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/child_process.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/ts3.7/index.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isClass.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isFunction.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isNumber.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isObject.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isPrimitive.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isThenable.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/makeObject.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/mergeDefault.d.ts": [
-        "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/utilityTypes.d.ts",
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/mergeObjects.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/objectToTuples.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/regExpEsc.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/sleep.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/toTitleCase.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/tryParse.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/utilityTypes.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
       "../node_modules/@klasa/dapi-types/dist/index.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -6102,6 +6018,49 @@
         "../node_modules/@types/node/ts3.2/process.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/ts3.7/index.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/ratelimits/dist/src/RateLimit.d.ts": [
+        "../node_modules/@klasa/ratelimits/dist/src/RateLimitManager.d.ts",
+        "../node_modules/@klasa/ratelimits/dist/src/RateLimitToken.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/ratelimits/dist/src/RateLimitManager.d.ts": [
+        "../node_modules/@klasa/cache/dist/index.d.ts",
+        "../node_modules/@klasa/ratelimits/dist/src/RateLimit.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/ratelimits/dist/src/RateLimitToken.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/ratelimits/dist/src/index.d.ts": [
+        "../node_modules/@klasa/ratelimits/dist/src/RateLimit.d.ts",
+        "../node_modules/@klasa/ratelimits/dist/src/RateLimitManager.d.ts",
+        "../node_modules/@klasa/ratelimits/dist/src/RateLimitToken.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
       "../node_modules/@klasa/rest/dist/src/errors/DiscordAPIError.d.ts": [
@@ -6185,6 +6144,218 @@
       ],
       "../node_modules/@klasa/rest/dist/src/util/Constants.d.ts": [
         "../node_modules/@klasa/rest/dist/src/lib/RESTManager.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/index.d.ts": [
+        "../node_modules/@klasa/utils/dist/src/lib/arrayStrictEquals.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/chunk.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/codeBlock.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/deepClone.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/exec.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/isClass.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/isFunction.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/isNumber.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/isObject.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/isPrimitive.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/isThenable.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/makeObject.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/mergeDefault.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/mergeObjects.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/objectToTuples.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/regExpEsc.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/sleep.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/toTitleCase.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/tryParse.d.ts",
+        "../node_modules/@klasa/utils/dist/src/lib/utilityTypes.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/arrayStrictEquals.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/chunk.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/codeBlock.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/deepClone.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/exec.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/child_process.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/ts3.7/index.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/isClass.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/isFunction.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/isNumber.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/isObject.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/isPrimitive.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/isThenable.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/makeObject.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/mergeDefault.d.ts": [
+        "../node_modules/@klasa/utils/dist/src/lib/utilityTypes.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/mergeObjects.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/objectToTuples.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/regExpEsc.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/sleep.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/toTitleCase.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/tryParse.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@klasa/utils/dist/src/lib/utilityTypes.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -7504,13 +7675,37 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../src/lib/stores/MonitorStore.ts": [
+      "../src/lib/structures/Command.ts": [
         "../node_modules/@klasa/core/dist/src/index.d.ts",
-        "../src/lib/structures/Monitor.ts"
+        "../node_modules/@klasa/dapi-types/dist/index.d.ts",
+        "../node_modules/@klasa/ratelimits/dist/src/index.d.ts",
+        "../src/lib/structures/CommandStore.ts",
+        "../src/lib/types/Enums.d.ts"
+      ],
+      "../src/lib/structures/CommandStore.ts": [
+        "../node_modules/@klasa/core/dist/src/index.d.ts",
+        "../src/lib/structures/Command.ts"
       ],
       "../src/lib/structures/Monitor.ts": [
         "../node_modules/@klasa/core/dist/src/index.d.ts",
-        "../src/lib/stores/MonitorStore.ts"
+        "../src/lib/structures/MonitorStore.ts"
+      ],
+      "../src/lib/structures/MonitorStore.ts": [
+        "../node_modules/@klasa/core/dist/src/index.d.ts",
+        "../src/lib/structures/Monitor.ts"
+      ],
+      "../src/lib/types/Enums.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/lib/util/constants.ts": [
+        "../node_modules/@klasa/dapi-types/dist/index.d.ts",
+        "../src/lib/types/Enums.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -7611,29 +7806,12 @@
       "../node_modules/@klasa/core/dist/src/lib/util/collectors/base/StructureCollector.d.ts",
       "../node_modules/@klasa/core/dist/src/lib/util/iterators/MessageIterator.d.ts",
       "../node_modules/@klasa/core/dist/src/lib/util/iterators/ReactionIterator.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/index.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/arrayStrictEquals.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/chunk.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/codeBlock.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/deepClone.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/exec.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isClass.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isFunction.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isNumber.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isObject.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isPrimitive.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/isThenable.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/makeObject.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/mergeDefault.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/mergeObjects.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/objectToTuples.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/regExpEsc.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/sleep.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/toTitleCase.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/tryParse.d.ts",
-      "../node_modules/@klasa/core/node_modules/@klasa/utils/dist/src/lib/utilityTypes.d.ts",
       "../node_modules/@klasa/dapi-types/dist/index.d.ts",
       "../node_modules/@klasa/event-iterator/dist/src/index.d.ts",
+      "../node_modules/@klasa/ratelimits/dist/src/RateLimit.d.ts",
+      "../node_modules/@klasa/ratelimits/dist/src/RateLimitManager.d.ts",
+      "../node_modules/@klasa/ratelimits/dist/src/RateLimitToken.d.ts",
+      "../node_modules/@klasa/ratelimits/dist/src/index.d.ts",
       "../node_modules/@klasa/rest/dist/src/errors/DiscordAPIError.d.ts",
       "../node_modules/@klasa/rest/dist/src/errors/HTTPError.d.ts",
       "../node_modules/@klasa/rest/dist/src/index.d.ts",
@@ -7642,6 +7820,27 @@
       "../node_modules/@klasa/rest/dist/src/lib/RESTManager.d.ts",
       "../node_modules/@klasa/rest/dist/src/lib/RequestHandler.d.ts",
       "../node_modules/@klasa/rest/dist/src/util/Constants.d.ts",
+      "../node_modules/@klasa/utils/dist/src/index.d.ts",
+      "../node_modules/@klasa/utils/dist/src/lib/arrayStrictEquals.d.ts",
+      "../node_modules/@klasa/utils/dist/src/lib/chunk.d.ts",
+      "../node_modules/@klasa/utils/dist/src/lib/codeBlock.d.ts",
+      "../node_modules/@klasa/utils/dist/src/lib/deepClone.d.ts",
+      "../node_modules/@klasa/utils/dist/src/lib/exec.d.ts",
+      "../node_modules/@klasa/utils/dist/src/lib/isClass.d.ts",
+      "../node_modules/@klasa/utils/dist/src/lib/isFunction.d.ts",
+      "../node_modules/@klasa/utils/dist/src/lib/isNumber.d.ts",
+      "../node_modules/@klasa/utils/dist/src/lib/isObject.d.ts",
+      "../node_modules/@klasa/utils/dist/src/lib/isPrimitive.d.ts",
+      "../node_modules/@klasa/utils/dist/src/lib/isThenable.d.ts",
+      "../node_modules/@klasa/utils/dist/src/lib/makeObject.d.ts",
+      "../node_modules/@klasa/utils/dist/src/lib/mergeDefault.d.ts",
+      "../node_modules/@klasa/utils/dist/src/lib/mergeObjects.d.ts",
+      "../node_modules/@klasa/utils/dist/src/lib/objectToTuples.d.ts",
+      "../node_modules/@klasa/utils/dist/src/lib/regExpEsc.d.ts",
+      "../node_modules/@klasa/utils/dist/src/lib/sleep.d.ts",
+      "../node_modules/@klasa/utils/dist/src/lib/toTitleCase.d.ts",
+      "../node_modules/@klasa/utils/dist/src/lib/tryParse.d.ts",
+      "../node_modules/@klasa/utils/dist/src/lib/utilityTypes.d.ts",
       "../node_modules/@klasa/ws/dist/src/index.d.ts",
       "../node_modules/@klasa/ws/dist/src/lib/WebSocketConnection.d.ts",
       "../node_modules/@klasa/ws/dist/src/lib/WebSocketManager.d.ts",
@@ -7772,8 +7971,12 @@
       "../node_modules/typescript/lib/lib.esnext.promise.d.ts",
       "../node_modules/typescript/lib/lib.esnext.string.d.ts",
       "../src/index.ts",
-      "../src/lib/stores/MonitorStore.ts",
-      "../src/lib/structures/Monitor.ts"
+      "../src/lib/structures/Command.ts",
+      "../src/lib/structures/CommandStore.ts",
+      "../src/lib/structures/Monitor.ts",
+      "../src/lib/structures/MonitorStore.ts",
+      "../src/lib/types/Enums.d.ts",
+      "../src/lib/util/constants.ts"
     ]
   },
   "version": "3.9.7"
