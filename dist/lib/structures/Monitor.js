@@ -6,36 +6,6 @@ const core_1 = require("@klasa/core");
 class Monitor extends core_1.Piece {
     constructor(store, directory, file, options) {
         super(store, directory, file, options);
-        /**
-         * Should this monitor ignore bots
-         * @default false
-         */
-        this.ignoreBots = false;
-        /**
-         * Should this monitor ignore users
-         * @default false
-         */
-        this.ignoreUsers = false;
-        /**
-         * Should this monitor ignore messages sent by the bot itself
-         * @default false
-         */
-        this.ignoreSelf = false;
-        /**
-         * Should this monitor ignore everyone except itself
-         * @default false
-         */
-        this.ignoreOthers = false;
-        /**
-         * Should this monitor ignore webhook messages
-         * @default false
-         */
-        this.ignoreWebhooks = false;
-        /**
-         * Should this monitor ignore message edits
-         * @default false
-         */
-        this.ignoreEdits = false;
     }
     async run(message) {
         if (!this.enabled ||

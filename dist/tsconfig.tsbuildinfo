@@ -357,8 +357,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/querystring.d.ts": {
-        "version": "9f633ecf3e065ff82c19eccab35c8aa1d6d5d1a49af282dc29ef5a64cca34164",
-        "signature": "9f633ecf3e065ff82c19eccab35c8aa1d6d5d1a49af282dc29ef5a64cca34164",
+        "version": "884560fda6c3868f925f022adc3a1289fe6507bbb45adb10fa1bbcc73a941bb0",
+        "signature": "884560fda6c3868f925f022adc3a1289fe6507bbb45adb10fa1bbcc73a941bb0",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/readline.d.ts": {
@@ -1147,8 +1147,8 @@
         "affectsGlobalScope": false
       },
       "../src/lib/structures/CommandStore.ts": {
-        "version": "a7fb692daed906769370f807a32d50d44a4ad52b96d50039cd385ce8e276878e",
-        "signature": "fb7c77f55e2f39c6a8e44bfe591efb07a0cbfc591324a76ef9e8981726ab2f86",
+        "version": "313917dce22d5565c4dc6320100d7cf95b4088d4111688e332043e5203103d07",
+        "signature": "0dd978aba8341394ce5a1bd040e2c6ce62db830759752740f746faefa5373658",
         "affectsGlobalScope": false
       },
       "../node_modules/@klasa/ratelimits/dist/src/RateLimitToken.d.ts": {
@@ -1171,29 +1171,39 @@
         "signature": "f5032a832d89bd1485ca76b1c11902bf87d9714215654811168a6eae35d600af",
         "affectsGlobalScope": false
       },
-      "../src/lib/types/Enums.d.ts": {
+      "../src/lib/types/Enums.ts": {
         "version": "ea1a82bc0dd4abdffa2705584641bfd058b557813ace53d58762338c39b41c83",
-        "signature": "ea1a82bc0dd4abdffa2705584641bfd058b557813ace53d58762338c39b41c83",
+        "signature": "a7cdee4ea63290f771d9260cdbde8d48dc508b76c661280cefa4991cff9f1716",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Command.ts": {
-        "version": "289095cb2a3a2a31c6102fc0f241a863194677fd8ff7736ea7d19b7f4eb99657",
-        "signature": "3ef99287570b3ca89904e83ea32a8bdc99d85873b1edaedec4945886fc5a56d9",
+        "version": "319b590f50d9df946ad8c3d48c761ee6d29fff1cda3ca14d4a27d226c6d27d51",
+        "signature": "603eb067bc91d0daeb9101140d5d2fa850147bba9001607d9186b70f124fc8fa",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/MonitorStore.ts": {
-        "version": "6e7ded858f0f61f10ceae0b300c0c9ca98731d6c2dc258c56b4b6353fb9698c1",
-        "signature": "8079a6b93fde70822efd41ab431e388fafb89d3d73823af7e99a847c209d14aa",
+        "version": "dc8b24346b1c58963eeb01fdae7b1569aad4e85347ecd694ff9c06988413e24b",
+        "signature": "09b254ceb1ba1aed1c51c99525db10dd11852869a03b2036f5f9156929f8dd3b",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Monitor.ts": {
-        "version": "096e117cea0ff597d02a8405a885706a89f4689a1dcb03144f4a410b0143bff7",
-        "signature": "f3719f37ee24345bcf1c15d5709c22d851810646a6ce97483004b319658caf29",
+        "version": "d0afbeaeca173f6ef3b80da78486342d988a6cc8221333a1861f076f08f8eda2",
+        "signature": "b3f4c54d2858d5720019fd6bf46a247acaef17d7881c2d034a09cee4b6fec1e1",
         "affectsGlobalScope": false
       },
-      "../src/lib/util/constants.ts": {
+      "../src/lib/utils/constants.ts": {
         "version": "4ac748b43717db26192a479f4c1d6994b1797e5bf8d3b01074c8e81647e4f292",
         "signature": "64af4ab4f4fb041e8d569a608f23d81d5322cf24149dca5cb9645a7db5b587e8",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/utils/decorators/skyra-decorators-utils.ts": {
+        "version": "e46f6bf3ec43fbebfed053d35e671ed91d5c5fdd7c5cc7ea1adb8ef26e32db83",
+        "signature": "e42f9def0d607be85583910197d52ecb823b09633564d0d8921c777913029043",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/utils/decorators/monitor.ts": {
+        "version": "06f527cbfa0ca1527c645389b274c6d07d2796111957d13676d12776e351f833",
+        "signature": "3b6b3fe48ead3b8b4d433dd74a71b9e88f6f8bf1b1f35110664781540f540a2b",
         "affectsGlobalScope": false
       },
       "../node_modules/@babel/types/lib/index.d.ts": {
@@ -1366,6 +1376,7 @@
       "rootDir": "../src",
       "outDir": "./",
       "composite": true,
+      "preserveConstEnums": true,
       "configFilePath": "../src/tsconfig.json"
     },
     "referencedMap": {
@@ -4504,7 +4515,7 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../src/lib/structures/CommandStore.ts",
-        "../src/lib/types/Enums.d.ts"
+        "../src/lib/types/Enums.ts"
       ],
       "../src/lib/structures/CommandStore.ts": [
         "../node_modules/@klasa/core/dist/src/index.d.ts",
@@ -4539,7 +4550,7 @@
         "../node_modules/@types/node/util.d.ts",
         "../src/lib/structures/Monitor.ts"
       ],
-      "../src/lib/types/Enums.d.ts": [
+      "../src/lib/types/Enums.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -4548,7 +4559,7 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
-      "../src/lib/util/constants.ts": [
+      "../src/lib/utils/constants.ts": [
         "../node_modules/@klasa/dapi-types/dist/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -4557,7 +4568,28 @@
         "../node_modules/@types/node/ts3.2/process.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../src/lib/types/Enums.d.ts"
+        "../src/lib/types/Enums.ts"
+      ],
+      "../src/lib/utils/decorators/monitor.ts": [
+        "../node_modules/@klasa/core/dist/src/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/lib/structures/Monitor.ts",
+        "../src/lib/utils/decorators/skyra-decorators-utils.ts"
+      ],
+      "../src/lib/utils/decorators/skyra-decorators-utils.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
       ]
     },
     "exportedModulesMap": {
@@ -7680,7 +7712,7 @@
         "../node_modules/@klasa/dapi-types/dist/index.d.ts",
         "../node_modules/@klasa/ratelimits/dist/src/index.d.ts",
         "../src/lib/structures/CommandStore.ts",
-        "../src/lib/types/Enums.d.ts"
+        "../src/lib/types/Enums.ts"
       ],
       "../src/lib/structures/CommandStore.ts": [
         "../node_modules/@klasa/core/dist/src/index.d.ts",
@@ -7694,18 +7726,9 @@
         "../node_modules/@klasa/core/dist/src/index.d.ts",
         "../src/lib/structures/Monitor.ts"
       ],
-      "../src/lib/types/Enums.d.ts": [
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts"
-      ],
-      "../src/lib/util/constants.ts": [
+      "../src/lib/utils/constants.ts": [
         "../node_modules/@klasa/dapi-types/dist/index.d.ts",
-        "../src/lib/types/Enums.d.ts"
+        "../src/lib/types/Enums.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -7975,8 +7998,10 @@
       "../src/lib/structures/CommandStore.ts",
       "../src/lib/structures/Monitor.ts",
       "../src/lib/structures/MonitorStore.ts",
-      "../src/lib/types/Enums.d.ts",
-      "../src/lib/util/constants.ts"
+      "../src/lib/types/Enums.ts",
+      "../src/lib/utils/constants.ts",
+      "../src/lib/utils/decorators/monitor.ts",
+      "../src/lib/utils/decorators/skyra-decorators-utils.ts"
     ]
   },
   "version": "3.9.7"

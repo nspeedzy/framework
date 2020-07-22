@@ -6,12 +6,12 @@ const core_1 = require("@klasa/core");
 const Monitor_1 = require("./Monitor");
 /**
  * Stores all Monitor pieces
- * @since 0.0.1
+ * @since 1.0.0
  */
 class MonitorStore extends core_1.Store {
     /**
      * Constructs the Monitor Store for use
-     * @since 0.0.1
+     * @since 1.0.0
      * @param client The framework client
      */
     constructor(client) {

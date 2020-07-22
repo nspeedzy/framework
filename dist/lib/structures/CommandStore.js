@@ -6,12 +6,12 @@ const Command_1 = require("./Command");
 const core_1 = require("@klasa/core");
 /**
  * Stores all Command pieces
- * @since 0.0.1
+ * @since 1.0.0
  */
 class CommandStore extends core_1.AliasStore {
     /**
      * Constructs the Command Store for use
-     * @since 0.0.1
+     * @since 1.0.0
      * @param client The framework client
      */
     constructor(client) {

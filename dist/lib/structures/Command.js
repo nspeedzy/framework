@@ -7,7 +7,7 @@ const ratelimits_1 = require("@klasa/ratelimits");
 require("../types/Enums");
 class Command extends core_1.AliasPiece {
     /**
-     * @since 0.0.1
+     * @since 1.0.0
      * @param store The command store
      * @param directory The base directory to the pieces folder
      * @param file The path from the pieces folder to the command file
@@ -39,7 +39,7 @@ class Command extends core_1.AliasPiece {
     }
     /**
      * The main category for the command
-     * @since 0.0.1
+     * @since 1.0.0
      * @readonly
      */
     get category() {
@@ -47,7 +47,7 @@ class Command extends core_1.AliasPiece {
     }
     /**
      * The sub category for the command
-     * @since 0.0.1
+     * @since 1.0.0
      * @readonly
      */
     get subCategory() {
