@@ -1,4 +1,5 @@
 "use strict";
+// Copyright (c) 2017-2019 dirigeants. All rights reserved. MIT license.
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Monitor = void 0;
 const core_1 = require("@klasa/core");

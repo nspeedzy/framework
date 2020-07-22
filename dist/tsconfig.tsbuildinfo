@@ -1147,7 +1147,7 @@
         "affectsGlobalScope": false
       },
       "../src/lib/structures/CommandStore.ts": {
-        "version": "b8ace53dc34abfd8fa6f4f58e44b24b6ebe5d6369368c177a6ff79b6ab3dd639",
+        "version": "a7fb692daed906769370f807a32d50d44a4ad52b96d50039cd385ce8e276878e",
         "signature": "fb7c77f55e2f39c6a8e44bfe591efb07a0cbfc591324a76ef9e8981726ab2f86",
         "affectsGlobalScope": false
       },
@@ -1177,17 +1177,17 @@
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Command.ts": {
-        "version": "ef705fb21a7b45c0438e8ebe49e5e28efb487fba934cc978862c5f747bbe8020",
+        "version": "289095cb2a3a2a31c6102fc0f241a863194677fd8ff7736ea7d19b7f4eb99657",
         "signature": "3ef99287570b3ca89904e83ea32a8bdc99d85873b1edaedec4945886fc5a56d9",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/MonitorStore.ts": {
-        "version": "693c39d106b1bf08d4fe6775d924a485c7e79205abdd877e9435b1d981fe8dde",
+        "version": "6e7ded858f0f61f10ceae0b300c0c9ca98731d6c2dc258c56b4b6353fb9698c1",
         "signature": "8079a6b93fde70822efd41ab431e388fafb89d3d73823af7e99a847c209d14aa",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Monitor.ts": {
-        "version": "d831f99373175db8e4d1706bfe587c63e92ed50004e3ee0e69f1f7c1404c11e2",
+        "version": "096e117cea0ff597d02a8405a885706a89f4689a1dcb03144f4a410b0143bff7",
         "signature": "f3719f37ee24345bcf1c15d5709c22d851810646a6ce97483004b319658caf29",
         "affectsGlobalScope": false
       },
