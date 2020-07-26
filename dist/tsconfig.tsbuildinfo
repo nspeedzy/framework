@@ -247,8 +247,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/child_process.d.ts": {
-        "version": "465150173a56b943b2f6d8918e35c89d8386ffd37aa466e486ca54db54d6cee7",
-        "signature": "465150173a56b943b2f6d8918e35c89d8386ffd37aa466e486ca54db54d6cee7",
+        "version": "714e21572208da98a16594de5e42ee54dbbebca7e69e956d2dac010564378c45",
+        "signature": "714e21572208da98a16594de5e42ee54dbbebca7e69e956d2dac010564378c45",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/cluster.d.ts": {
@@ -267,8 +267,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/crypto.d.ts": {
-        "version": "62014ca983732ca1a078ec3c8d17c35ab9f3d7b2f6442e80920257f95890a5c9",
-        "signature": "62014ca983732ca1a078ec3c8d17c35ab9f3d7b2f6442e80920257f95890a5c9",
+        "version": "bc99370962c617000b3f66ba97426142bf49daa5467c081c64a57ad7bc6bcc14",
+        "signature": "bc99370962c617000b3f66ba97426142bf49daa5467c081c64a57ad7bc6bcc14",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/dgram.d.ts": {
@@ -1302,8 +1302,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/jest/index.d.ts": {
-        "version": "8d6f06b101f5ac64c9b28cba2b54076007f3f067cf42ff2253d3b50b7f48fdd1",
-        "signature": "8d6f06b101f5ac64c9b28cba2b54076007f3f067cf42ff2253d3b50b7f48fdd1",
+        "version": "5fd28799db0f5008ff64fce57dcb7cc6b9cd56169903f10f9f4fc2afac7cda8c",
+        "signature": "5fd28799db0f5008ff64fce57dcb7cc6b9cd56169903f10f9f4fc2afac7cda8c",
         "affectsGlobalScope": true
       },
       "../node_modules/@types/jest/ts3.2/index.d.ts": {
