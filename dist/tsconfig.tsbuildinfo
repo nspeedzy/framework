@@ -232,8 +232,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/globals.d.ts": {
-        "version": "c7e7b89f371a6af12ab460b75fba60c95bbea84c094583087aff14b76b86ce7d",
-        "signature": "c7e7b89f371a6af12ab460b75fba60c95bbea84c094583087aff14b76b86ce7d",
+        "version": "6fc83519155969f2457d2454908d68830a6f6480974914c024eaf4e3248a2fd1",
+        "signature": "6fc83519155969f2457d2454908d68830a6f6480974914c024eaf4e3248a2fd1",
         "affectsGlobalScope": true
       },
       "../node_modules/@types/node/async_hooks.d.ts": {
@@ -952,8 +952,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@klasa/core/dist/src/lib/caching/structures/guilds/GuildMember.d.ts": {
-        "version": "88f43c56b346e1381c8c77a2529ca08e2a3ab4d45caaa1c45fd288900332f592",
-        "signature": "88f43c56b346e1381c8c77a2529ca08e2a3ab4d45caaa1c45fd288900332f592",
+        "version": "a60d0d0879aa9d2070fa0d3242fbfd909778760778c57160e52b79221ba3c166",
+        "signature": "a60d0d0879aa9d2070fa0d3242fbfd909778760778c57160e52b79221ba3c166",
         "affectsGlobalScope": false
       },
       "../node_modules/@klasa/core/dist/src/lib/caching/structures/guilds/Overwrite.d.ts": {
@@ -1207,8 +1207,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@babel/types/lib/index.d.ts": {
-        "version": "e1d0b45d2995163faae5784de982d49be585d0f77073ec4567850e2feb20e880",
-        "signature": "e1d0b45d2995163faae5784de982d49be585d0f77073ec4567850e2feb20e880",
+        "version": "f4d27b39be5d82eb94f12c54a15e61f65decb27fb289353d11ef238de49bf5c2",
+        "signature": "f4d27b39be5d82eb94f12c54a15e61f65decb27fb289353d11ef238de49bf5c2",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/babel__generator/index.d.ts": {
@@ -1222,8 +1222,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@babel/parser/typings/babel-parser.d.ts": {
-        "version": "98c2e3c00ed72daf568c0526ea4f4257f2c43dc5eaacd3d703c3b33f6df1ae86",
-        "signature": "98c2e3c00ed72daf568c0526ea4f4257f2c43dc5eaacd3d703c3b33f6df1ae86",
+        "version": "04467c3822f065aee977f9e1225b86b9ac0e976cb42b0c8da0b893a3290920e1",
+        "signature": "04467c3822f065aee977f9e1225b86b9ac0e976cb42b0c8da0b893a3290920e1",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/babel__template/index.d.ts": {
@@ -1302,8 +1302,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/jest/index.d.ts": {
-        "version": "5fd28799db0f5008ff64fce57dcb7cc6b9cd56169903f10f9f4fc2afac7cda8c",
-        "signature": "5fd28799db0f5008ff64fce57dcb7cc6b9cd56169903f10f9f4fc2afac7cda8c",
+        "version": "ac4e1beb8fc166aff041bd33ced9bf2ae7d70b6d5238994c954108ca707c8671",
+        "signature": "ac4e1beb8fc166aff041bd33ced9bf2ae7d70b6d5238994c954108ca707c8671",
         "affectsGlobalScope": true
       },
       "../node_modules/@types/jest/ts3.2/index.d.ts": {
@@ -2189,6 +2189,7 @@
         "../node_modules/@klasa/core/dist/src/lib/caching/structures/base/Structure.d.ts",
         "../node_modules/@klasa/core/dist/src/lib/caching/structures/channels/GuildChannel.d.ts",
         "../node_modules/@klasa/core/dist/src/lib/caching/structures/guilds/Guild.d.ts",
+        "../node_modules/@klasa/core/dist/src/lib/caching/structures/guilds/VoiceState.d.ts",
         "../node_modules/@klasa/core/dist/src/lib/client/Client.d.ts",
         "../node_modules/@klasa/core/dist/src/lib/util/bitfields/Permissions.d.ts",
         "../node_modules/@klasa/dapi-types/dist/index.d.ts",
@@ -5402,6 +5403,7 @@
         "../node_modules/@klasa/core/dist/src/lib/caching/structures/base/Structure.d.ts",
         "../node_modules/@klasa/core/dist/src/lib/caching/structures/channels/GuildChannel.d.ts",
         "../node_modules/@klasa/core/dist/src/lib/caching/structures/guilds/Guild.d.ts",
+        "../node_modules/@klasa/core/dist/src/lib/caching/structures/guilds/VoiceState.d.ts",
         "../node_modules/@klasa/core/dist/src/lib/client/Client.d.ts",
         "../node_modules/@klasa/core/dist/src/lib/util/bitfields/Permissions.d.ts",
         "../node_modules/@klasa/dapi-types/dist/index.d.ts",
