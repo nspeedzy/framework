@@ -1302,8 +1302,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/jest/index.d.ts": {
-        "version": "ac4e1beb8fc166aff041bd33ced9bf2ae7d70b6d5238994c954108ca707c8671",
-        "signature": "ac4e1beb8fc166aff041bd33ced9bf2ae7d70b6d5238994c954108ca707c8671",
+        "version": "eb387c92e168f893fbb1c4b564b8d30175fa8fd8c26a734f308b0f6cd4dad55d",
+        "signature": "eb387c92e168f893fbb1c4b564b8d30175fa8fd8c26a734f308b0f6cd4dad55d",
         "affectsGlobalScope": true
       },
       "../node_modules/@types/jest/ts3.2/index.d.ts": {
