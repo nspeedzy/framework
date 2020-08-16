@@ -1,4 +1,4 @@
-import { Store, Client } from '@klasa/core';
+import { Client, Store } from '@klasa/core';
 import { Monitor } from './Monitor';
 /**
  * Stores all Monitor pieces

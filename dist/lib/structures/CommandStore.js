@@ -2,8 +2,8 @@
 // Copyright (c) 2017-2019 dirigeants. All rights reserved. MIT license.
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CommandStore = void 0;
-const Command_1 = require("./Command");
 const core_1 = require("@klasa/core");
+const Command_1 = require("./Command");
 /**
  * Stores all Command pieces
  * @since 1.0.0

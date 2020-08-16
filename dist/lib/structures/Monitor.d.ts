@@ -1,4 +1,4 @@
-import { Piece, PieceOptions, Message } from '@klasa/core';
+import { Message, Piece, PieceOptions } from '@klasa/core';
 import type { MonitorStore } from './MonitorStore';
 export declare abstract class Monitor extends Piece {
     constructor(store: MonitorStore, directory: string, file: string[], options: PieceOptions);

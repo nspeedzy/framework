@@ -1146,11 +1146,6 @@
         "signature": "0104216eca9da1dc3753cf5fd108b9831f9142408c6239f7a5d9f8a9ae74f942",
         "affectsGlobalScope": false
       },
-      "../src/lib/structures/CommandStore.ts": {
-        "version": "313917dce22d5565c4dc6320100d7cf95b4088d4111688e332043e5203103d07",
-        "signature": "0dd978aba8341394ce5a1bd040e2c6ce62db830759752740f746faefa5373658",
-        "affectsGlobalScope": false
-      },
       "../node_modules/@klasa/ratelimits/dist/src/RateLimitToken.d.ts": {
         "version": "9af9b0dad4549c47a2281df0da3760ba5da0bdfab100d256221ba064807f1d0d",
         "signature": "9af9b0dad4549c47a2281df0da3760ba5da0bdfab100d256221ba064807f1d0d",
@@ -1176,19 +1171,24 @@
         "signature": "a7cdee4ea63290f771d9260cdbde8d48dc508b76c661280cefa4991cff9f1716",
         "affectsGlobalScope": false
       },
+      "../src/lib/structures/CommandStore.ts": {
+        "version": "684edb55fe821baa73930393ad5d890a758af222450a0b5b611f63368c708190",
+        "signature": "a5c4c7cd4e56421735082ef1bdd37245727df5b135ff504c2945881a4fee01fe",
+        "affectsGlobalScope": false
+      },
       "../src/lib/structures/Command.ts": {
-        "version": "319b590f50d9df946ad8c3d48c761ee6d29fff1cda3ca14d4a27d226c6d27d51",
-        "signature": "603eb067bc91d0daeb9101140d5d2fa850147bba9001607d9186b70f124fc8fa",
+        "version": "5467ecad3ae91b4538b3b243bedbd9c4f2f72e7091ae14fdb5e68108fed0d1b8",
+        "signature": "c72a0acc22e358104f13812acba3d9440ace5ba7766aea6f9c77a44ba43f1d03",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/MonitorStore.ts": {
-        "version": "dc8b24346b1c58963eeb01fdae7b1569aad4e85347ecd694ff9c06988413e24b",
-        "signature": "09b254ceb1ba1aed1c51c99525db10dd11852869a03b2036f5f9156929f8dd3b",
+        "version": "713385632179707bd6ac69eac0fbf63aa0f7e929d5d7a3d2fd8bec1b293a3eda",
+        "signature": "ef5b8e290002df0692f814f27fb816423a1612ee6f38674ff6b48942d86fe38c",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Monitor.ts": {
-        "version": "d0afbeaeca173f6ef3b80da78486342d988a6cc8221333a1861f076f08f8eda2",
-        "signature": "b3f4c54d2858d5720019fd6bf46a247acaef17d7881c2d034a09cee4b6fec1e1",
+        "version": "68a52617b22e2365eb1be603b79fa65ece45195a4015a225ecde4403961682d8",
+        "signature": "6b9a85240a1bb92672e055baef6b908b9dcb0bfc4c675fb888e5ed40c5950171",
         "affectsGlobalScope": false
       },
       "../src/lib/utils/constants.ts": {
@@ -1202,7 +1202,7 @@
         "affectsGlobalScope": false
       },
       "../src/lib/utils/decorators/monitor.ts": {
-        "version": "06f527cbfa0ca1527c645389b274c6d07d2796111957d13676d12776e351f833",
+        "version": "8048502ce4bb70ba754e58d258f00314179732eaf3e8c8496529c8d01a1f344b",
         "signature": "3b6b3fe48ead3b8b4d433dd74a71b9e88f6f8bf1b1f35110664781540f540a2b",
         "affectsGlobalScope": false
       },

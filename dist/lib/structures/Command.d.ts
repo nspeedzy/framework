@@ -1,8 +1,8 @@
 import { AliasPiece, AliasPieceOptions, Permissions, PermissionsResolvable } from '@klasa/core';
-import type { CommandStore } from './CommandStore';
 import type { ChannelType } from '@klasa/dapi-types';
 import { RateLimitManager } from '@klasa/ratelimits';
 import { CooldownLevel } from '../types/Enums';
+import type { CommandStore } from './CommandStore';
 export declare abstract class Command extends AliasPiece {
     /**
      * Permissions required by the bot to run the command

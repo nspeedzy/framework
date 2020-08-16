@@ -1,5 +1,5 @@
-import { Command } from './Command';
 import { AliasStore, Client } from '@klasa/core';
+import { Command } from './Command';
 /**
  * Stores all Command pieces
  * @since 1.0.0
