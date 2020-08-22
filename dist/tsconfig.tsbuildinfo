@@ -222,13 +222,13 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@sapphire/pieces/dist/lib/Store.d.ts": {
-        "version": "4903ffababf509b15272158914b1f63665cde22d048629f813d5a97c25769163",
-        "signature": "4903ffababf509b15272158914b1f63665cde22d048629f813d5a97c25769163",
+        "version": "3d74691df70f308ec32986f54e6d0305244d91f48f2389495ebad079c45441fc",
+        "signature": "3d74691df70f308ec32986f54e6d0305244d91f48f2389495ebad079c45441fc",
         "affectsGlobalScope": false
       },
       "../node_modules/@sapphire/pieces/dist/lib/Piece.d.ts": {
-        "version": "289de792968cd05c7beb0670eb4ef871c8f4c475d3d7c2668b24eb0b85eb8f52",
-        "signature": "289de792968cd05c7beb0670eb4ef871c8f4c475d3d7c2668b24eb0b85eb8f52",
+        "version": "54de053cacad9db6e64ddcd37e9bcdac569ab4a81f48c59e3c3d42be2ec93b1b",
+        "signature": "54de053cacad9db6e64ddcd37e9bcdac569ab4a81f48c59e3c3d42be2ec93b1b",
         "affectsGlobalScope": false
       },
       "../node_modules/@sapphire/pieces/dist/lib/AliasPiece.d.ts": {
@@ -237,8 +237,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@sapphire/pieces/dist/lib/AliasStore.d.ts": {
-        "version": "694bdb604057bb447930e62901a335e5d67098c0257ce31c1c2a1a118b29c0af",
-        "signature": "694bdb604057bb447930e62901a335e5d67098c0257ce31c1c2a1a118b29c0af",
+        "version": "2b5a4c62d5ef574be422824782eeb7b5910e14b3754d7c7ae3075c66466df283",
+        "signature": "2b5a4c62d5ef574be422824782eeb7b5910e14b3754d7c7ae3075c66466df283",
         "affectsGlobalScope": false
       },
       "../node_modules/@sapphire/pieces/dist/lib/errors/LoaderError.d.ts": {
@@ -536,29 +536,59 @@
         "signature": "453abbd598aa3aeac131ddad5e17dcf7aa29c38dd3da1aaad47adb619900896a",
         "affectsGlobalScope": true
       },
+      "../src/lib/structures/base/BaseAliasPiece.ts": {
+        "version": "f301c69081e7bacefe4bb0bed5324eaa1e8cce4ff38eaba37fc1b7a1eeba701b",
+        "signature": "c3f5f16be5709bb33291f8cb789128370f6922c7fda33001513c6f6ea9f8db33",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/structures/base/BaseAliasStore.ts": {
+        "version": "a57e62cf887f6318ae3d14127cfbc07e3b3d50c8700de38b0b3b97ca80ccbc47",
+        "signature": "83b11990a4a3f86441475361572a504284cedd393219b56655c6d515788a01ed",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/structures/base/BasePiece.ts": {
+        "version": "e411af0747c31de23280793daa838b64b6b0203c151c3a5680c2d6d64adc97f0",
+        "signature": "9da6585c06d43fd162fe27cbbc51d77f31315d4dc4ebe8560a6f1b0d102522ff",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/structures/base/BaseStore.ts": {
+        "version": "3ae72babe8f685878f45aeadc2884f9332c6cc29fccca7bf0a4e642b19c818cf",
+        "signature": "4a90c1820a00c1b0dee9c16b1c3a6e2dc469481c38efe411a68afeef9800eca9",
+        "affectsGlobalScope": false
+      },
       "../src/lib/utils/Types.ts": {
         "version": "ad7d0fe3149de03f744369458ba1fb5b82a9e9a6e932cf42a6b777d323474251",
         "signature": "4c7fc34ece2baf0a1f0a818226012618c25a3f28223203048ffc920099b6dd2c",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Precondition.ts": {
-        "version": "5b7d45af20a938f1d12762a39443454321cd206341fd3d68c0babcdd1ce03549",
-        "signature": "a2ed7b850da404dbbe195fceee16294dd0792b1f025571f32ef22e8e653e805f",
+        "version": "e5bbcd554c3d78b5eaff9c745b53a1a527a900a2314439538960e57bad5f0af4",
+        "signature": "7b4a112ab2bdc0be92a7e9457aba0fc9a8989b6b647aa264c124757c198fd35f",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Command.ts": {
-        "version": "ba86e12e288f4e5ecd4b975b93f7dd9dbce6be032a41ba5046063381daace045",
-        "signature": "7a19c484bb42909fbe31b148ab212ef0ec1e468104a23d416d9a761fafdb1956",
+        "version": "d518a975d10a11a599b551614e3cf98463b5b30bc8328edbf98a8c05a42529b5",
+        "signature": "b576069f14ea3654af32c2fc565f08a9094bcb8804d66c60e554b418c013f69a",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/CommandStore.ts": {
-        "version": "babbbfc98f1a2c5bbf33793c33d47972966c82ba5aa57dac3a2e14aa3d1a3d9e",
-        "signature": "93a9d3ffd2df23aaed9ed13f6b785cc66599ce4031df9849ae1e44f004dacd41",
+        "version": "971d2830544cc4b1396523a0764313fbd7dcb872b4504be392c998d4a9ecff2e",
+        "signature": "9e2911e366c41eacd273a7e51a9e647f8e9090e12a0b764fbbe6463a31257788",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/structures/Event.ts": {
+        "version": "e03478e72936b11c501dda222a78a913ec5e736ca35c5c12546b26edeb9ccb1d",
+        "signature": "bfae17f37a4f56a4023e03818e6fe3e71d25c52142bc8cad0c45ebd201802cff",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/structures/EventStore.ts": {
+        "version": "c40940dda58a619ae213e6b8507e84063d715eb4fc37f5dde35008988b6154f4",
+        "signature": "4a06fb618ad48b58e017ef2de7f8aa827ff33d266783c61c21b68c7b7c1141cf",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/PreconditionStore.ts": {
-        "version": "b5370361e91112ba8b67bcab9e25cd609e23057872b1d6bd8d8590b1d7faba83",
-        "signature": "8e5248a1af0d1a32d8cd10f43c96c9cbcf6b1fd4f79a20880dada123709093cc",
+        "version": "010ac2c94122baeca3bea7c3a13f219d1ed586f5ed704bb52ecb19ac45947daf",
+        "signature": "bb1aabd85898145f43a295ffd51ab2c45b38a275f3422b4cc094f5d2ed8f8f1e",
         "affectsGlobalScope": false
       },
       "../src/lib/types/Enums.ts": {
@@ -567,8 +597,8 @@
         "affectsGlobalScope": false
       },
       "../src/index.ts": {
-        "version": "c5ca0364c79ff621a34ad03ffa05984293e977d624f35e3e53b49fc40134237d",
-        "signature": "6beb261a5f93870fc6a0e26e0f16e6965136b72c132009957f1379a601ab7d9f",
+        "version": "9dbab8c76ebda7811c163a8373b1b76cb412325a601f9f21c1ed9b404505b4a2",
+        "signature": "2cd6e1ca62c3680494e5cab2c2309a06fb67d54e36a80f292f6a4cf4082d268d",
         "affectsGlobalScope": false
       },
       "../node_modules/@babel/types/lib/index.d.ts": {
@@ -2138,8 +2168,14 @@
         "../node_modules/@types/node/util.d.ts",
         "../src/lib/structures/Command.ts",
         "../src/lib/structures/CommandStore.ts",
+        "../src/lib/structures/Event.ts",
+        "../src/lib/structures/EventStore.ts",
         "../src/lib/structures/Precondition.ts",
         "../src/lib/structures/PreconditionStore.ts",
+        "../src/lib/structures/base/BaseAliasPiece.ts",
+        "../src/lib/structures/base/BaseAliasStore.ts",
+        "../src/lib/structures/base/BasePiece.ts",
+        "../src/lib/structures/base/BaseStore.ts",
         "../src/lib/types/Enums.ts",
         "../src/lib/utils/Types.ts"
       ],
@@ -2155,22 +2191,10 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/structures/Precondition.ts",
+        "../src/lib/structures/base/BaseAliasPiece.ts",
         "../src/lib/utils/Types.ts"
       ],
       "../src/lib/structures/CommandStore.ts": [
-        "../node_modules/@sapphire/pieces/dist/index.d.ts",
-        "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/process.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/process.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/Command.ts"
-      ],
-      "../src/lib/structures/Precondition.ts": [
-        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -2180,9 +2204,70 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/structures/Command.ts",
+        "../src/lib/structures/base/BaseAliasStore.ts"
+      ],
+      "../src/lib/structures/Event.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/base/BasePiece.ts"
+      ],
+      "../src/lib/structures/EventStore.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Event.ts",
+        "../src/lib/structures/base/BaseStore.ts"
+      ],
+      "../src/lib/structures/Precondition.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Command.ts",
+        "../src/lib/structures/base/BasePiece.ts",
         "../src/lib/utils/Types.ts"
       ],
       "../src/lib/structures/PreconditionStore.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Precondition.ts",
+        "../src/lib/structures/base/BaseStore.ts"
+      ],
+      "../src/lib/structures/base/BaseAliasPiece.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts"
+      ],
+      "../src/lib/structures/base/BaseAliasStore.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -2192,7 +2277,30 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/Precondition.ts"
+        "../src/lib/structures/base/BaseAliasPiece.ts"
+      ],
+      "../src/lib/structures/base/BasePiece.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts"
+      ],
+      "../src/lib/structures/base/BaseStore.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/base/BasePiece.ts"
       ],
       "../src/lib/types/Enums.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -3600,8 +3708,14 @@
       "../src/index.ts": [
         "../src/lib/structures/Command.ts",
         "../src/lib/structures/CommandStore.ts",
+        "../src/lib/structures/Event.ts",
+        "../src/lib/structures/EventStore.ts",
         "../src/lib/structures/Precondition.ts",
         "../src/lib/structures/PreconditionStore.ts",
+        "../src/lib/structures/base/BaseAliasPiece.ts",
+        "../src/lib/structures/base/BaseAliasStore.ts",
+        "../src/lib/structures/base/BasePiece.ts",
+        "../src/lib/structures/base/BaseStore.ts",
         "../src/lib/types/Enums.ts",
         "../src/lib/utils/Types.ts"
       ],
@@ -3610,23 +3724,53 @@
         "../node_modules/@sapphire/pieces/dist/lib/Piece.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/structures/Precondition.ts",
+        "../src/lib/structures/base/BaseAliasPiece.ts",
         "../src/lib/utils/Types.ts"
       ],
       "../src/lib/structures/CommandStore.ts": [
-        "../node_modules/@sapphire/pieces/dist/index.d.ts",
-        "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/Command.ts"
-      ],
-      "../src/lib/structures/Precondition.ts": [
-        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/structures/Command.ts",
+        "../src/lib/structures/base/BaseAliasStore.ts"
+      ],
+      "../src/lib/structures/Event.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/@types/node/events.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/base/BasePiece.ts"
+      ],
+      "../src/lib/structures/EventStore.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Event.ts",
+        "../src/lib/structures/base/BaseStore.ts"
+      ],
+      "../src/lib/structures/Precondition.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Command.ts",
+        "../src/lib/structures/base/BasePiece.ts",
         "../src/lib/utils/Types.ts"
       ],
       "../src/lib/structures/PreconditionStore.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Precondition.ts",
+        "../src/lib/structures/base/BaseStore.ts"
+      ],
+      "../src/lib/structures/base/BaseAliasPiece.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts"
+      ],
+      "../src/lib/structures/base/BaseAliasStore.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/Precondition.ts"
+        "../src/lib/structures/base/BaseAliasPiece.ts"
+      ],
+      "../src/lib/structures/base/BasePiece.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts"
+      ],
+      "../src/lib/structures/base/BaseStore.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/base/BasePiece.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -3769,8 +3913,14 @@
       "../src/index.ts",
       "../src/lib/structures/Command.ts",
       "../src/lib/structures/CommandStore.ts",
+      "../src/lib/structures/Event.ts",
+      "../src/lib/structures/EventStore.ts",
       "../src/lib/structures/Precondition.ts",
       "../src/lib/structures/PreconditionStore.ts",
+      "../src/lib/structures/base/BaseAliasPiece.ts",
+      "../src/lib/structures/base/BaseAliasStore.ts",
+      "../src/lib/structures/base/BasePiece.ts",
+      "../src/lib/structures/base/BaseStore.ts",
       "../src/lib/types/Enums.ts",
       "../src/lib/utils/Types.ts"
     ]

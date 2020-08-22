@@ -10,8 +10,14 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+__exportStar(require("./lib/structures/base/BaseAliasPiece"), exports);
+__exportStar(require("./lib/structures/base/BaseAliasStore"), exports);
+__exportStar(require("./lib/structures/base/BasePiece"), exports);
+__exportStar(require("./lib/structures/base/BaseStore"), exports);
 __exportStar(require("./lib/structures/Command"), exports);
 __exportStar(require("./lib/structures/CommandStore"), exports);
+__exportStar(require("./lib/structures/Event"), exports);
+__exportStar(require("./lib/structures/EventStore"), exports);
 __exportStar(require("./lib/structures/Precondition"), exports);
 __exportStar(require("./lib/structures/PreconditionStore"), exports);
 __exportStar(require("./lib/types/Enums"), exports);

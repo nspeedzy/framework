@@ -2,8 +2,8 @@
 // Copyright (c) 2017-2019 dirigeants. All rights reserved. MIT license.
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Command = void 0;
-const pieces_1 = require("@sapphire/pieces");
-class Command extends pieces_1.AliasPiece {
+const BaseAliasPiece_1 = require("./base/BaseAliasPiece");
+class Command extends BaseAliasPiece_1.BaseAliasPiece {
     /**
      * @since 1.0.0
      * @param context The context.
