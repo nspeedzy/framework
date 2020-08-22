@@ -2,56 +2,29 @@
 // Copyright (c) 2017-2019 dirigeants. All rights reserved. MIT license.
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Command = void 0;
-const core_1 = require("@klasa/core");
-const ratelimits_1 = require("@klasa/ratelimits");
-require("../types/Enums");
-class Command extends core_1.AliasPiece {
+const pieces_1 = require("@sapphire/pieces");
+class Command extends pieces_1.AliasPiece {
     /**
      * @since 1.0.0
-     * @param store The command store
-     * @param directory The base directory to the pieces folder
-     * @param file The path from the pieces folder to the command file
-     * @param options Optional Command settings
+     * @param context The context.
+     * @param options Optional Command settings.
      */
-    constructor(store, directory, files, options = {}) {
-        super(store, directory, files, options);
-        options = options;
-        this.name = this.name.toLowerCase();
-        this.requiredPermissions = new core_1.Permissions(options.requiredPermissions).freeze();
-        this.deletable = options.deletable;
-        this.description = options.description;
+    constructor(context, { name, ...options } = {}) {
+        var _a, _b, _c, _d;
+        super(context, { ...options, name: name === null || name === void 0 ? void 0 : name.toLowerCase() });
+        this.deletable = (_a = options.deletable) !== null && _a !== void 0 ? _a : false;
+        this.description = (_b = options.description) !== null && _b !== void 0 ? _b : '';
+        this.preconditions = (_d = (_c = options.preconditions) === null || _c === void 0 ? void 0 : _c.map((precondition) => {
+            var _a;
+            return typeof precondition === 'string'
+                ? { name: precondition, context: {} }
+                : { name: precondition.name, context: (_a = precondition.context) !== null && _a !== void 0 ? _a : {} };
+        })) !== null && _d !== void 0 ? _d : [];
         this.extendedHelp = options.extendedHelp;
-        this.fullCategory = files.slice(0, -1);
         this.guarded = options.guarded;
         this.hidden = options.hidden;
-        this.nsfw = options.nsfw;
-        this.permissionLevel = options.permissionLevel;
-        this.promptLimit = options.promptLimit;
-        this.promptTime = options.promptTime;
         this.flags = options.flags;
         this.quotedStringSupport = options.quotedStringSupport;
-        this.runIn = options.runIn;
-        // todo - this.usage = new CommandUsage(this.client, options.usage as string, options.usageDelim as string, this);
-        this.cooldownLevel = options.cooldownLevel;
-        if (!["author" /* Author */, "channel" /* Channel */, "guild" /* Guild */].includes(this.cooldownLevel))
-            throw new Error('Invalid cooldownLevel');
-        this.cooldowns = new ratelimits_1.RateLimitManager(options.cooldown, options.bucket);
-    }
-    /**
-     * The main category for the command
-     * @since 1.0.0
-     * @readonly
-     */
-    get category() {
-        return this.fullCategory.length > 0 ? this.fullCategory[0] : 'General';
-    }
-    /**
-     * The sub category for the command
-     * @since 1.0.0
-     * @readonly
-     */
-    get subCategory() {
-        return this.fullCategory.length > 1 ? this.fullCategory[1] : 'General';
     }
     /**
      * Defines the JSON.stringify behavior of the command
@@ -60,26 +33,12 @@ class Command extends core_1.AliasPiece {
     toJSON() {
         return {
             ...super.toJSON(),
-            requiredPermissions: this.requiredPermissions.toArray(),
-            category: this.category,
             deletable: this.deletable,
             description: this.description,
             extendedHelp: this.extendedHelp,
-            fullCategory: this.fullCategory,
             guarded: this.guarded,
             hidden: this.hidden,
-            nsfw: this.nsfw,
-            permissionLevel: this.permissionLevel,
-            promptLimit: this.promptLimit,
-            promptTime: this.promptTime,
-            quotedStringSupport: this.quotedStringSupport,
-            runIn: this.runIn.slice(0),
-            subCategory: this.subCategory
-            /* todo - usage: {
-                usageString: this.usage.usageString,
-                usageDelim: this.usage.usageDelim,
-                nearlyFullUsage: this.usage.nearlyFullUsage
-            } */
+            quotedStringSupport: this.quotedStringSupport
         };
     }
 }

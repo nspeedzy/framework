@@ -1,0 +1,1 @@
+{"version":3,"file":"PreconditionStore.d.ts","sourceRoot":"","sources":["../../../src/lib/structures/PreconditionStore.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,EAAE,MAAM,kBAAkB,CAAC;AACzC,OAAO,KAAK,EAAE,MAAM,EAAE,MAAM,YAAY,CAAC;AACzC,OAAO,EAAE,YAAY,EAAE,MAAM,gBAAgB,CAAC;AAE9C,qBAAa,iBAAkB,SAAQ,KAAK,CAAC,YAAY,CAAC;IAClD,MAAM,EAAE,MAAM,CAAC;gBAEH,MAAM,EAAE,MAAM;CAKjC"}

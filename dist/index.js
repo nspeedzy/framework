@@ -1,6 +1,19 @@
 "use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __exportStar = (this && this.__exportStar) || function(m, exports) {
+    for (var p in m) if (p !== "default" && !exports.hasOwnProperty(p)) __createBinding(exports, m, p);
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.main = void 0;
-exports.main = () => 'this builds and pushes';
-exports.default = exports.main;
+__exportStar(require("./lib/structures/Command"), exports);
+__exportStar(require("./lib/structures/CommandStore"), exports);
+__exportStar(require("./lib/structures/Precondition"), exports);
+__exportStar(require("./lib/structures/PreconditionStore"), exports);
+__exportStar(require("./lib/types/Enums"), exports);
+__exportStar(require("./lib/utils/Types"), exports);
 //# sourceMappingURL=index.js.map

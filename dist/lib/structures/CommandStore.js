@@ -2,20 +2,17 @@
 // Copyright (c) 2017-2019 dirigeants. All rights reserved. MIT license.
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CommandStore = void 0;
-const core_1 = require("@klasa/core");
 const Command_1 = require("./Command");
+const pieces_1 = require("@sapphire/pieces");
 /**
  * Stores all Command pieces
  * @since 1.0.0
  */
-class CommandStore extends core_1.AliasStore {
-    /**
-     * Constructs the Command Store for use
-     * @since 1.0.0
-     * @param client The framework client
-     */
+class CommandStore extends pieces_1.AliasStore {
     constructor(client) {
-        super(client, 'commands', Command_1.Command);
+        // @ts-expect-error Abstract classes are not assignable to Ctor<T>.
+        super(Command_1.Command);
+        this.client = client;
     }
 }
 exports.CommandStore = CommandStore;
