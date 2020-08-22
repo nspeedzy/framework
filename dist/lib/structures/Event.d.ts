@@ -7,14 +7,18 @@ export declare abstract class Event extends BasePiece {
     #private;
     readonly emitter: EventEmitter | null;
     readonly event: string;
+    readonly once: boolean;
     constructor(context: PieceContext, options?: EventOptions);
     abstract run(...args: readonly any[]): unknown;
     onLoad(): void;
     onUnload(): void;
     toJSON(): Record<PropertyKey, unknown>;
+    private _run;
+    private _runOnce;
 }
 export interface EventOptions extends PieceOptions {
-    emitter?: keyof Client | EventEmitter;
-    event?: string;
+    readonly emitter?: keyof Client | EventEmitter;
+    readonly event?: string;
+    readonly once?: boolean;
 }
 //# sourceMappingURL=Event.d.ts.map
