@@ -40,7 +40,7 @@ class SapphireClient extends discord_js_1.Client {
          * ```
          */
         this.fetchPrefix = () => null;
-        this.clientID = (_a = options.clientID) !== null && _a !== void 0 ? _a : null;
+        this.clientID = (_a = options.id) !== null && _a !== void 0 ? _a : null;
         this.commands = new CommandStore_1.CommandStore(this);
         this.events = new EventStore_1.EventStore(this).registerPath(path_1.join(__dirname, '..', 'events'));
         this.preconditions = new PreconditionStore_1.PreconditionStore(this).registerPath(path_1.join(__dirname, '..', 'preconditions'));

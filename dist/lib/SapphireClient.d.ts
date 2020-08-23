@@ -4,7 +4,7 @@ import { CommandStore } from './structures/CommandStore';
 import { EventStore } from './structures/EventStore';
 import { PreconditionStore } from './structures/PreconditionStore';
 export interface SapphirePrefixHook {
-    (message: Message): Awaited<string | string[] | null>;
+    (message: Message): Awaited<string | readonly string[] | null>;
 }
 export declare class SapphireClient extends Client {
     /**
@@ -53,14 +53,14 @@ export declare class SapphireClient extends Client {
 }
 declare module 'discord.js' {
     interface Client {
-        clientID: string | null;
+        id: string | null;
         commands: CommandStore;
         events: EventStore;
         preconditions: PreconditionStore;
         fetchPrefix: SapphirePrefixHook;
     }
     interface ClientOptions {
-        clientID?: string;
+        id?: string;
     }
 }
 //# sourceMappingURL=SapphireClient.d.ts.map

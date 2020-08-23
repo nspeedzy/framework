@@ -3,8 +3,6 @@ import type { Message } from 'discord.js';
 import { Event } from '../../lib/structures/Event';
 export declare class CoreEvent extends Event {
     constructor(context: PieceContext);
-    run(message: Message): Promise<void>;
-    private getMentionPrefix;
-    private getPrefix;
+    run(message: Message, prefix: string): void;
 }
-//# sourceMappingURL=CoreMessageParser.d.ts.map
+//# sourceMappingURL=CorePrefixedMessage.d.ts.map
