@@ -1,5 +1,8 @@
+import type { Awaited } from '@sapphire/pieces';
 import type { Client, Message } from 'discord.js';
+import type { UserError } from '../../errors/UserError';
 import type { Command } from '../../structures/Command';
+import { Result } from '../Result';
 import type { IPreconditionContainer } from './IPreconditionContainer';
 import { PreconditionContainerSingleResolvable } from './PreconditionContainerSimple';
 declare const enum PreconditionRunMode {
@@ -17,9 +20,9 @@ export declare class PreconditionContainerAny implements IPreconditionContainer 
     entries: IPreconditionContainer[];
     mode: PreconditionRunMode;
     constructor(client: Client, data: PreconditionContainerResolvable);
-    run(message: Message, command: Command): Promise<boolean>;
-    protected runSequential(message: Message, command: Command): Promise<boolean>;
-    protected runParallel(message: Message, command: Command): Promise<boolean>;
+    run(message: Message, command: Command): Awaited<Result<unknown, UserError>>;
+    protected runSequential(message: Message, command: Command): Promise<Result<unknown, UserError>>;
+    protected runParallel(message: Message, command: Command): Promise<Result<unknown, UserError>>;
     private static resolveData;
 }
 export {};

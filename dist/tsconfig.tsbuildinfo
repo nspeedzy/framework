@@ -541,9 +541,19 @@
         "signature": "c3f5f16be5709bb33291f8cb789128370f6922c7fda33001513c6f6ea9f8db33",
         "affectsGlobalScope": false
       },
+      "../src/lib/errors/UserError.ts": {
+        "version": "a69bd2ca6538028a1b3df185c3d8bd5048598d09af21511a3c7eb64ba1cbaa4f",
+        "signature": "f4a595bdb04795ac41465d07f48bbe77f74bb83e9983568f1a93b8587662d32f",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/utils/Result.ts": {
+        "version": "99e926ccded90fe12f87553da2e59f58f78d0c6e9cad096adbedc08cce997feb",
+        "signature": "b306300a497dc4c323d0fc7b3eae3692bea87fb85a640c1f3ef594d999206779",
+        "affectsGlobalScope": false
+      },
       "../src/lib/utils/preconditions/IPreconditionContainer.ts": {
-        "version": "f1d49867277c85a1c3e8ecbbf4e678d27daacd1a8a093e6f5cc4b7b83bda456a",
-        "signature": "91567a82f6d4b32d2d597659f937f2100176b990eb507aa3103f1f08b6d60346",
+        "version": "3fbc468de190f6423bb053abceec885102c097a78aab4a700a4d4ece7cb0adc5",
+        "signature": "1309d266c97b7f10fd0e9e1f34969638de5cc61692e0be21aeaf08de2b6e3a89",
         "affectsGlobalScope": false
       },
       "../src/lib/utils/Types.ts": {
@@ -557,23 +567,23 @@
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Precondition.ts": {
-        "version": "e5bbcd554c3d78b5eaff9c745b53a1a527a900a2314439538960e57bad5f0af4",
-        "signature": "7b4a112ab2bdc0be92a7e9457aba0fc9a8989b6b647aa264c124757c198fd35f",
+        "version": "e7f74956b5ec7baaf0afa6c8aa2cad8c2234b9470f54f0abd242660d2dcbf1c5",
+        "signature": "4de7f5010fe8a4738d6709d30b449f3d4fc7f4f7d3c6f581f18ad477eedb2d05",
         "affectsGlobalScope": false
       },
       "../src/lib/utils/preconditions/PreconditionContainerSimple.ts": {
         "version": "4f1ba520dc3822f1bb6272f4a84e1d8ecf40a007426bcdc8a38f0a3efb29652b",
-        "signature": "2314ffb4267ab34e08f1a21595d2e416427eb0b77ca362118fd0c051c9632434",
+        "signature": "a57e86904d4223a21d2d1e0ee39535c70b9a68d98d9f316aa3851aa45754629a",
         "affectsGlobalScope": false
       },
       "../src/lib/utils/preconditions/PreconditionContainerAny.ts": {
-        "version": "bc7aee5f68ae41e61c89e89839d50e09af051cb59d9232bf31f0c2d04e3f8f13",
-        "signature": "f67249d447c5b5ee4d01f3c5f0be7da383ec83b0aaeb09f76f786d4ed7c5036b",
+        "version": "b8de48aa3d41b815f7cfa1acf5a035b00bbd7c8e109e054bd7637802d5965a32",
+        "signature": "3633dc3974883a7e6fa3f50cde47ddd5dc26559d1e5644ecce8b7bc83fdc1566",
         "affectsGlobalScope": false
       },
       "../src/lib/utils/preconditions/PreconditionContainer.ts": {
-        "version": "e349cf3e985795ea178aee8306e03e3fea5e09469a90bf39ffb63e1fd4bec99e",
-        "signature": "420732fec2eb77c067c72aa4d8de4850850480d45a9a0618a53a68235061a514",
+        "version": "91aebab08532cfa04dfc16b5a39e8e6a76c674a2ff247885f15faad812c0ddfd",
+        "signature": "ea38c7463357f422fa160ba05de67a4e36fecc0bfa7a3ea279255d3f9696f43c",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Command.ts": {
@@ -642,18 +652,18 @@
         "affectsGlobalScope": false
       },
       "../src/preconditions/DMOnly.ts": {
-        "version": "44e8d9a3a0eedf7243b3403459b95add65d1c4c00c21efb9dea9ec77c15ccdc5",
-        "signature": "d8f238fd6adb6fbe56d1888c0745ece65a6a9a08be25b8ce8aa27fcaaf1151d5",
+        "version": "19429864e23aeddb896ea19b03d6c23a3a9d0021c26fce4467181b7ec3baa16f",
+        "signature": "6a391ef61bc9ab7456dd4ee6305f59e96f64b8757bea4a28080995686fed9180",
         "affectsGlobalScope": false
       },
       "../src/preconditions/GuildOnly.ts": {
-        "version": "59ad99ba1e05c59fdecbbf249d59a7cd30423f5acd4c51ed2a2251bdacbb1d9d",
-        "signature": "85b36b54992894f7ed696521e7b77ba5fc148d5c50fa814f6761d895cbdaaf55",
+        "version": "d2a277dcfcd45365229f8b01fcf28fa36d261c70ffd9a250f4ce6dee1aa27e2b",
+        "signature": "459f518d4961efe0164fa10ebde0dd4b26ce7a10ba33d9c67aa30f3b7936926a",
         "affectsGlobalScope": false
       },
       "../src/preconditions/NSFW.ts": {
-        "version": "70e34899585b27e31f389bf4c3d7b27013e5a7a741bd9e0f4fcf9450a8054e41",
-        "signature": "02c5e835ca7edc6a0bddd60c120c25d7d1d645868ce7c47d8c972e8a3ed20f30",
+        "version": "8e9093010d5af8e8ed38a94e9433609cba210c655c93ec8dedea9bcd1f0227a0",
+        "signature": "68b2354cfb1d131ff435f16d934b0789718b0790dd898e680bc73726d6590eb0",
         "affectsGlobalScope": false
       },
       "../node_modules/@babel/types/lib/index.d.ts": {
@@ -2278,6 +2288,15 @@
         "../src/lib/structures/PreconditionStore.ts",
         "../src/lib/types/Events.ts"
       ],
+      "../src/lib/errors/UserError.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
       "../src/lib/structures/Command.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/@sapphire/pieces/dist/lib/Piece.d.ts",
@@ -2342,8 +2361,10 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/errors/UserError.ts",
         "../src/lib/structures/Command.ts",
         "../src/lib/structures/base/BasePiece.ts",
+        "../src/lib/utils/Result.ts",
         "../src/lib/utils/Types.ts"
       ],
       "../src/lib/structures/PreconditionStore.ts": [
@@ -2428,6 +2449,15 @@
         "../src/lib/SapphireClient.ts",
         "../src/lib/structures/Command.ts"
       ],
+      "../src/lib/utils/Result.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
       "../src/lib/utils/Types.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -2447,7 +2477,9 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/Command.ts"
+        "../src/lib/errors/UserError.ts",
+        "../src/lib/structures/Command.ts",
+        "../src/lib/utils/Result.ts"
       ],
       "../src/lib/utils/preconditions/PreconditionContainer.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -2458,10 +2490,13 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/errors/UserError.ts",
         "../src/lib/structures/Command.ts",
+        "../src/lib/utils/Result.ts",
         "../src/lib/utils/preconditions/PreconditionContainerAny.ts"
       ],
       "../src/lib/utils/preconditions/PreconditionContainerAny.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -2470,7 +2505,9 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/errors/UserError.ts",
         "../src/lib/structures/Command.ts",
+        "../src/lib/utils/Result.ts",
         "../src/lib/utils/preconditions/IPreconditionContainer.ts",
         "../src/lib/utils/preconditions/PreconditionContainerSimple.ts"
       ],
@@ -2497,7 +2534,9 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/Precondition.ts"
+        "../src/lib/errors/UserError.ts",
+        "../src/lib/structures/Precondition.ts",
+        "../src/lib/utils/Result.ts"
       ],
       "../src/preconditions/GuildOnly.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
@@ -2509,7 +2548,9 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/Precondition.ts"
+        "../src/lib/errors/UserError.ts",
+        "../src/lib/structures/Precondition.ts",
+        "../src/lib/utils/Result.ts"
       ],
       "../src/preconditions/NSFW.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
@@ -2521,7 +2562,9 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/Precondition.ts"
+        "../src/lib/errors/UserError.ts",
+        "../src/lib/structures/Precondition.ts",
+        "../src/lib/utils/Result.ts"
       ]
     },
     "exportedModulesMap": {
@@ -3969,8 +4012,10 @@
       ],
       "../src/lib/structures/Precondition.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/errors/UserError.ts",
         "../src/lib/structures/Command.ts",
         "../src/lib/structures/base/BasePiece.ts",
+        "../src/lib/utils/Result.ts",
         "../src/lib/utils/Types.ts"
       ],
       "../src/lib/structures/PreconditionStore.ts": [
@@ -4004,40 +4049,55 @@
       "../src/lib/utils/preconditions/IPreconditionContainer.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/Command.ts"
+        "../src/lib/errors/UserError.ts",
+        "../src/lib/structures/Command.ts",
+        "../src/lib/utils/Result.ts"
       ],
       "../src/lib/utils/preconditions/PreconditionContainer.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/errors/UserError.ts",
         "../src/lib/structures/Command.ts",
+        "../src/lib/utils/Result.ts",
         "../src/lib/utils/preconditions/PreconditionContainerAny.ts"
       ],
       "../src/lib/utils/preconditions/PreconditionContainerAny.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/errors/UserError.ts",
         "../src/lib/structures/Command.ts",
+        "../src/lib/utils/Result.ts",
         "../src/lib/utils/preconditions/IPreconditionContainer.ts",
         "../src/lib/utils/preconditions/PreconditionContainerSimple.ts"
       ],
       "../src/lib/utils/preconditions/PreconditionContainerSimple.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/errors/UserError.ts",
         "../src/lib/structures/Command.ts",
         "../src/lib/structures/Precondition.ts",
+        "../src/lib/utils/Result.ts",
         "../src/lib/utils/preconditions/IPreconditionContainer.ts"
       ],
       "../src/preconditions/DMOnly.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/Precondition.ts"
+        "../src/lib/errors/UserError.ts",
+        "../src/lib/structures/Precondition.ts",
+        "../src/lib/utils/Result.ts"
       ],
       "../src/preconditions/GuildOnly.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/Precondition.ts"
+        "../src/lib/errors/UserError.ts",
+        "../src/lib/structures/Precondition.ts",
+        "../src/lib/utils/Result.ts"
       ],
       "../src/preconditions/NSFW.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/Precondition.ts"
+        "../src/lib/errors/UserError.ts",
+        "../src/lib/structures/Precondition.ts",
+        "../src/lib/utils/Result.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -4181,6 +4241,7 @@
       "../src/events/command-handler/CorePrefixedMessage.ts",
       "../src/index.ts",
       "../src/lib/SapphireClient.ts",
+      "../src/lib/errors/UserError.ts",
       "../src/lib/structures/Command.ts",
       "../src/lib/structures/CommandStore.ts",
       "../src/lib/structures/Event.ts",
@@ -4193,6 +4254,7 @@
       "../src/lib/structures/base/BaseStore.ts",
       "../src/lib/types/Enums.ts",
       "../src/lib/types/Events.ts",
+      "../src/lib/utils/Result.ts",
       "../src/lib/utils/Types.ts",
       "../src/lib/utils/preconditions/IPreconditionContainer.ts",
       "../src/lib/utils/preconditions/PreconditionContainer.ts",
