@@ -541,24 +541,14 @@
         "signature": "c3f5f16be5709bb33291f8cb789128370f6922c7fda33001513c6f6ea9f8db33",
         "affectsGlobalScope": false
       },
-      "../src/lib/structures/base/BaseAliasStore.ts": {
-        "version": "a57e62cf887f6318ae3d14127cfbc07e3b3d50c8700de38b0b3b97ca80ccbc47",
-        "signature": "83b11990a4a3f86441475361572a504284cedd393219b56655c6d515788a01ed",
+      "../src/lib/utils/Types.ts": {
+        "version": "ad7d0fe3149de03f744369458ba1fb5b82a9e9a6e932cf42a6b777d323474251",
+        "signature": "4c7fc34ece2baf0a1f0a818226012618c25a3f28223203048ffc920099b6dd2c",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/base/BasePiece.ts": {
         "version": "e411af0747c31de23280793daa838b64b6b0203c151c3a5680c2d6d64adc97f0",
         "signature": "9da6585c06d43fd162fe27cbbc51d77f31315d4dc4ebe8560a6f1b0d102522ff",
-        "affectsGlobalScope": false
-      },
-      "../src/lib/structures/base/BaseStore.ts": {
-        "version": "3ae72babe8f685878f45aeadc2884f9332c6cc29fccca7bf0a4e642b19c818cf",
-        "signature": "4a90c1820a00c1b0dee9c16b1c3a6e2dc469481c38efe411a68afeef9800eca9",
-        "affectsGlobalScope": false
-      },
-      "../src/lib/utils/Types.ts": {
-        "version": "ad7d0fe3149de03f744369458ba1fb5b82a9e9a6e932cf42a6b777d323474251",
-        "signature": "4c7fc34ece2baf0a1f0a818226012618c25a3f28223203048ffc920099b6dd2c",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Precondition.ts": {
@@ -571,13 +561,28 @@
         "signature": "b576069f14ea3654af32c2fc565f08a9094bcb8804d66c60e554b418c013f69a",
         "affectsGlobalScope": false
       },
+      "../src/lib/types/Events.ts": {
+        "version": "62700ca3ca26a62f4227348a4e1d4fb39794580164c0cc0a9bab7cb65cb28f4e",
+        "signature": "53130dceb05e85769634a81a8169d8647d2c309f355680e63db3e5f1ed22800d",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/structures/base/BaseAliasStore.ts": {
+        "version": "48e1d9d6d4b588ccdb44f1d9bf093f775e3eab6d63498246551ff230311a6762",
+        "signature": "83b11990a4a3f86441475361572a504284cedd393219b56655c6d515788a01ed",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/structures/base/BaseStore.ts": {
+        "version": "38739559bdda8020bb8ac3ca341d99541e26e4bb9df0ac46baadad38dad9ff88",
+        "signature": "4a90c1820a00c1b0dee9c16b1c3a6e2dc469481c38efe411a68afeef9800eca9",
+        "affectsGlobalScope": false
+      },
       "../src/lib/structures/CommandStore.ts": {
         "version": "971d2830544cc4b1396523a0764313fbd7dcb872b4504be392c998d4a9ecff2e",
         "signature": "9e2911e366c41eacd273a7e51a9e647f8e9090e12a0b764fbbe6463a31257788",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Event.ts": {
-        "version": "05ab713b0bdebcf5b9c14e635f9ad7c350cedc7bc0ae88ac977ce8dab46636b4",
+        "version": "27da8c5957caa9982fdc70cda95a72592428015769d37192436280b6033eacc8",
         "signature": "0f57b4f25de2aa28a6b0a92668a3ee48ab6eccaa36985d1dc7089fe04f578190",
         "affectsGlobalScope": false
       },
@@ -602,17 +607,17 @@
         "affectsGlobalScope": false
       },
       "../src/index.ts": {
-        "version": "86e582b6333253b40dc68d4f088129ea22bb6a9428a40f1eaccca7b8470caedf",
-        "signature": "2dab4ba23bdb52ff1ceb0beb879cf53da58672002716dac43e5dd5e5dce2364e",
+        "version": "77f0e4d9ba4efaa88210398b3e6af8cadad10405f24f15938f8a3bbbcb2630e6",
+        "signature": "bd343306a5a2b71374e110d163c2ed91ed31af4845bd0273ca9955a601dde331",
         "affectsGlobalScope": false
       },
       "../src/events/command-handler/CoreMessageParser.ts": {
-        "version": "b202d72e28bd19e65035ec3cccf6c21c325208c13e7a20b65a0ec74602a7adc0",
+        "version": "000518ff9c3281a2643b42250964b512be0eafcb4dc915dd68d79fff040c0dc8",
         "signature": "97d9e825c34b896ba5f7604aebbe84e9d62576efaf0bd748a4d01f9da9128929",
         "affectsGlobalScope": false
       },
       "../src/events/command-handler/CorePrefixedMessage.ts": {
-        "version": "0ae32ceeca1f4195c5917eabdb76914785d91beef5b6ab49e029c8f57f5d4291",
+        "version": "f5916d9e59b9b7192b090c627a5aa08d3d64b5204a81899e3e2f648561c946f4",
         "signature": "9197f9416f8069d7941f5b22dd9857673559ad36b635b08d7312a03c0ea48701",
         "affectsGlobalScope": false
       },
@@ -2198,7 +2203,8 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/Event.ts"
+        "../src/lib/structures/Event.ts",
+        "../src/lib/types/Events.ts"
       ],
       "../src/events/command-handler/CorePrefixedMessage.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
@@ -2210,7 +2216,8 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/Event.ts"
+        "../src/lib/structures/Event.ts",
+        "../src/lib/types/Events.ts"
       ],
       "../src/index.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -2232,6 +2239,7 @@
         "../src/lib/structures/base/BasePiece.ts",
         "../src/lib/structures/base/BaseStore.ts",
         "../src/lib/types/Enums.ts",
+        "../src/lib/types/Events.ts",
         "../src/lib/utils/Types.ts"
       ],
       "../src/lib/SapphireClient.ts": [
@@ -2247,7 +2255,8 @@
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/structures/CommandStore.ts",
         "../src/lib/structures/EventStore.ts",
-        "../src/lib/structures/PreconditionStore.ts"
+        "../src/lib/structures/PreconditionStore.ts",
+        "../src/lib/types/Events.ts"
       ],
       "../src/lib/structures/Command.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
@@ -2287,7 +2296,8 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/base/BasePiece.ts"
+        "../src/lib/structures/base/BasePiece.ts",
+        "../src/lib/types/Events.ts"
       ],
       "../src/lib/structures/EventStore.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -2347,7 +2357,8 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/base/BaseAliasPiece.ts"
+        "../src/lib/structures/base/BaseAliasPiece.ts",
+        "../src/lib/types/Events.ts"
       ],
       "../src/lib/structures/base/BasePiece.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
@@ -2370,7 +2381,8 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/base/BasePiece.ts"
+        "../src/lib/structures/base/BasePiece.ts",
+        "../src/lib/types/Events.ts"
       ],
       "../src/lib/types/Enums.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -2380,6 +2392,19 @@
         "../node_modules/@types/node/ts3.2/process.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/lib/types/Events.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/SapphireClient.ts",
+        "../src/lib/structures/Command.ts"
       ],
       "../src/lib/utils/Types.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -3834,6 +3859,7 @@
         "../src/lib/structures/base/BasePiece.ts",
         "../src/lib/structures/base/BaseStore.ts",
         "../src/lib/types/Enums.ts",
+        "../src/lib/types/Events.ts",
         "../src/lib/utils/Types.ts"
       ],
       "../src/lib/SapphireClient.ts": [
@@ -3895,6 +3921,11 @@
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/structures/base/BasePiece.ts"
+      ],
+      "../src/lib/types/Events.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Command.ts"
       ],
       "../src/preconditions/DMOnly.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
@@ -4064,6 +4095,7 @@
       "../src/lib/structures/base/BasePiece.ts",
       "../src/lib/structures/base/BaseStore.ts",
       "../src/lib/types/Enums.ts",
+      "../src/lib/types/Events.ts",
       "../src/lib/utils/Types.ts",
       "../src/preconditions/DMOnly.ts",
       "../src/preconditions/GuildOnly.ts",

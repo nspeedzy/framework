@@ -21,6 +21,7 @@ __exportStar(require("./lib/structures/EventStore"), exports);
 __exportStar(require("./lib/structures/Precondition"), exports);
 __exportStar(require("./lib/structures/PreconditionStore"), exports);
 __exportStar(require("./lib/types/Enums"), exports);
+__exportStar(require("./lib/types/Events"), exports);
 __exportStar(require("./lib/utils/Types"), exports);
 __exportStar(require("./lib/SapphireClient"), exports);
 //# sourceMappingURL=index.js.map

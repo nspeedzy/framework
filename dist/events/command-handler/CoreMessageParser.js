@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CoreEvent = void 0;
 const Event_1 = require("../../lib/structures/Event");
+const Events_1 = require("../../lib/types/Events");
 class CoreEvent extends Event_1.Event {
     constructor(context) {
         super(context, { event: 'message' });
@@ -11,7 +12,7 @@ class CoreEvent extends Event_1.Event {
         let prefix = '';
         if (mentionPrefix) {
             if (message.content.length === mentionPrefix.length) {
-                this.client.emit('mentionPrefixOnly', message);
+                this.client.emit(Events_1.Events.MentionPrefixOnly, message);
                 return;
             }
             prefix = mentionPrefix;
@@ -23,7 +24,7 @@ class CoreEvent extends Event_1.Event {
                 prefix = parsed;
         }
         if (prefix)
-            this.client.emit('prefixedMessage', message, prefix);
+            this.client.emit(Events_1.Events.PrefixedMessage, message, prefix);
     }
     getMentionPrefix(content) {
         // If no client ID was specified, return null:

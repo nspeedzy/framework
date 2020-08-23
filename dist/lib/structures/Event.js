@@ -15,6 +15,7 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
 var _listener;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Event = void 0;
+const Events_1 = require("../types/Events");
 const BasePiece_1 = require("./base/BasePiece");
 class Event extends BasePiece_1.BasePiece {
     constructor(context, options = {}) {
@@ -46,7 +47,7 @@ class Event extends BasePiece_1.BasePiece {
             await this.run(...args);
         }
         catch (error) {
-            this.client.emit('error', error);
+            this.client.emit(Events_1.Events.Error, error);
         }
     }
     async _runOnce(...args) {
