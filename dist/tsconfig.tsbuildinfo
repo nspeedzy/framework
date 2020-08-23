@@ -541,6 +541,11 @@
         "signature": "c3f5f16be5709bb33291f8cb789128370f6922c7fda33001513c6f6ea9f8db33",
         "affectsGlobalScope": false
       },
+      "../src/lib/utils/preconditions/IPreconditionContainer.ts": {
+        "version": "f1d49867277c85a1c3e8ecbbf4e678d27daacd1a8a093e6f5cc4b7b83bda456a",
+        "signature": "91567a82f6d4b32d2d597659f937f2100176b990eb507aa3103f1f08b6d60346",
+        "affectsGlobalScope": false
+      },
       "../src/lib/utils/Types.ts": {
         "version": "ad7d0fe3149de03f744369458ba1fb5b82a9e9a6e932cf42a6b777d323474251",
         "signature": "4c7fc34ece2baf0a1f0a818226012618c25a3f28223203048ffc920099b6dd2c",
@@ -556,9 +561,24 @@
         "signature": "7b4a112ab2bdc0be92a7e9457aba0fc9a8989b6b647aa264c124757c198fd35f",
         "affectsGlobalScope": false
       },
+      "../src/lib/utils/preconditions/PreconditionContainerSimple.ts": {
+        "version": "4f1ba520dc3822f1bb6272f4a84e1d8ecf40a007426bcdc8a38f0a3efb29652b",
+        "signature": "2314ffb4267ab34e08f1a21595d2e416427eb0b77ca362118fd0c051c9632434",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/utils/preconditions/PreconditionContainerAny.ts": {
+        "version": "bc7aee5f68ae41e61c89e89839d50e09af051cb59d9232bf31f0c2d04e3f8f13",
+        "signature": "f67249d447c5b5ee4d01f3c5f0be7da383ec83b0aaeb09f76f786d4ed7c5036b",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/utils/preconditions/PreconditionContainer.ts": {
+        "version": "e349cf3e985795ea178aee8306e03e3fea5e09469a90bf39ffb63e1fd4bec99e",
+        "signature": "420732fec2eb77c067c72aa4d8de4850850480d45a9a0618a53a68235061a514",
+        "affectsGlobalScope": false
+      },
       "../src/lib/structures/Command.ts": {
-        "version": "d518a975d10a11a599b551614e3cf98463b5b30bc8328edbf98a8c05a42529b5",
-        "signature": "b576069f14ea3654af32c2fc565f08a9094bcb8804d66c60e554b418c013f69a",
+        "version": "f8e42aceb0a3839f9c01ff7826c768bb37bc531162c29e13a2609b45cacb7f43",
+        "signature": "a4ad4b8ccefd45767a6aae645ad15583f58dfb6e3838dd38a54cdea5cfd2e0bd",
         "affectsGlobalScope": false
       },
       "../src/lib/types/Events.ts": {
@@ -612,7 +632,7 @@
         "affectsGlobalScope": false
       },
       "../src/events/command-handler/CoreMessageParser.ts": {
-        "version": "000518ff9c3281a2643b42250964b512be0eafcb4dc915dd68d79fff040c0dc8",
+        "version": "b380d2645069be989302297cb922d406f15c92851894657c1e01593350020de8",
         "signature": "97d9e825c34b896ba5f7604aebbe84e9d62576efaf0bd748a4d01f9da9128929",
         "affectsGlobalScope": false
       },
@@ -2271,7 +2291,9 @@
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/structures/Precondition.ts",
         "../src/lib/structures/base/BaseAliasPiece.ts",
-        "../src/lib/utils/Types.ts"
+        "../src/lib/utils/Types.ts",
+        "../src/lib/utils/preconditions/PreconditionContainer.ts",
+        "../src/lib/utils/preconditions/PreconditionContainerAny.ts"
       ],
       "../src/lib/structures/CommandStore.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -2414,6 +2436,56 @@
         "../node_modules/@types/node/ts3.2/process.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/lib/utils/preconditions/IPreconditionContainer.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Command.ts"
+      ],
+      "../src/lib/utils/preconditions/PreconditionContainer.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Command.ts",
+        "../src/lib/utils/preconditions/PreconditionContainerAny.ts"
+      ],
+      "../src/lib/utils/preconditions/PreconditionContainerAny.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Command.ts",
+        "../src/lib/utils/preconditions/IPreconditionContainer.ts",
+        "../src/lib/utils/preconditions/PreconditionContainerSimple.ts"
+      ],
+      "../src/lib/utils/preconditions/PreconditionContainerSimple.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Command.ts",
+        "../src/lib/structures/Precondition.ts",
+        "../src/lib/utils/preconditions/IPreconditionContainer.ts"
       ],
       "../src/preconditions/DMOnly.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
@@ -3875,7 +3947,9 @@
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/structures/Precondition.ts",
         "../src/lib/structures/base/BaseAliasPiece.ts",
-        "../src/lib/utils/Types.ts"
+        "../src/lib/utils/Types.ts",
+        "../src/lib/utils/preconditions/PreconditionContainer.ts",
+        "../src/lib/utils/preconditions/PreconditionContainerAny.ts"
       ],
       "../src/lib/structures/CommandStore.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
@@ -3926,6 +4000,29 @@
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/structures/Command.ts"
+      ],
+      "../src/lib/utils/preconditions/IPreconditionContainer.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Command.ts"
+      ],
+      "../src/lib/utils/preconditions/PreconditionContainer.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Command.ts",
+        "../src/lib/utils/preconditions/PreconditionContainerAny.ts"
+      ],
+      "../src/lib/utils/preconditions/PreconditionContainerAny.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Command.ts",
+        "../src/lib/utils/preconditions/IPreconditionContainer.ts",
+        "../src/lib/utils/preconditions/PreconditionContainerSimple.ts"
+      ],
+      "../src/lib/utils/preconditions/PreconditionContainerSimple.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Command.ts",
+        "../src/lib/structures/Precondition.ts",
+        "../src/lib/utils/preconditions/IPreconditionContainer.ts"
       ],
       "../src/preconditions/DMOnly.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
@@ -4097,6 +4194,10 @@
       "../src/lib/types/Enums.ts",
       "../src/lib/types/Events.ts",
       "../src/lib/utils/Types.ts",
+      "../src/lib/utils/preconditions/IPreconditionContainer.ts",
+      "../src/lib/utils/preconditions/PreconditionContainer.ts",
+      "../src/lib/utils/preconditions/PreconditionContainerAny.ts",
+      "../src/lib/utils/preconditions/PreconditionContainerSimple.ts",
       "../src/preconditions/DMOnly.ts",
       "../src/preconditions/GuildOnly.ts",
       "../src/preconditions/NSFW.ts"

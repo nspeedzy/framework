@@ -35,7 +35,7 @@ class CoreEvent extends Event_1.Event {
             return null;
         // Retrieve whether the mention is a nickname mention (`<@!{n}>`) or not (`<@{n}>`).
         const nickname = content[2] === '!';
-        const idOffset = nickname ? 3 : 2;
+        const idOffset = (nickname ? 3 : 2);
         const idLength = this.client.id.length;
         // If the mention doesn't end with `>`, skip early:
         if (content[idOffset + idLength] !== '>')

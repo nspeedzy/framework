@@ -1,6 +1,8 @@
 import type { AliasPieceOptions } from '@sapphire/pieces';
 import type { PieceContext } from '@sapphire/pieces/dist/lib/Piece';
 import type { Message } from 'discord.js';
+import { PreconditionContainerAll } from '../utils/preconditions/PreconditionContainer';
+import type { PreconditionContainerResolvable } from '../utils/preconditions/PreconditionContainerAny';
 import type { Awaited } from '../utils/Types';
 import { BaseAliasPiece } from './base/BaseAliasPiece';
 import type { PreconditionContext } from './Precondition';
@@ -19,7 +21,7 @@ export declare abstract class Command extends BaseAliasPiece {
      * The preconditions to be run.
      * @since 1.0.0
      */
-    preconditions: readonly CommandPrecondition[];
+    preconditions: PreconditionContainerAll;
     /**
      * Longer version of command's summary and how to use it
      * @since 1.0.0
@@ -70,7 +72,7 @@ export interface CommandOptions extends AliasPieceOptions {
     bucket?: number;
     deletable?: boolean;
     description?: string;
-    preconditions?: PreconditionResolvable[];
+    preconditions?: PreconditionContainerResolvable;
     extendedHelp?: string;
     flags?: string[];
     guarded?: boolean;
