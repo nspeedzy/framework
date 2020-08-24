@@ -592,8 +592,8 @@
         "affectsGlobalScope": false
       },
       "../src/lib/types/Events.ts": {
-        "version": "62700ca3ca26a62f4227348a4e1d4fb39794580164c0cc0a9bab7cb65cb28f4e",
-        "signature": "53130dceb05e85769634a81a8169d8647d2c309f355680e63db3e5f1ed22800d",
+        "version": "71be5f88f3c92beb1167ed6d7ed120dc3956336f125caa8f509999c7539b24d3",
+        "signature": "1eb62483793bf7ca16daba68575116ce0cafeec864e616555f8197d8a481b23d",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/base/BaseAliasStore.ts": {
@@ -612,8 +612,8 @@
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Event.ts": {
-        "version": "27da8c5957caa9982fdc70cda95a72592428015769d37192436280b6033eacc8",
-        "signature": "0f57b4f25de2aa28a6b0a92668a3ee48ab6eccaa36985d1dc7089fe04f578190",
+        "version": "878d5735f84ed69069c3c52aed381394225a837b377257ce0f0dbccbc24d096c",
+        "signature": "624b0b0f088e3e0c716c5dcbe7c68d45cff62815528b93cb26706c0d69f2bbb4",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/EventStore.ts": {
@@ -642,13 +642,13 @@
         "affectsGlobalScope": false
       },
       "../src/events/command-handler/CoreMessageParser.ts": {
-        "version": "b380d2645069be989302297cb922d406f15c92851894657c1e01593350020de8",
-        "signature": "97d9e825c34b896ba5f7604aebbe84e9d62576efaf0bd748a4d01f9da9128929",
+        "version": "0bd9227953774d04bc6b98e4efb09c0ccdd51a1e4297b0889036551595f96f87",
+        "signature": "a19b348296501ccc142c1be95cb569dcb4a6ab2838b0c95d91aa7bdb407f1f39",
         "affectsGlobalScope": false
       },
       "../src/events/command-handler/CorePrefixedMessage.ts": {
-        "version": "f5916d9e59b9b7192b090c627a5aa08d3d64b5204a81899e3e2f648561c946f4",
-        "signature": "9197f9416f8069d7941f5b22dd9857673559ad36b635b08d7312a03c0ea48701",
+        "version": "ae4c30cc9aab4a13c42b537c7a7ec8b457564c34bfd67d9d69380c5d94d04b51",
+        "signature": "3849541f6d478e9fe6059b11b180b521d33e3250b6d7b2f6fcd184b9f0379b1a",
         "affectsGlobalScope": false
       },
       "../src/preconditions/DMOnly.ts": {
@@ -3960,12 +3960,14 @@
       "../src/events/command-handler/CoreMessageParser.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/Event.ts"
+        "../src/lib/structures/Event.ts",
+        "../src/lib/types/Events.ts"
       ],
       "../src/events/command-handler/CorePrefixedMessage.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/Event.ts"
+        "../src/lib/structures/Event.ts",
+        "../src/lib/types/Events.ts"
       ],
       "../src/index.ts": [
         "../src/lib/SapphireClient.ts",

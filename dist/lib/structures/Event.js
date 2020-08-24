@@ -44,6 +44,7 @@ class Event extends BasePiece_1.BasePiece {
     }
     async _run(...args) {
         try {
+            // @ts-expect-error Argument of type 'unknown[]' is not assignable to parameter of type 'E extends string | number ? ClientEvents[E] : unknown[]'. (2345)
             await this.run(...args);
         }
         catch (error) {

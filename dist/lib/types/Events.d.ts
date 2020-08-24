@@ -69,6 +69,7 @@ declare module 'discord.js' {
         [Events.UnknownCommandName]: [DjSMessage, string];
         [Events.UnknownCommand]: [DjSMessage, string, string];
         [Events.PreCommandRun]: [DjSMessage, Command, string, string];
+        [K: string]: unknown[];
     }
 }
 //# sourceMappingURL=Events.d.ts.map

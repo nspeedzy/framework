@@ -5,7 +5,7 @@ const Event_1 = require("../../lib/structures/Event");
 const Events_1 = require("../../lib/types/Events");
 class CoreEvent extends Event_1.Event {
     constructor(context) {
-        super(context, { event: 'prefixedMessage' });
+        super(context, { event: Events_1.Events.PrefixedMessage });
     }
     run(message, prefix) {
         var _a;

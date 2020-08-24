@@ -1,15 +1,15 @@
 /// <reference types="node" />
 import type { PieceContext, PieceOptions } from '@sapphire/pieces';
-import type { Client } from 'discord.js';
+import type { Client, ClientEvents } from 'discord.js';
 import type { EventEmitter } from 'events';
 import { BasePiece } from './base/BasePiece';
-export declare abstract class Event extends BasePiece {
+export declare abstract class Event<E extends keyof ClientEvents | symbol = ''> extends BasePiece {
     #private;
     readonly emitter: EventEmitter | null;
     readonly event: string;
     readonly once: boolean;
     constructor(context: PieceContext, options?: EventOptions);
-    abstract run(...args: readonly any[]): unknown;
+    abstract run(...args: E extends keyof ClientEvents ? ClientEvents[E] : unknown[]): unknown;
     onLoad(): void;
     onUnload(): void;
     toJSON(): Record<PropertyKey, unknown>;
