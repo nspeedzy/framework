@@ -48,7 +48,7 @@ class Event extends BasePiece_1.BasePiece {
             await this.run(...args);
         }
         catch (error) {
-            this.client.emit(Events_1.Events.Error, error);
+            this.client.emit(Events_1.Events.EventError, error, { piece: this });
         }
     }
     async _runOnce(...args) {

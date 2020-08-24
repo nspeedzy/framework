@@ -12,6 +12,6 @@ export declare class PreconditionContainerSingle implements IPreconditionContain
     readonly entry: string;
     constructor(client: Client, data: PreconditionContainerSingleResolvable);
     get precondition(): Precondition;
-    run(message: Message, command: Command): import("@sapphire/pieces").Awaited<import("../Result").Result<unknown, import("../../..").UserError>>;
+    run(message: Message, command: Command): import("../Types").Awaited<import("../Result").Result<unknown, import("../../..").UserError>>;
 }
 //# sourceMappingURL=PreconditionContainerSimple.d.ts.map

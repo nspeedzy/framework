@@ -7,6 +7,7 @@ import type { Awaited } from '../utils/Types';
 import { BaseAliasPiece } from './base/BaseAliasPiece';
 import type { PreconditionContext } from './Precondition';
 export declare abstract class Command extends BaseAliasPiece {
+    #private;
     /**
      * Delete command's response if the trigger message was deleted
      * @since 1.0.0
@@ -28,32 +29,18 @@ export declare abstract class Command extends BaseAliasPiece {
      */
     extendedHelp: string;
     /**
-     * Allow disabling of the command in a guild or not
-     * @since 1.0.0
-     */
-    guarded: boolean;
-    /**
-     * Whether to show the command in the help message or not
-     * @since 1.0.0
-     */
-    hidden: boolean;
-    /**
      * Accepted flags for the command
      * @since 1.0.0
      */
     flags: string[];
-    /**
-     * Allow use of quoted strings for arguments
-     * @since 1.0.0
-     */
-    quotedStringSupport: boolean;
     /**
      * @since 1.0.0
      * @param context The context.
      * @param options Optional Command settings.
      */
     protected constructor(context: PieceContext, { name, ...options }?: CommandOptions);
-    abstract run(message: Message): Awaited<unknown>;
+    preParse(message: Message, commandName: string, prefix: string): Awaited<unknown>;
+    abstract run(message: Message, args: unknown): Awaited<unknown>;
     /**
      * Defines the JSON.stringify behavior of the command
      * @returns {Object}
@@ -75,8 +62,6 @@ export interface CommandOptions extends AliasPieceOptions {
     preconditions?: PreconditionContainerResolvable;
     extendedHelp?: string;
     flags?: string[];
-    guarded?: boolean;
-    hidden?: boolean;
-    quotedStringSupport?: boolean;
+    quotes?: [string, string][];
 }
 //# sourceMappingURL=Command.d.ts.map

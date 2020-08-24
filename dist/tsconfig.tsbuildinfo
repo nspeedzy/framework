@@ -546,14 +546,69 @@
         "signature": "c3f5f16be5709bb33291f8cb789128370f6922c7fda33001513c6f6ea9f8db33",
         "affectsGlobalScope": false
       },
+      "../node_modules/lexure/dist/types/tokens.d.ts": {
+        "version": "ffa9a6756f89a0fc1020acfda4330a5b6362df5445dca833411e940ded2ff7d1",
+        "signature": "ffa9a6756f89a0fc1020acfda4330a5b6362df5445dca833411e940ded2ff7d1",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/lexure/dist/types/parserOutput.d.ts": {
+        "version": "67c83af87c42a3f0a1dfed03c6a181c511b1dc940d788bd5e21a9c6b15b5e29d",
+        "signature": "67c83af87c42a3f0a1dfed03c6a181c511b1dc940d788bd5e21a9c6b15b5e29d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/lexure/dist/types/option.d.ts": {
+        "version": "6ff15981b302cd2248c87954e5b6bd33e35834be2e3606aad4893b0227c69025",
+        "signature": "6ff15981b302cd2248c87954e5b6bd33e35834be2e3606aad4893b0227c69025",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/lexure/dist/types/result.d.ts": {
+        "version": "3868aa2ad5a554921eacde16b732b6a0a88dd90f8adf22e0ceae5336f0338554",
+        "signature": "3868aa2ad5a554921eacde16b732b6a0a88dd90f8adf22e0ceae5336f0338554",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/lexure/dist/types/args.d.ts": {
+        "version": "85363f2ff7774d0c494851e75c62e50d2ccc0650ab26697ada4d1dea8400e0ac",
+        "signature": "85363f2ff7774d0c494851e75c62e50d2ccc0650ab26697ada4d1dea8400e0ac",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/lexure/dist/types/lexer.d.ts": {
+        "version": "3591f3d233931b519ab37f4cdecdebe7a57b94ffbd1b330412522f508750a70c",
+        "signature": "3591f3d233931b519ab37f4cdecdebe7a57b94ffbd1b330412522f508750a70c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/lexure/dist/types/loopAction.d.ts": {
+        "version": "2276b1681c76d1a5165695896ed10106197946f0912984d9f42f6a014f25b347",
+        "signature": "2276b1681c76d1a5165695896ed10106197946f0912984d9f42f6a014f25b347",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/lexure/dist/types/loops.d.ts": {
+        "version": "c2f8e065352a0d2527562e133c6e049a2d51bea3b5f5e0064625a7c8c05b6dde",
+        "signature": "c2f8e065352a0d2527562e133c6e049a2d51bea3b5f5e0064625a7c8c05b6dde",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/lexure/dist/types/unordered.d.ts": {
+        "version": "bdcb3460fd01e79780b1afae1bb077b13a56ce6ca81384d26f4e088e8b788796",
+        "signature": "bdcb3460fd01e79780b1afae1bb077b13a56ce6ca81384d26f4e088e8b788796",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/lexure/dist/types/parser.d.ts": {
+        "version": "e95f615c89a977906e66875bb667ced09d5145ac10377e0cd532b84f3cffccd7",
+        "signature": "e95f615c89a977906e66875bb667ced09d5145ac10377e0cd532b84f3cffccd7",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/lexure/dist/types/util.d.ts": {
+        "version": "0075eff87ccf11943487a5efca13595645bde503315d50509c487b6f94948ddf",
+        "signature": "0075eff87ccf11943487a5efca13595645bde503315d50509c487b6f94948ddf",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/lexure/dist/types/index.d.ts": {
+        "version": "4a1c4bd7d4b874418c8958e8c4f9ff1ba4cae77748897260fa2263d8d94f06aa",
+        "signature": "4a1c4bd7d4b874418c8958e8c4f9ff1ba4cae77748897260fa2263d8d94f06aa",
+        "affectsGlobalScope": false
+      },
       "../src/lib/utils/Result.ts": {
         "version": "99e926ccded90fe12f87553da2e59f58f78d0c6e9cad096adbedc08cce997feb",
         "signature": "b306300a497dc4c323d0fc7b3eae3692bea87fb85a640c1f3ef594d999206779",
-        "affectsGlobalScope": false
-      },
-      "../src/lib/utils/preconditions/IPreconditionContainer.ts": {
-        "version": "3fbc468de190f6423bb053abceec885102c097a78aab4a700a4d4ece7cb0adc5",
-        "signature": "1309d266c97b7f10fd0e9e1f34969638de5cc61692e0be21aeaf08de2b6e3a89",
         "affectsGlobalScope": false
       },
       "../src/lib/utils/Types.ts": {
@@ -566,6 +621,21 @@
         "signature": "9da6585c06d43fd162fe27cbbc51d77f31315d4dc4ebe8560a6f1b0d102522ff",
         "affectsGlobalScope": false
       },
+      "../src/lib/structures/Argument.ts": {
+        "version": "df1620af0e0028c8ba6750d34a7fa99fda2988dc4d2cd0878866260f4c7b43a0",
+        "signature": "f2a2555e6cd92cb6bba442db7f9e5091c1fc44c44711e7031511ee8f8c9996cc",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/utils/Args.ts": {
+        "version": "8a65d5af5c8024d0b78d6fc83c5abedd54abb17e24951c79391da943fc33024d",
+        "signature": "78167f5777c2b7f06edd367c75a3382a033b73bfacea33bf2a6bcab79d063d11",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/utils/preconditions/IPreconditionContainer.ts": {
+        "version": "c80deb6ff15269aee764794e60c5326ec805fee6e59d403261592d1c80f4992e",
+        "signature": "adf1879aba03b5e2b47a48fd60baeebad802f86ae5685446f26b6376230559cd",
+        "affectsGlobalScope": false
+      },
       "../src/lib/structures/Precondition.ts": {
         "version": "e7f74956b5ec7baaf0afa6c8aa2cad8c2234b9470f54f0abd242660d2dcbf1c5",
         "signature": "4de7f5010fe8a4738d6709d30b449f3d4fc7f4f7d3c6f581f18ad477eedb2d05",
@@ -573,12 +643,12 @@
       },
       "../src/lib/utils/preconditions/PreconditionContainerSimple.ts": {
         "version": "4f1ba520dc3822f1bb6272f4a84e1d8ecf40a007426bcdc8a38f0a3efb29652b",
-        "signature": "d74155edeabe7e10f3d71350b6a2dba302c5d25899c1e03f44382add8145484d",
+        "signature": "858758478032a345332e587795c8cf603f2ac273bc84913283d67b15ae2b9cf3",
         "affectsGlobalScope": false
       },
       "../src/lib/utils/preconditions/PreconditionContainerAny.ts": {
-        "version": "b8de48aa3d41b815f7cfa1acf5a035b00bbd7c8e109e054bd7637802d5965a32",
-        "signature": "3633dc3974883a7e6fa3f50cde47ddd5dc26559d1e5644ecce8b7bc83fdc1566",
+        "version": "000c537b696a68f992d1d9a61061b70c9ec72d46eee677e40669e2153bbd71ec",
+        "signature": "2f78fe581a4f4f1281369ae25897555f95d998262a4d80ca2e169389f55c693a",
         "affectsGlobalScope": false
       },
       "../src/lib/utils/preconditions/PreconditionContainer.ts": {
@@ -587,33 +657,38 @@
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Command.ts": {
-        "version": "f8e42aceb0a3839f9c01ff7826c768bb37bc531162c29e13a2609b45cacb7f43",
-        "signature": "a4ad4b8ccefd45767a6aae645ad15583f58dfb6e3838dd38a54cdea5cfd2e0bd",
+        "version": "c60289ea2ba410b7097a27ddaf951959402d4847403544e5c028a4d848f09d5c",
+        "signature": "1926543c76bbf84bfe2d39fa6e74195407b03a20755c40aa29e8c6679146bfb4",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/structures/Event.ts": {
+        "version": "4e00dd3226d95f4539867fe75c478e48a23f36c361a5c94bc57b5234f31e26e2",
+        "signature": "624b0b0f088e3e0c716c5dcbe7c68d45cff62815528b93cb26706c0d69f2bbb4",
         "affectsGlobalScope": false
       },
       "../src/lib/types/Events.ts": {
-        "version": "71be5f88f3c92beb1167ed6d7ed120dc3956336f125caa8f509999c7539b24d3",
-        "signature": "1eb62483793bf7ca16daba68575116ce0cafeec864e616555f8197d8a481b23d",
+        "version": "87e78cca8090ce791164853f7e8013ac7e03975feafed4fbdbb3681a5cb0da3f",
+        "signature": "b428d551735d0fee0a83a65e17b9eec07451b0b36af0a7a6c968192e1433ef02",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/base/BaseAliasStore.ts": {
-        "version": "48e1d9d6d4b588ccdb44f1d9bf093f775e3eab6d63498246551ff230311a6762",
+        "version": "377d19b4fb1bce0b768b6f8ec07f625b60d27198e1b5ba8a003cbb2fe366cf25",
         "signature": "83b11990a4a3f86441475361572a504284cedd393219b56655c6d515788a01ed",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/base/BaseStore.ts": {
-        "version": "38739559bdda8020bb8ac3ca341d99541e26e4bb9df0ac46baadad38dad9ff88",
+        "version": "0ffae20f02b48b681c6bd3dd918289795d5810555aea386755b71a8b7a0dfe0e",
         "signature": "4a90c1820a00c1b0dee9c16b1c3a6e2dc469481c38efe411a68afeef9800eca9",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/structures/ArgumentStore.ts": {
+        "version": "70d2cb50781e76a790258afd798a5f3a49b6346ec6f2b504b5f0b1352521fd6f",
+        "signature": "585324d7ef12d0de668e3b3d8b69dcf9ac9854c7d8aeec0a7ec29b3f41313d54",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/CommandStore.ts": {
         "version": "971d2830544cc4b1396523a0764313fbd7dcb872b4504be392c998d4a9ecff2e",
         "signature": "9e2911e366c41eacd273a7e51a9e647f8e9090e12a0b764fbbe6463a31257788",
-        "affectsGlobalScope": false
-      },
-      "../src/lib/structures/Event.ts": {
-        "version": "878d5735f84ed69069c3c52aed381394225a837b377257ce0f0dbccbc24d096c",
-        "signature": "624b0b0f088e3e0c716c5dcbe7c68d45cff62815528b93cb26706c0d69f2bbb4",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/EventStore.ts": {
@@ -632,18 +707,43 @@
         "affectsGlobalScope": false
       },
       "../src/lib/SapphireClient.ts": {
-        "version": "c6b6d95b1983479fd330c27b5752bf85e53ff1ce268c93e51be2a9ba883bbfb0",
-        "signature": "4c33923b30d4a3f7e1173e8d26d38b1f536cf0bd8569f435b6a4776982e41e26",
+        "version": "f5b00f54b1243b88bb677378de9bad467c11b4ccbf8163fd8d1b8f92cd7527bc",
+        "signature": "1a0a897608620edece961a578bae0d98705783b892db5dacb628e65439bcd362",
         "affectsGlobalScope": false
       },
       "../src/index.ts": {
-        "version": "292358ce90f3cfaac85ed82632fd3b7baa06006072ca8cb9d0fdeaccfb3877a4",
-        "signature": "78eaa948969acf457cc6c2bfc8ebe06e141c92eeb82fba66e38c5a91640fb71d",
+        "version": "a1ccaa1d0b76b01c2395e7168e81edf4c6aefc51daf81ae1d1bf0382abb6eaab",
+        "signature": "ba2c86544c1991b15dc3d638b44d653999306b9b565dd4dbfec89da26c6fe094",
+        "affectsGlobalScope": false
+      },
+      "../src/arguments/CoreInteger.ts": {
+        "version": "9415fdb7d85bffe46a5fa9d987d1c116f378300c4be89d55ab84e33abac5e283",
+        "signature": "606cec43133edfd7a388661970bd8cdf88a9ae6fa0af3565d352401e7d0ce700",
+        "affectsGlobalScope": false
+      },
+      "../src/arguments/CoreString.ts": {
+        "version": "272394ab7336c55186e073d7ae7cabc15b138678a8a82a2b1913e071cb6515d8",
+        "signature": "358af66c337a96b47519fbb56a7f31588ca56e9ff61fcdc472da49852780b0b7",
+        "affectsGlobalScope": false
+      },
+      "../src/events/CoreReady.ts": {
+        "version": "a548f33cec678eed3dc1837d9395ee9524e5acfd13f3fbde7ee1e6b2f91a6d82",
+        "signature": "17a54ab87dbd2124ea3a0796f03391fdbbab7c603ab3fb2b5f172a5c125cc311",
+        "affectsGlobalScope": false
+      },
+      "../src/events/command-handler/CoreCommandAccepted.ts": {
+        "version": "76b3e463b2c3767a488eb632dc40c4cd932ad7f79d6b0baf6265fb480fb213dd",
+        "signature": "8ea712b789553fd88ba9bbd078a18f7c2a3c5c2d53fcbadcf9f243232a7a065f",
         "affectsGlobalScope": false
       },
       "../src/events/command-handler/CoreMessageParser.ts": {
-        "version": "0bd9227953774d04bc6b98e4efb09c0ccdd51a1e4297b0889036551595f96f87",
+        "version": "b848550bf6ae53a9609a5b65fa10457f208e873fd2c8b4493732ebcceb158355",
         "signature": "a19b348296501ccc142c1be95cb569dcb4a6ab2838b0c95d91aa7bdb407f1f39",
+        "affectsGlobalScope": false
+      },
+      "../src/events/command-handler/CorePreCommandRun.ts": {
+        "version": "336aa4fceaf0292c7fd5c4d532c236b0a88b990c82d11b68b59f8e5db2353189",
+        "signature": "da183d774582042d74987886e6c33d4c08a0f7586dc15266a4f0b1e7ec3397b0",
         "affectsGlobalScope": false
       },
       "../src/events/command-handler/CorePrefixedMessage.ts": {
@@ -652,18 +752,18 @@
         "affectsGlobalScope": false
       },
       "../src/preconditions/DMOnly.ts": {
-        "version": "19429864e23aeddb896ea19b03d6c23a3a9d0021c26fce4467181b7ec3baa16f",
-        "signature": "6a391ef61bc9ab7456dd4ee6305f59e96f64b8757bea4a28080995686fed9180",
+        "version": "36287db3dfa824c32f35f1d476f3c11d4cbb5e52a19e9d230726f18d8822e91a",
+        "signature": "95905779f1e95602da03eab4b95f0aa16c3a580cf139180a0c37464611432592",
         "affectsGlobalScope": false
       },
       "../src/preconditions/GuildOnly.ts": {
-        "version": "d2a277dcfcd45365229f8b01fcf28fa36d261c70ffd9a250f4ce6dee1aa27e2b",
-        "signature": "459f518d4961efe0164fa10ebde0dd4b26ce7a10ba33d9c67aa30f3b7936926a",
+        "version": "37c5b81d47c19beff9b6ec5b1ac71f44450b8d9ae2a7132001cdcab02eb24ad7",
+        "signature": "607b7f5f3684ca607130b9c9f55135077e8cb679b2e28140b31deb99fb924c62",
         "affectsGlobalScope": false
       },
       "../src/preconditions/NSFW.ts": {
-        "version": "8e9093010d5af8e8ed38a94e9433609cba210c655c93ec8dedea9bcd1f0227a0",
-        "signature": "68b2354cfb1d131ff435f16d934b0789718b0790dd898e680bc73726d6590eb0",
+        "version": "b7dd47e828fddbf531ebdd2190d9833c48cd750ea07138c03e421ec2c6935e70",
+        "signature": "0298d602e145fb3fe6ff7ee2f2a6f9e574fc8ec9f9f87d3412203b75eaceb102",
         "affectsGlobalScope": false
       },
       "../node_modules/@babel/types/lib/index.d.ts": {
@@ -1863,6 +1963,139 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/ws/index.d.ts"
       ],
+      "../node_modules/lexure/dist/types/args.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/lexure/dist/types/option.d.ts",
+        "../node_modules/lexure/dist/types/parserOutput.d.ts",
+        "../node_modules/lexure/dist/types/result.d.ts",
+        "../node_modules/lexure/dist/types/tokens.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/index.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/lexure/dist/types/args.d.ts",
+        "../node_modules/lexure/dist/types/lexer.d.ts",
+        "../node_modules/lexure/dist/types/loopAction.d.ts",
+        "../node_modules/lexure/dist/types/loops.d.ts",
+        "../node_modules/lexure/dist/types/option.d.ts",
+        "../node_modules/lexure/dist/types/parser.d.ts",
+        "../node_modules/lexure/dist/types/parserOutput.d.ts",
+        "../node_modules/lexure/dist/types/result.d.ts",
+        "../node_modules/lexure/dist/types/tokens.d.ts",
+        "../node_modules/lexure/dist/types/unordered.d.ts",
+        "../node_modules/lexure/dist/types/util.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/lexer.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/lexure/dist/types/tokens.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/loopAction.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/loops.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/lexure/dist/types/loopAction.d.ts",
+        "../node_modules/lexure/dist/types/result.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/option.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/parser.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/lexure/dist/types/parserOutput.d.ts",
+        "../node_modules/lexure/dist/types/tokens.d.ts",
+        "../node_modules/lexure/dist/types/unordered.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/parserOutput.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/lexure/dist/types/tokens.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/result.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/tokens.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/unordered.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/util.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/lexure/dist/types/loopAction.d.ts",
+        "../node_modules/lexure/dist/types/option.d.ts",
+        "../node_modules/lexure/dist/types/result.d.ts"
+      ],
       "../node_modules/typescript/lib/lib.es2015.collection.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -2223,6 +2456,60 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
+      "../src/arguments/CoreInteger.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/lib/errors/UserError.ts",
+        "../src/lib/structures/Argument.ts",
+        "../src/lib/utils/Result.ts",
+        "../src/lib/utils/Types.ts"
+      ],
+      "../src/arguments/CoreString.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/lib/errors/UserError.ts",
+        "../src/lib/structures/Argument.ts",
+        "../src/lib/utils/Result.ts",
+        "../src/lib/utils/Types.ts"
+      ],
+      "../src/events/CoreReady.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/lib/structures/Event.ts",
+        "../src/lib/types/Events.ts"
+      ],
+      "../src/events/command-handler/CoreCommandAccepted.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Command.ts",
+        "../src/lib/structures/Event.ts",
+        "../src/lib/types/Events.ts"
+      ],
       "../src/events/command-handler/CoreMessageParser.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -2235,6 +2522,21 @@
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/structures/Event.ts",
         "../src/lib/types/Events.ts"
+      ],
+      "../src/events/command-handler/CorePreCommandRun.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Command.ts",
+        "../src/lib/structures/Event.ts",
+        "../src/lib/types/Events.ts",
+        "../src/lib/utils/Result.ts"
       ],
       "../src/events/command-handler/CorePrefixedMessage.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
@@ -2259,6 +2561,8 @@
         "../node_modules/@types/node/util.d.ts",
         "../src/lib/SapphireClient.ts",
         "../src/lib/errors/UserError.ts",
+        "../src/lib/structures/Argument.ts",
+        "../src/lib/structures/ArgumentStore.ts",
         "../src/lib/structures/Command.ts",
         "../src/lib/structures/CommandStore.ts",
         "../src/lib/structures/Event.ts",
@@ -2271,6 +2575,7 @@
         "../src/lib/structures/base/BaseStore.ts",
         "../src/lib/types/Enums.ts",
         "../src/lib/types/Events.ts",
+        "../src/lib/utils/Args.ts",
         "../src/lib/utils/Result.ts",
         "../src/lib/utils/Types.ts",
         "../src/lib/utils/preconditions/IPreconditionContainer.ts",
@@ -2279,7 +2584,6 @@
         "../src/lib/utils/preconditions/PreconditionContainerSimple.ts"
       ],
       "../src/lib/SapphireClient.ts": [
-        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/path.d.ts",
@@ -2289,10 +2593,12 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/ArgumentStore.ts",
         "../src/lib/structures/CommandStore.ts",
         "../src/lib/structures/EventStore.ts",
         "../src/lib/structures/PreconditionStore.ts",
-        "../src/lib/types/Events.ts"
+        "../src/lib/types/Events.ts",
+        "../src/lib/utils/Types.ts"
       ],
       "../src/lib/errors/UserError.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -2302,6 +2608,33 @@
         "../node_modules/@types/node/ts3.2/process.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/lib/structures/Argument.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/errors/UserError.ts",
+        "../src/lib/structures/Command.ts",
+        "../src/lib/structures/base/BasePiece.ts",
+        "../src/lib/utils/Result.ts",
+        "../src/lib/utils/Types.ts"
+      ],
+      "../src/lib/structures/ArgumentStore.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Argument.ts",
+        "../src/lib/structures/base/BaseStore.ts"
       ],
       "../src/lib/structures/Command.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
@@ -2314,8 +2647,10 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
+        "../node_modules/lexure/dist/types/index.d.ts",
         "../src/lib/structures/Precondition.ts",
         "../src/lib/structures/base/BaseAliasPiece.ts",
+        "../src/lib/utils/Args.ts",
         "../src/lib/utils/Types.ts",
         "../src/lib/utils/preconditions/PreconditionContainer.ts",
         "../src/lib/utils/preconditions/PreconditionContainerAny.ts"
@@ -2453,7 +2788,23 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/SapphireClient.ts",
-        "../src/lib/structures/Command.ts"
+        "../src/lib/structures/Command.ts",
+        "../src/lib/structures/Event.ts"
+      ],
+      "../src/lib/utils/Args.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../node_modules/lexure/dist/types/index.d.ts",
+        "../src/lib/errors/UserError.ts",
+        "../src/lib/structures/Argument.ts",
+        "../src/lib/structures/Command.ts",
+        "../src/lib/utils/Result.ts"
       ],
       "../src/lib/utils/Result.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -2474,7 +2825,6 @@
         "../node_modules/@types/node/util.d.ts"
       ],
       "../src/lib/utils/preconditions/IPreconditionContainer.ts": [
-        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -2485,7 +2835,8 @@
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/errors/UserError.ts",
         "../src/lib/structures/Command.ts",
-        "../src/lib/utils/Result.ts"
+        "../src/lib/utils/Result.ts",
+        "../src/lib/utils/Types.ts"
       ],
       "../src/lib/utils/preconditions/PreconditionContainer.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -2502,7 +2853,6 @@
         "../src/lib/utils/preconditions/PreconditionContainerAny.ts"
       ],
       "../src/lib/utils/preconditions/PreconditionContainerAny.ts": [
-        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -2514,6 +2864,7 @@
         "../src/lib/errors/UserError.ts",
         "../src/lib/structures/Command.ts",
         "../src/lib/utils/Result.ts",
+        "../src/lib/utils/Types.ts",
         "../src/lib/utils/preconditions/IPreconditionContainer.ts",
         "../src/lib/utils/preconditions/PreconditionContainerSimple.ts"
       ],
@@ -2531,7 +2882,6 @@
         "../src/lib/utils/preconditions/IPreconditionContainer.ts"
       ],
       "../src/preconditions/DMOnly.ts": [
-        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -2542,10 +2892,10 @@
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/errors/UserError.ts",
         "../src/lib/structures/Precondition.ts",
-        "../src/lib/utils/Result.ts"
+        "../src/lib/utils/Result.ts",
+        "../src/lib/utils/Types.ts"
       ],
       "../src/preconditions/GuildOnly.ts": [
-        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -2556,10 +2906,10 @@
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/errors/UserError.ts",
         "../src/lib/structures/Precondition.ts",
-        "../src/lib/utils/Result.ts"
+        "../src/lib/utils/Result.ts",
+        "../src/lib/utils/Types.ts"
       ],
       "../src/preconditions/NSFW.ts": [
-        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -2570,7 +2920,8 @@
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/errors/UserError.ts",
         "../src/lib/structures/Precondition.ts",
-        "../src/lib/utils/Result.ts"
+        "../src/lib/utils/Result.ts",
+        "../src/lib/utils/Types.ts"
       ]
     },
     "exportedModulesMap": {
@@ -3597,6 +3948,139 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/ws/index.d.ts"
       ],
+      "../node_modules/lexure/dist/types/args.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/lexure/dist/types/option.d.ts",
+        "../node_modules/lexure/dist/types/parserOutput.d.ts",
+        "../node_modules/lexure/dist/types/result.d.ts",
+        "../node_modules/lexure/dist/types/tokens.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/index.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/lexure/dist/types/args.d.ts",
+        "../node_modules/lexure/dist/types/lexer.d.ts",
+        "../node_modules/lexure/dist/types/loopAction.d.ts",
+        "../node_modules/lexure/dist/types/loops.d.ts",
+        "../node_modules/lexure/dist/types/option.d.ts",
+        "../node_modules/lexure/dist/types/parser.d.ts",
+        "../node_modules/lexure/dist/types/parserOutput.d.ts",
+        "../node_modules/lexure/dist/types/result.d.ts",
+        "../node_modules/lexure/dist/types/tokens.d.ts",
+        "../node_modules/lexure/dist/types/unordered.d.ts",
+        "../node_modules/lexure/dist/types/util.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/lexer.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/lexure/dist/types/tokens.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/loopAction.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/loops.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/lexure/dist/types/loopAction.d.ts",
+        "../node_modules/lexure/dist/types/result.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/option.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/parser.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/lexure/dist/types/parserOutput.d.ts",
+        "../node_modules/lexure/dist/types/tokens.d.ts",
+        "../node_modules/lexure/dist/types/unordered.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/parserOutput.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/lexure/dist/types/tokens.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/result.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/tokens.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/unordered.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/lexure/dist/types/util.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/lexure/dist/types/loopAction.d.ts",
+        "../node_modules/lexure/dist/types/option.d.ts",
+        "../node_modules/lexure/dist/types/result.d.ts"
+      ],
       "../node_modules/typescript/lib/lib.es2015.collection.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -3957,11 +4441,42 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
+      "../src/arguments/CoreInteger.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../src/lib/errors/UserError.ts",
+        "../src/lib/structures/Argument.ts",
+        "../src/lib/utils/Result.ts",
+        "../src/lib/utils/Types.ts"
+      ],
+      "../src/arguments/CoreString.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../src/lib/errors/UserError.ts",
+        "../src/lib/structures/Argument.ts",
+        "../src/lib/utils/Result.ts",
+        "../src/lib/utils/Types.ts"
+      ],
+      "../src/events/CoreReady.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../src/lib/structures/Event.ts",
+        "../src/lib/types/Events.ts"
+      ],
+      "../src/events/command-handler/CoreCommandAccepted.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Command.ts",
+        "../src/lib/structures/Event.ts"
+      ],
       "../src/events/command-handler/CoreMessageParser.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/structures/Event.ts",
         "../src/lib/types/Events.ts"
+      ],
+      "../src/events/command-handler/CorePreCommandRun.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Command.ts",
+        "../src/lib/structures/Event.ts"
       ],
       "../src/events/command-handler/CorePrefixedMessage.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
@@ -3972,6 +4487,8 @@
       "../src/index.ts": [
         "../src/lib/SapphireClient.ts",
         "../src/lib/errors/UserError.ts",
+        "../src/lib/structures/Argument.ts",
+        "../src/lib/structures/ArgumentStore.ts",
         "../src/lib/structures/Command.ts",
         "../src/lib/structures/CommandStore.ts",
         "../src/lib/structures/Event.ts",
@@ -3984,6 +4501,7 @@
         "../src/lib/structures/base/BaseStore.ts",
         "../src/lib/types/Enums.ts",
         "../src/lib/types/Events.ts",
+        "../src/lib/utils/Args.ts",
         "../src/lib/utils/Result.ts",
         "../src/lib/utils/Types.ts",
         "../src/lib/utils/preconditions/IPreconditionContainer.ts",
@@ -3992,11 +4510,25 @@
         "../src/lib/utils/preconditions/PreconditionContainerSimple.ts"
       ],
       "../src/lib/SapphireClient.ts": [
-        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/ArgumentStore.ts",
         "../src/lib/structures/CommandStore.ts",
         "../src/lib/structures/EventStore.ts",
-        "../src/lib/structures/PreconditionStore.ts"
+        "../src/lib/structures/PreconditionStore.ts",
+        "../src/lib/utils/Types.ts"
+      ],
+      "../src/lib/structures/Argument.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/errors/UserError.ts",
+        "../src/lib/structures/Command.ts",
+        "../src/lib/structures/base/BasePiece.ts",
+        "../src/lib/utils/Result.ts",
+        "../src/lib/utils/Types.ts"
+      ],
+      "../src/lib/structures/ArgumentStore.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/structures/Argument.ts",
+        "../src/lib/structures/base/BaseStore.ts"
       ],
       "../src/lib/structures/Command.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
@@ -4058,14 +4590,23 @@
       "../src/lib/types/Events.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/Command.ts"
+        "../src/lib/structures/Command.ts",
+        "../src/lib/structures/Event.ts"
+      ],
+      "../src/lib/utils/Args.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../node_modules/lexure/dist/types/index.d.ts",
+        "../src/lib/errors/UserError.ts",
+        "../src/lib/structures/Argument.ts",
+        "../src/lib/structures/Command.ts",
+        "../src/lib/utils/Result.ts"
       ],
       "../src/lib/utils/preconditions/IPreconditionContainer.ts": [
-        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/errors/UserError.ts",
         "../src/lib/structures/Command.ts",
-        "../src/lib/utils/Result.ts"
+        "../src/lib/utils/Result.ts",
+        "../src/lib/utils/Types.ts"
       ],
       "../src/lib/utils/preconditions/PreconditionContainer.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
@@ -4075,43 +4616,43 @@
         "../src/lib/utils/preconditions/PreconditionContainerAny.ts"
       ],
       "../src/lib/utils/preconditions/PreconditionContainerAny.ts": [
-        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/errors/UserError.ts",
         "../src/lib/structures/Command.ts",
         "../src/lib/utils/Result.ts",
+        "../src/lib/utils/Types.ts",
         "../src/lib/utils/preconditions/IPreconditionContainer.ts",
         "../src/lib/utils/preconditions/PreconditionContainerSimple.ts"
       ],
       "../src/lib/utils/preconditions/PreconditionContainerSimple.ts": [
-        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/index.ts",
         "../src/lib/structures/Command.ts",
         "../src/lib/structures/Precondition.ts",
         "../src/lib/utils/Result.ts",
+        "../src/lib/utils/Types.ts",
         "../src/lib/utils/preconditions/IPreconditionContainer.ts"
       ],
       "../src/preconditions/DMOnly.ts": [
-        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/errors/UserError.ts",
         "../src/lib/structures/Precondition.ts",
-        "../src/lib/utils/Result.ts"
+        "../src/lib/utils/Result.ts",
+        "../src/lib/utils/Types.ts"
       ],
       "../src/preconditions/GuildOnly.ts": [
-        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/errors/UserError.ts",
         "../src/lib/structures/Precondition.ts",
-        "../src/lib/utils/Result.ts"
+        "../src/lib/utils/Result.ts",
+        "../src/lib/utils/Types.ts"
       ],
       "../src/preconditions/NSFW.ts": [
-        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/errors/UserError.ts",
         "../src/lib/structures/Precondition.ts",
-        "../src/lib/utils/Result.ts"
+        "../src/lib/utils/Result.ts",
+        "../src/lib/utils/Types.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -4211,6 +4752,18 @@
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
       "../node_modules/discord.js/typings/index.d.ts",
+      "../node_modules/lexure/dist/types/args.d.ts",
+      "../node_modules/lexure/dist/types/index.d.ts",
+      "../node_modules/lexure/dist/types/lexer.d.ts",
+      "../node_modules/lexure/dist/types/loopAction.d.ts",
+      "../node_modules/lexure/dist/types/loops.d.ts",
+      "../node_modules/lexure/dist/types/option.d.ts",
+      "../node_modules/lexure/dist/types/parser.d.ts",
+      "../node_modules/lexure/dist/types/parserOutput.d.ts",
+      "../node_modules/lexure/dist/types/result.d.ts",
+      "../node_modules/lexure/dist/types/tokens.d.ts",
+      "../node_modules/lexure/dist/types/unordered.d.ts",
+      "../node_modules/lexure/dist/types/util.d.ts",
       "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
       "../node_modules/typescript/lib/lib.es2015.core.d.ts",
       "../node_modules/typescript/lib/lib.es2015.d.ts",
@@ -4251,11 +4804,18 @@
       "../node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "../node_modules/typescript/lib/lib.esnext.promise.d.ts",
       "../node_modules/typescript/lib/lib.esnext.string.d.ts",
+      "../src/arguments/CoreInteger.ts",
+      "../src/arguments/CoreString.ts",
+      "../src/events/CoreReady.ts",
+      "../src/events/command-handler/CoreCommandAccepted.ts",
       "../src/events/command-handler/CoreMessageParser.ts",
+      "../src/events/command-handler/CorePreCommandRun.ts",
       "../src/events/command-handler/CorePrefixedMessage.ts",
       "../src/index.ts",
       "../src/lib/SapphireClient.ts",
       "../src/lib/errors/UserError.ts",
+      "../src/lib/structures/Argument.ts",
+      "../src/lib/structures/ArgumentStore.ts",
       "../src/lib/structures/Command.ts",
       "../src/lib/structures/CommandStore.ts",
       "../src/lib/structures/Event.ts",
@@ -4268,6 +4828,7 @@
       "../src/lib/structures/base/BaseStore.ts",
       "../src/lib/types/Enums.ts",
       "../src/lib/types/Events.ts",
+      "../src/lib/utils/Args.ts",
       "../src/lib/utils/Result.ts",
       "../src/lib/utils/Types.ts",
       "../src/lib/utils/preconditions/IPreconditionContainer.ts",

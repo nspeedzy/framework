@@ -56,13 +56,19 @@ var Events;
     Events["ShardResume"] = "shardResume";
     // #endregion Discord.js base events
     // #region Sapphire load cycle events
-    Events["Unload"] = "unload";
-    Events["PostLoad"] = "postLoad";
+    Events["PieceUnload"] = "pieceUnload";
+    Events["PiecePostLoad"] = "piecePostLoad";
     Events["MentionPrefixOnly"] = "mentionPrefixOnly";
+    Events["EventError"] = "eventError";
     Events["PrefixedMessage"] = "prefixedMessage";
     Events["UnknownCommandName"] = "unknownCommandName";
     Events["UnknownCommand"] = "unknownCommand";
     Events["PreCommandRun"] = "preCommandRun";
+    Events["CommandDenied"] = "commandDenied";
+    Events["CommandAccepted"] = "commandAccepted";
+    Events["CommandRun"] = "commandRun";
+    Events["CommandFinish"] = "commandFinish";
+    Events["CommandError"] = "commandError";
     // #endregion Sapphire load cycle events
 })(Events = exports.Events || (exports.Events = {}));
 //# sourceMappingURL=Events.js.map

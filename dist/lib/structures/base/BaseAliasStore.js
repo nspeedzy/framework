@@ -7,8 +7,8 @@ class BaseAliasStore extends pieces_1.AliasStore {
     constructor(client, Ctor) {
         super(Ctor, {
             onError: (error) => client.emit(Events_1.Events.Error, error),
-            onUnload: (store, piece) => client.emit(Events_1.Events.Unload, store, piece),
-            onPostLoad: (store, piece) => client.emit(Events_1.Events.PostLoad, store, piece)
+            onUnload: (store, piece) => client.emit(Events_1.Events.PieceUnload, store, piece),
+            onPostLoad: (store, piece) => client.emit(Events_1.Events.PiecePostLoad, store, piece)
         });
         this.client = client;
     }

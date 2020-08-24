@@ -1,8 +1,8 @@
-import type { Awaited } from '@sapphire/pieces';
 import type { Client, Message } from 'discord.js';
 import type { UserError } from '../../errors/UserError';
 import type { Command } from '../../structures/Command';
 import { Result } from '../Result';
+import type { Awaited } from '../Types';
 import type { IPreconditionContainer } from './IPreconditionContainer';
 import { PreconditionContainerSingleResolvable } from './PreconditionContainerSimple';
 declare const enum PreconditionRunMode {
