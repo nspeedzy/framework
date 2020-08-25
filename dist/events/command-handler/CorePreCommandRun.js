@@ -6,7 +6,7 @@ const Events_1 = require("../../lib/types/Events");
 const Result_1 = require("../../lib/utils/Result");
 class CoreEvent extends Event_1.Event {
     constructor(context) {
-        super(context, { event: 'preCommandRun' });
+        super(context, { event: Events_1.Events.PreCommandRun });
     }
     async run(message, command, commandName, prefix) {
         const result = await command.preconditions.run(message, command);

@@ -732,8 +732,8 @@
         "affectsGlobalScope": false
       },
       "../src/events/command-handler/CoreCommandAccepted.ts": {
-        "version": "76b3e463b2c3767a488eb632dc40c4cd932ad7f79d6b0baf6265fb480fb213dd",
-        "signature": "8ea712b789553fd88ba9bbd078a18f7c2a3c5c2d53fcbadcf9f243232a7a065f",
+        "version": "55f81c23b9dcc5dbb48284a0e50d311ee03d7fc5687e95bbd5c4a9a93b826ba2",
+        "signature": "ca686613b47b417c077efb20cbff0979327e9a4cf5d0f07c926475c4817efd3f",
         "affectsGlobalScope": false
       },
       "../src/events/command-handler/CoreMessageParser.ts": {
@@ -742,8 +742,8 @@
         "affectsGlobalScope": false
       },
       "../src/events/command-handler/CorePreCommandRun.ts": {
-        "version": "336aa4fceaf0292c7fd5c4d532c236b0a88b990c82d11b68b59f8e5db2353189",
-        "signature": "da183d774582042d74987886e6c33d4c08a0f7586dc15266a4f0b1e7ec3397b0",
+        "version": "6649c412490d33aeea9fe31780c436caa8b66651ab7b849e9c4c8257fc37246e",
+        "signature": "3630f578ff9bf4a8ecd8c72126d784a29116c442d610f0288e46219da9754ca9",
         "affectsGlobalScope": false
       },
       "../src/events/command-handler/CorePrefixedMessage.ts": {
@@ -4465,7 +4465,8 @@
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/structures/Command.ts",
-        "../src/lib/structures/Event.ts"
+        "../src/lib/structures/Event.ts",
+        "../src/lib/types/Events.ts"
       ],
       "../src/events/command-handler/CoreMessageParser.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
@@ -4477,7 +4478,8 @@
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/structures/Command.ts",
-        "../src/lib/structures/Event.ts"
+        "../src/lib/structures/Event.ts",
+        "../src/lib/types/Events.ts"
       ],
       "../src/events/command-handler/CorePrefixedMessage.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
