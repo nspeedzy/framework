@@ -11,6 +11,9 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./lib/errors/UserError"), exports);
+__exportStar(require("./lib/plugins/Plugin"), exports);
+__exportStar(require("./lib/plugins/PluginManager"), exports);
+__exportStar(require("./lib/plugins/symbols"), exports);
 __exportStar(require("./lib/structures/base/BaseAliasPiece"), exports);
 __exportStar(require("./lib/structures/base/BaseAliasStore"), exports);
 __exportStar(require("./lib/structures/base/BasePiece"), exports);

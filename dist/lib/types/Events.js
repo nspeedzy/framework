@@ -69,6 +69,7 @@ var Events;
     Events["CommandRun"] = "commandRun";
     Events["CommandFinish"] = "commandFinish";
     Events["CommandError"] = "commandError";
+    Events["PluginLoaded"] = "pluginLoaded";
     // #endregion Sapphire load cycle events
 })(Events = exports.Events || (exports.Events = {}));
 //# sourceMappingURL=Events.js.map

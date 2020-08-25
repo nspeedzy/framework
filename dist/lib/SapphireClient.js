@@ -3,10 +3,13 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.SapphireClient = void 0;
 const discord_js_1 = require("discord.js");
 const path_1 = require("path");
+const PluginManager_1 = require("./plugins/PluginManager");
 const ArgumentStore_1 = require("./structures/ArgumentStore");
 const CommandStore_1 = require("./structures/CommandStore");
 const EventStore_1 = require("./structures/EventStore");
 const PreconditionStore_1 = require("./structures/PreconditionStore");
+require("./types/Enums");
+const Events_1 = require("./types/Events");
 class SapphireClient extends discord_js_1.Client {
     constructor(options = {}) {
         var _a;
@@ -43,6 +46,10 @@ class SapphireClient extends discord_js_1.Client {
          * ```
          */
         this.fetchPrefix = () => null;
+        for (const plugin of SapphireClient.plugins.values(0 /* PreInitialization */)) {
+            plugin.hook.call(this, options);
+            this.emit(Events_1.Events.PluginLoaded, plugin.type, plugin.name);
+        }
         this.id = (_a = options.id) !== null && _a !== void 0 ? _a : null;
         this.arguments = new ArgumentStore_1.ArgumentStore(this).registerPath(path_1.join(__dirname, '..', 'arguments'));
         this.commands = new CommandStore_1.CommandStore(this);
@@ -53,6 +60,10 @@ class SapphireClient extends discord_js_1.Client {
             .registerStore(this.commands)
             .registerStore(this.events)
             .registerStore(this.preconditions);
+        for (const plugin of SapphireClient.plugins.values(1 /* PostInitialization */)) {
+            plugin.hook.call(this, options);
+            this.emit(Events_1.Events.PluginLoaded, plugin.type, plugin.name);
+        }
     }
     /**
      * Registers a store.
@@ -69,9 +80,23 @@ class SapphireClient extends discord_js_1.Client {
      * @retrun Token of the account used.
      */
     async login(token) {
+        for (const plugin of SapphireClient.plugins.values(2 /* PreLogin */)) {
+            plugin.hook.call(this);
+            this.emit(Events_1.Events.PluginLoaded, plugin.type, plugin.name);
+        }
         await Promise.all([...this.stores].map((store) => store.loadAll()));
-        return super.login(token);
+        const login = await super.login(token);
+        for (const plugin of SapphireClient.plugins.values(3 /* PostLogin */)) {
+            plugin.hook.call(this);
+            this.emit(Events_1.Events.PluginLoaded, plugin.type, plugin.name);
+        }
+        return login;
+    }
+    static use(plugin) {
+        this.plugins.use(plugin);
+        return SapphireClient;
     }
 }
 exports.SapphireClient = SapphireClient;
+SapphireClient.plugins = new PluginManager_1.PluginManager();
 //# sourceMappingURL=SapphireClient.js.map

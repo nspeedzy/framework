@@ -1,5 +1,7 @@
 import type { Piece, Store } from '@sapphire/pieces';
 import { Client, ClientOptions, Message } from 'discord.js';
+import type { Plugin } from './plugins/Plugin';
+import { PluginManager } from './plugins/PluginManager';
 import { ArgumentStore } from './structures/ArgumentStore';
 import { CommandStore } from './structures/CommandStore';
 import { EventStore } from './structures/EventStore';
@@ -79,6 +81,8 @@ export declare class SapphireClient extends Client {
      * @retrun Token of the account used.
      */
     login(token?: string): Promise<string>;
+    static plugins: PluginManager;
+    static use(plugin: typeof Plugin): typeof SapphireClient;
 }
 declare module 'discord.js' {
     interface Client {

@@ -2,6 +2,7 @@ import type { Piece, Store } from '@sapphire/pieces';
 import type { Message } from 'discord.js';
 import type { Command } from '../structures/Command';
 import type { Event } from '../structures/Event';
+import type { PluginHook } from './Enums';
 export declare enum Events {
     ChannelCreate = "channelCreate",
     ChannelDelete = "channelDelete",
@@ -65,7 +66,8 @@ export declare enum Events {
     CommandAccepted = "commandAccepted",
     CommandRun = "commandRun",
     CommandFinish = "commandFinish",
-    CommandError = "commandError"
+    CommandError = "commandError",
+    PluginLoaded = "pluginLoaded"
 }
 export interface IPieceError {
     piece: Piece;
@@ -92,6 +94,7 @@ declare module 'discord.js' {
         [Events.CommandRun]: [Message, Command];
         [Events.CommandFinish]: [Message, Command, unknown];
         [Events.CommandError]: [Error, CommandErrorPayload];
+        [Events.PluginLoaded]: [PluginHook, string | undefined];
         [K: string]: unknown[];
     }
 }
