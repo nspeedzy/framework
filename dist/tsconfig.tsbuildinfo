@@ -692,8 +692,8 @@
         "affectsGlobalScope": false
       },
       "../src/lib/structures/ArgumentStore.ts": {
-        "version": "70d2cb50781e76a790258afd798a5f3a49b6346ec6f2b504b5f0b1352521fd6f",
-        "signature": "585324d7ef12d0de668e3b3d8b69dcf9ac9854c7d8aeec0a7ec29b3f41313d54",
+        "version": "646aa51ef7fe89b53bcf27a99af55958713759c89e2653fa803e117391c97557",
+        "signature": "6ba4e5b529664f898ea5d8373b19dcfb9c79c0d2ab9e115eb01cf8ef1b987b55",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/base/BaseAliasStore.ts": {

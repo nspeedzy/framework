@@ -1,1 +1,1 @@
-{"version":3,"file":"ArgumentStore.js","sourceRoot":"","sources":["../../../src/lib/structures/ArgumentStore.ts"],"names":[],"mappings":";;;AAEA,gDAA6C;AAE7C,MAAa,aAAc,SAAQ,qBAAmB;IACrD,YAAmB,MAAc;QAChC,mEAAmE;QACnE,KAAK,CAAC,MAAM,EAAE,QAAQ,CAAC,CAAC;IACzB,CAAC;CACD;AALD,sCAKC"}
+{"version":3,"file":"ArgumentStore.js","sourceRoot":"","sources":["../../../src/lib/structures/ArgumentStore.ts"],"names":[],"mappings":";;;AACA,yCAAsC;AACtC,gDAA6C;AAE7C,MAAa,aAAc,SAAQ,qBAAmB;IACrD,YAAmB,MAAc;QAChC,mEAAmE;QACnE,KAAK,CAAC,MAAM,EAAE,mBAAQ,CAAC,CAAC;IACzB,CAAC;CACD;AALD,sCAKC"}
