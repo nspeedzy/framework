@@ -707,8 +707,8 @@
         "affectsGlobalScope": false
       },
       "../src/lib/SapphireClient.ts": {
-        "version": "f5b00f54b1243b88bb677378de9bad467c11b4ccbf8163fd8d1b8f92cd7527bc",
-        "signature": "1a0a897608620edece961a578bae0d98705783b892db5dacb628e65439bcd362",
+        "version": "5e9d60942b771753396ad4e3cf343043e19085304f5e4e7830ede7b5fdfd586b",
+        "signature": "8ed60d06be4daff48b95edb0264bb51c5475912347d50f7a9c8912b3dcf9af68",
         "affectsGlobalScope": false
       },
       "../src/index.ts": {
@@ -2584,6 +2584,7 @@
         "../src/lib/utils/preconditions/PreconditionContainerSimple.ts"
       ],
       "../src/lib/SapphireClient.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/path.d.ts",
@@ -4510,6 +4511,7 @@
         "../src/lib/utils/preconditions/PreconditionContainerSimple.ts"
       ],
       "../src/lib/SapphireClient.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../src/lib/structures/ArgumentStore.ts",
         "../src/lib/structures/CommandStore.ts",

@@ -13,10 +13,12 @@ class SapphireClient extends discord_js_1.Client {
         super(options);
         /**
          * The client's ID, used for the user prefix.
+         * @since 1.0.0
          */
         this.id = null;
         /**
          * The method to be overriden by the developer.
+         * @since 1.0.0
          * @return A string for a single prefix, an array of strings for matching multiple, or null for no match (mention prefix only).
          * @example
          * ```typescript
@@ -46,6 +48,29 @@ class SapphireClient extends discord_js_1.Client {
         this.commands = new CommandStore_1.CommandStore(this);
         this.events = new EventStore_1.EventStore(this).registerPath(path_1.join(__dirname, '..', 'events'));
         this.preconditions = new PreconditionStore_1.PreconditionStore(this).registerPath(path_1.join(__dirname, '..', 'preconditions'));
+        this.stores = new Set();
+        this.registerStore(this.arguments) //
+            .registerStore(this.commands)
+            .registerStore(this.events)
+            .registerStore(this.preconditions);
+    }
+    /**
+     * Registers a store.
+     * @param store The store to register.
+     */
+    registerStore(store) {
+        this.stores.add(store);
+        return this;
+    }
+    /**
+     * Loads all pieces, then logs the client in, establishing a websocket connection to Discord.
+     * @since 1.0.0
+     * @param token Token of the account to log in with.
+     * @retrun Token of the account used.
+     */
+    async login(token) {
+        await Promise.all([...this.stores].map((store) => store.loadAll()));
+        return super.login(token);
     }
 }
 exports.SapphireClient = SapphireClient;

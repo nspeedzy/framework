@@ -1,3 +1,4 @@
+import type { Piece, Store } from '@sapphire/pieces';
 import { Client, ClientOptions, Message } from 'discord.js';
 import { ArgumentStore } from './structures/ArgumentStore';
 import { CommandStore } from './structures/CommandStore';
@@ -10,27 +11,43 @@ export interface SapphirePrefixHook {
 export declare class SapphireClient extends Client {
     /**
      * The client's ID, used for the user prefix.
+     * @since 1.0.0
      */
     id: string | null;
     /**
      * The commands the framework has registered.
+     * @since 1.0.0
      */
     arguments: ArgumentStore;
     /**
      * The commands the framework has registered.
+     * @since 1.0.0
      */
     commands: CommandStore;
     /**
      * The events the framework has registered.
+     * @since 1.0.0
      */
     events: EventStore;
     /**
      * The precondition the framework has registered.
+     * @since 1.0.0
      */
     preconditions: PreconditionStore;
+    /**
+     * The registered stores.
+     * @since 1.0.0
+     */
+    stores: Set<Store<Piece>>;
     constructor(options?: ClientOptions);
     /**
+     * Registers a store.
+     * @param store The store to register.
+     */
+    registerStore<T extends Piece>(store: Store<T>): this;
+    /**
      * The method to be overriden by the developer.
+     * @since 1.0.0
      * @return A string for a single prefix, an array of strings for matching multiple, or null for no match (mention prefix only).
      * @example
      * ```typescript
@@ -55,6 +72,13 @@ export declare class SapphireClient extends Client {
      * ```
      */
     fetchPrefix: SapphirePrefixHook;
+    /**
+     * Loads all pieces, then logs the client in, establishing a websocket connection to Discord.
+     * @since 1.0.0
+     * @param token Token of the account to log in with.
+     * @retrun Token of the account used.
+     */
+    login(token?: string): Promise<string>;
 }
 declare module 'discord.js' {
     interface Client {
