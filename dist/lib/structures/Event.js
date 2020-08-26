@@ -23,7 +23,10 @@ class Event extends BasePiece_1.BasePiece {
         super(context, options);
         // eslint-disable-next-line @typescript-eslint/explicit-member-accessibility
         _listener.set(this, void 0);
-        this.emitter = (_a = (typeof options.emitter === 'string' ? this.client[options.emitter] : options.emitter)) !== null && _a !== void 0 ? _a : null;
+        this.emitter =
+            typeof options.emitter === 'undefined'
+                ? this.client
+                : (_a = (typeof options.emitter === 'string' ? Reflect.get(this.client, options.emitter) : options.emitter)) !== null && _a !== void 0 ? _a : null;
         this.event = (_b = options.event) !== null && _b !== void 0 ? _b : '';
         this.once = (_c = options.once) !== null && _c !== void 0 ? _c : false;
         __classPrivateFieldSet(this, _listener, this.emitter && this.event ? (this.once ? this._runOnce.bind(this) : this._run.bind(this)) : null);

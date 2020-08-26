@@ -677,7 +677,7 @@
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Event.ts": {
-        "version": "4e00dd3226d95f4539867fe75c478e48a23f36c361a5c94bc57b5234f31e26e2",
+        "version": "6de7c99c222f56f9da16b2921e07b1672d0fedcf17fe9e50dc110d64782edd96",
         "signature": "624b0b0f088e3e0c716c5dcbe7c68d45cff62815528b93cb26706c0d69f2bbb4",
         "affectsGlobalScope": false
       },
