@@ -732,7 +732,7 @@
         "affectsGlobalScope": false
       },
       "../src/arguments/CoreInteger.ts": {
-        "version": "9415fdb7d85bffe46a5fa9d987d1c116f378300c4be89d55ab84e33abac5e283",
+        "version": "5a5fe112203cb3c94337bb4835feea0239966fefd92bb058ca6d40c4da56dc4c",
         "signature": "606cec43133edfd7a388661970bd8cdf88a9ae6fa0af3565d352401e7d0ce700",
         "affectsGlobalScope": false
       },

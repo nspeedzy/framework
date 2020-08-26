@@ -11,13 +11,13 @@ class CoreArgument extends Argument_1.Argument {
     run(argument, context) {
         const parsed = Number(argument);
         if (!Number.isInteger(parsed)) {
-            return Result_1.err(new UserError_1.UserError('ArgumentNumberInvalidNumber', 'The argument did not resolve to an integer.'));
+            return Result_1.err(new UserError_1.UserError('ArgumentIntegerInvalidNumber', 'The argument did not resolve to an integer.'));
         }
         if (typeof context.minimum === 'number' && parsed < context.minimum) {
-            return Result_1.err(new UserError_1.UserError('ArgumentStringTooShort', 'The argument is too small.'));
+            return Result_1.err(new UserError_1.UserError('ArgumentIntegerTooSmall', 'The argument is too small.'));
         }
         if (typeof context.maximum === 'number' && parsed > context.maximum) {
-            return Result_1.err(new UserError_1.UserError('ArgumentStringTooLong', 'The argument is too big.'));
+            return Result_1.err(new UserError_1.UserError('ArgumentIntegerTooBig', 'The argument is too big.'));
         }
         return Result_1.ok(parsed);
     }
