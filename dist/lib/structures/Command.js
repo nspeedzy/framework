@@ -20,7 +20,7 @@ class Command extends BaseAliasPiece_1.BaseAliasPiece {
      * @param options Optional Command settings.
      */
     constructor(context, { name, ...options } = {}) {
-        var _a, _b, _c, _d;
+        var _a, _b, _c, _d, _e, _f;
         super(context, { ...options, name: name === null || name === void 0 ? void 0 : name.toLowerCase() });
         /**
          * The lexer to be used for command parsing
@@ -32,17 +32,16 @@ class Command extends BaseAliasPiece_1.BaseAliasPiece {
         this.deletable = (_a = options.deletable) !== null && _a !== void 0 ? _a : false;
         this.description = (_b = options.description) !== null && _b !== void 0 ? _b : '';
         this.preconditions = new PreconditionContainer_1.PreconditionContainerAll(this.client, (_c = options.preconditions) !== null && _c !== void 0 ? _c : []);
-        this.extendedHelp = options.extendedHelp;
-        this.flags = options.flags;
-        __classPrivateFieldGet(this, _lexer).setQuotes((_d = options.quotes) !== null && _d !== void 0 ? _d : [
+        this.extendedHelp = (_d = options.extendedHelp) !== null && _d !== void 0 ? _d : '';
+        this.flags = (_e = options.flags) !== null && _e !== void 0 ? _e : [];
+        __classPrivateFieldGet(this, _lexer).setQuotes((_f = options.quotes) !== null && _f !== void 0 ? _f : [
             ['"', '"'],
             ['“', '”'],
             ['「', '」'] // Corner brackets (CJK)
         ]);
     }
-    preParse(message, commandName, prefix) {
-        const input = message.content.substr(prefix.length + commandName.length);
-        const parser = new Lexure.Parser(__classPrivateFieldGet(this, _lexer).setInput(input).lex());
+    preParse(message, parameters) {
+        const parser = new Lexure.Parser(__classPrivateFieldGet(this, _lexer).setInput(parameters).lex());
         const args = new Lexure.Args(parser.parse());
         return new Args_1.Args(message, this, args);
     }

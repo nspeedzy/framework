@@ -39,7 +39,7 @@ export declare abstract class Command extends BaseAliasPiece {
      * @param options Optional Command settings.
      */
     protected constructor(context: PieceContext, { name, ...options }?: CommandOptions);
-    preParse(message: Message, commandName: string, prefix: string): Awaited<unknown>;
+    preParse(message: Message, parameters: string): Awaited<unknown>;
     abstract run(message: Message, args: unknown): Awaited<unknown>;
     /**
      * Defines the JSON.stringify behavior of the command

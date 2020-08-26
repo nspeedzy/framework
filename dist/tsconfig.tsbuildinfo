@@ -667,8 +667,8 @@
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Command.ts": {
-        "version": "c60289ea2ba410b7097a27ddaf951959402d4847403544e5c028a4d848f09d5c",
-        "signature": "1926543c76bbf84bfe2d39fa6e74195407b03a20755c40aa29e8c6679146bfb4",
+        "version": "e9652d4ec2073ed02652c8d6c66fd51eb269dd785dcabe9d30f8b893e4b6635b",
+        "signature": "1f3ef4755a01b602756ce4ae7dcc740c28565abc405fb429408767f84451069a",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Argument.ts": {
@@ -682,8 +682,8 @@
         "affectsGlobalScope": false
       },
       "../src/lib/types/Events.ts": {
-        "version": "9cc548ae28948295714043caf8fa38777b40c8f37c36106a602efad0111fd085",
-        "signature": "031519bfbceaec38d33a4917339a4c185a598b4f6f028a9d72d17320391882e7",
+        "version": "462e267a4175effcd78376ab9e6327d9d4e6d9f7138e5287fea8f5564d0778dc",
+        "signature": "c7dc81917e7a3a5f9fd215701356eb56a839273a1afcbde6cfcbb0f782cffa3d",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/base/BaseStore.ts": {
@@ -747,8 +747,8 @@
         "affectsGlobalScope": false
       },
       "../src/events/command-handler/CoreCommandAccepted.ts": {
-        "version": "55f81c23b9dcc5dbb48284a0e50d311ee03d7fc5687e95bbd5c4a9a93b826ba2",
-        "signature": "ca686613b47b417c077efb20cbff0979327e9a4cf5d0f07c926475c4817efd3f",
+        "version": "3d90ea3b6f0550f1648c8e771f7e098d561ef81f8f92dd94e0eb9a83da12a605",
+        "signature": "817bbe80085893c374381074c57a6f162ed6de996bfab65befb4de9ea8bba7a7",
         "affectsGlobalScope": false
       },
       "../src/events/command-handler/CoreMessageParser.ts": {
@@ -757,12 +757,12 @@
         "affectsGlobalScope": false
       },
       "../src/events/command-handler/CorePreCommandRun.ts": {
-        "version": "6649c412490d33aeea9fe31780c436caa8b66651ab7b849e9c4c8257fc37246e",
-        "signature": "3630f578ff9bf4a8ecd8c72126d784a29116c442d610f0288e46219da9754ca9",
+        "version": "ab5bd2338ed416d641414d9b9d7f13f7a39e6986b7f9540643cce4103c3761ac",
+        "signature": "7178c4be644186d2330faaa6170368dfbb5331b5d1da0e3f148b9ebe7f68ec57",
         "affectsGlobalScope": false
       },
       "../src/events/command-handler/CorePrefixedMessage.ts": {
-        "version": "f2ca5e7b3f33f22b7f35a68db675de7cda85dfb779441c0d8d1a919badae5469",
+        "version": "27f06dca5dc02beda34a7c1a0c4207e7846df660b2221865e3c771fd1ce10374",
         "signature": "3849541f6d478e9fe6059b11b180b521d33e3250b6d7b2f6fcd184b9f0379b1a",
         "affectsGlobalScope": false
       },
