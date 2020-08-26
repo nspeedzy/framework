@@ -94,7 +94,7 @@ class SapphireClient extends discord_js_1.Client {
     }
     static use(plugin) {
         this.plugins.use(plugin);
-        return SapphireClient;
+        return this;
     }
 }
 exports.SapphireClient = SapphireClient;
