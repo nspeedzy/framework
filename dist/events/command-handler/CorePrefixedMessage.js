@@ -23,7 +23,7 @@ class CoreEvent extends Event_1.Event {
             return;
         }
         // Run the last stage before running the command:
-        const parameters = spaceIndex === -1 ? '' : message.content.substr(spaceIndex + 1).trim();
+        const parameters = spaceIndex === -1 ? '' : prefixLess.substr(spaceIndex + 1).trim();
         this.client.emit(Events_1.Events.PreCommandRun, message, command, parameters, name, prefix);
     }
 }
