@@ -8,10 +8,10 @@ class CoreEvent extends Event_1.Event {
         super(context, { event: Events_1.Events.PrefixedMessage });
     }
     run(message, prefix) {
-        var _a;
         // Retrieve the command name and validate:
         const prefixLess = message.content.slice(prefix.length).trim();
-        const commandName = (_a = /.+\b/.exec(prefixLess)) === null || _a === void 0 ? void 0 : _a[0];
+        const spaceIndex = prefixLess.indexOf(' ');
+        const commandName = spaceIndex === -1 ? prefixLess : prefixLess.slice(0, spaceIndex);
         if (!commandName) {
             this.client.emit(Events_1.Events.UnknownCommandName, message, prefix);
             return;

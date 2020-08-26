@@ -762,7 +762,7 @@
         "affectsGlobalScope": false
       },
       "../src/events/command-handler/CorePrefixedMessage.ts": {
-        "version": "ae4c30cc9aab4a13c42b537c7a7ec8b457564c34bfd67d9d69380c5d94d04b51",
+        "version": "f2ca5e7b3f33f22b7f35a68db675de7cda85dfb779441c0d8d1a919badae5469",
         "signature": "3849541f6d478e9fe6059b11b180b521d33e3250b6d7b2f6fcd184b9f0379b1a",
         "affectsGlobalScope": false
       },
