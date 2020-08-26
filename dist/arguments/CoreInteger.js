@@ -5,8 +5,8 @@ const UserError_1 = require("../lib/errors/UserError");
 const Argument_1 = require("../lib/structures/Argument");
 const Result_1 = require("../lib/utils/Result");
 class CoreArgument extends Argument_1.Argument {
-    constructor(context, options) {
-        super(context, { ...options, name: 'integer' });
+    constructor(context) {
+        super(context, { name: 'integer' });
     }
     run(argument, context) {
         const parsed = Number(argument);

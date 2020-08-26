@@ -732,38 +732,38 @@
         "affectsGlobalScope": false
       },
       "../src/arguments/CoreInteger.ts": {
-        "version": "cd054e71a69400c0e763ad1a252557fc618e4d8710f58fe11b8bb3d3adc0e93d",
-        "signature": "7730fc37c8d473290ef9994763d140b780b349d85a646ec75f0af85964a04923",
+        "version": "9415fdb7d85bffe46a5fa9d987d1c116f378300c4be89d55ab84e33abac5e283",
+        "signature": "606cec43133edfd7a388661970bd8cdf88a9ae6fa0af3565d352401e7d0ce700",
         "affectsGlobalScope": false
       },
       "../src/arguments/CoreString.ts": {
-        "version": "3da757aa47027377f5827a72a1ba24298abdcbc67a7ad4b6084d4ccd25c4da33",
-        "signature": "611d3baf0f1fa565740a02bb5e18b431585be3e32b25b037c7d55f7626032d99",
+        "version": "272394ab7336c55186e073d7ae7cabc15b138678a8a82a2b1913e071cb6515d8",
+        "signature": "358af66c337a96b47519fbb56a7f31588ca56e9ff61fcdc472da49852780b0b7",
         "affectsGlobalScope": false
       },
       "../src/events/CoreReady.ts": {
-        "version": "a5ab5893997da211f114740e70d67bc3e7ae2ca4ffcba65f132a67a983c92e3b",
-        "signature": "a7be3932217848ff469581f9ecf281ef16dd3e2571f9149a1b5e3f42b2514a37",
+        "version": "a548f33cec678eed3dc1837d9395ee9524e5acfd13f3fbde7ee1e6b2f91a6d82",
+        "signature": "17a54ab87dbd2124ea3a0796f03391fdbbab7c603ab3fb2b5f172a5c125cc311",
         "affectsGlobalScope": false
       },
       "../src/events/command-handler/CoreCommandAccepted.ts": {
-        "version": "9648b84e57ccca77dd5445c8aaff6d598b1ccf370371961fb8af87cdb3c97923",
-        "signature": "d809a8c0902945e5eee0dcffaa2cce52457ed7a2bc2c96924af177e45c18a487",
+        "version": "55f81c23b9dcc5dbb48284a0e50d311ee03d7fc5687e95bbd5c4a9a93b826ba2",
+        "signature": "ca686613b47b417c077efb20cbff0979327e9a4cf5d0f07c926475c4817efd3f",
         "affectsGlobalScope": false
       },
       "../src/events/command-handler/CoreMessageParser.ts": {
-        "version": "a3ee4f1adbb9a31ce39b8045ed0df80d07d27990bf2bf536ac63b65e7af7adb1",
-        "signature": "253fde453849491653289c1549fd785773195a8b631e31bbb943519955514d3f",
+        "version": "b848550bf6ae53a9609a5b65fa10457f208e873fd2c8b4493732ebcceb158355",
+        "signature": "a19b348296501ccc142c1be95cb569dcb4a6ab2838b0c95d91aa7bdb407f1f39",
         "affectsGlobalScope": false
       },
       "../src/events/command-handler/CorePreCommandRun.ts": {
-        "version": "4395905b831a688c293ee44c2c6e71c5c89c1acf34ba40e480c73afcd1e42486",
-        "signature": "612f22d01626126c1580785d8a19c3859719a3a18797a66548068dbf2d9dfd9b",
+        "version": "6649c412490d33aeea9fe31780c436caa8b66651ab7b849e9c4c8257fc37246e",
+        "signature": "3630f578ff9bf4a8ecd8c72126d784a29116c442d610f0288e46219da9754ca9",
         "affectsGlobalScope": false
       },
       "../src/events/command-handler/CorePrefixedMessage.ts": {
-        "version": "bd3a10d1fcfa53ffa52a44132e3bd6a7787daf524fbed3a3b4d9096dad2dd208",
-        "signature": "25bea3bc2e9b4bd1d018760038f1a7ee3e5c69a0a84d03a20422f5638859f2ba",
+        "version": "ae4c30cc9aab4a13c42b537c7a7ec8b457564c34bfd67d9d69380c5d94d04b51",
+        "signature": "3849541f6d478e9fe6059b11b180b521d33e3250b6d7b2f6fcd184b9f0379b1a",
         "affectsGlobalScope": false
       },
       "../src/preconditions/DMOnly.ts": {
