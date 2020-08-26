@@ -52,7 +52,7 @@ export declare class Args {
      * // Sends "The result is: 3"
      * ```
      */
-    pick<K extends keyof ArgType>(type: K, options: ArgOptions): Promise<ArgType[K]>;
+    pick<K extends keyof ArgType>(type: K, options?: ArgOptions): Promise<ArgType[K]>;
     /**
      * Retrieves all the following arguments.
      * @param type The type of the argument.
@@ -82,7 +82,7 @@ export declare class Args {
      * // Sends "The repeated value is... Hello World!Hello World!"
      * ```
      */
-    rest<K extends keyof ArgType>(type: K, options: ArgOptions): Promise<ArgType[K]>;
+    rest<K extends keyof ArgType>(type: K, options?: ArgOptions): Promise<ArgType[K]>;
     /**
      * Saves the current state into the stack following a FILO strategy (first-in, last-out).
      * @seealso [[Args.restore]]
