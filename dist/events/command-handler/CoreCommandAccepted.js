@@ -4,8 +4,8 @@ exports.CoreEvent = void 0;
 const Event_1 = require("../../lib/structures/Event");
 const Events_1 = require("../../lib/types/Events");
 class CoreEvent extends Event_1.Event {
-    constructor(context) {
-        super(context, { event: Events_1.Events.CommandAccepted });
+    constructor(context, options = {}) {
+        super(context, { ...options, event: Events_1.Events.CommandAccepted });
     }
     async run(message, command, commandName, prefix) {
         const args = await command.preParse(message, commandName, prefix);
