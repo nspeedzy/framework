@@ -76,13 +76,39 @@ export declare class Args {
      * @example
      * ```typescript
      * // !add 2 Hello World!
-     * const a = await args.pickResult('integer');
-     * const b = await args.restResult('string', { minimum: 1 });
+     * const a = await args.pick('integer');
+     * const b = await args.rest('string', { minimum: 1 });
      * await message.channel.send(`The repeated value is... ${b.repeat(a)}!`);
      * // Sends "The repeated value is... Hello World!Hello World!"
      * ```
      */
     rest<K extends keyof ArgType>(type: K, options?: ArgOptions): Promise<ArgType[K]>;
+    /**
+     * Retrieves all the following arguments.
+     * @param type The type of the argument.
+     * @example
+     * ```typescript
+     * // !add 2 Hello World!
+     * const result = await args.repeatResult('string', { times: 5 });
+     * if (!result.success) throw new UserError('CountArgumentError', 'You must write up to 5 words.');
+     *
+     * await message.channel.send(`You have written ${result.value.length} word(s): ${result.value.join(' ')}`);
+     * // Sends "You have written 2 word(s): Hello World!"
+     * ```
+     */
+    repeatResult<K extends keyof ArgType>(type: K, options?: RepeatArgOptions): Promise<Result<ArgType[K][], UserError>>;
+    /**
+     * Similar to [[Args.repeatResult]] but returns the value on success, throwing otherwise.
+     * @param type The type of the argument.
+     * @example
+     * ```typescript
+     * // !add 2 Hello World!
+     * const words = await args.repeat('string', { times: 5 });
+     * await message.channel.send(`You have written ${words.length} word(s): ${words.join(' ')}`);
+     * // Sends "You have written 2 word(s): Hello World!"
+     * ```
+     */
+    repeat<K extends keyof ArgType>(type: K, options?: RepeatArgOptions): Promise<ArgType[K][]>;
     /**
      * Saves the current state into the stack following a FILO strategy (first-in, last-out).
      * @seealso [[Args.restore]]
@@ -99,5 +125,12 @@ export interface ArgType {
     integer: number;
 }
 export interface ArgOptions extends Omit<ArgumentContext, 'message' | 'command'> {
+}
+export interface RepeatArgOptions extends ArgOptions {
+    /**
+     * The maximum amount of times the argument can be repeated.
+     * @default Infinity
+     */
+    times?: number;
 }
 //# sourceMappingURL=Args.d.ts.map
