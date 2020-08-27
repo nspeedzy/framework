@@ -6,6 +6,7 @@ import { ArgumentStore } from './structures/ArgumentStore';
 import { CommandStore } from './structures/CommandStore';
 import { EventStore } from './structures/EventStore';
 import { PreconditionStore } from './structures/PreconditionStore';
+import { ILogger, LogLevel } from './utils/logger/ILogger';
 import type { Awaited } from './utils/Types';
 export interface SapphirePrefixHook {
     (message: Message): Awaited<string | readonly string[] | null>;
@@ -16,6 +17,11 @@ export declare class SapphireClient extends Client {
      * @since 1.0.0
      */
     id: string | null;
+    /**
+     * The logger to be used by the framework and plugins.
+     * @since 1.0.0
+     */
+    logger: ILogger;
     /**
      * The commands the framework has registered.
      * @since 1.0.0
@@ -111,6 +117,7 @@ export declare class SapphireClient extends Client {
 declare module 'discord.js' {
     interface Client {
         id: string | null;
+        logger: ILogger;
         arguments: ArgumentStore;
         commands: CommandStore;
         events: EventStore;
@@ -119,6 +126,10 @@ declare module 'discord.js' {
     }
     interface ClientOptions {
         id?: string;
+        logger?: ClientLoggerOptions;
+    }
+    interface ClientLoggerOptions {
+        level: LogLevel;
     }
 }
 //# sourceMappingURL=SapphireClient.d.ts.map

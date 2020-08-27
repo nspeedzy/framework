@@ -721,14 +721,24 @@
         "signature": "bb1aabd85898145f43a295ffd51ab2c45b38a275f3422b4cc094f5d2ed8f8f1e",
         "affectsGlobalScope": false
       },
+      "../src/lib/utils/logger/ILogger.ts": {
+        "version": "33ffcc35488b101b3742419a02202936c4bf31ff5341a6a3ba405832540e7aea",
+        "signature": "a37f1603d7e7a7ca95fd5e7e3f1aa06ec4132c1d11619dae4befaa9e6f9fa25e",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/utils/logger/Logger.ts": {
+        "version": "ddbe8d6d3417e348d47e8cdb9ea459d1dea6f22ea0c92c563d7b8fd8942cfcb4",
+        "signature": "83ea15f3eabae7e14f6915796d49d2d1bbe319e8c0670ad6b4eddac0caa2ab21",
+        "affectsGlobalScope": false
+      },
       "../src/lib/utils/RootDir.ts": {
         "version": "f6ca59a1e2f5ae6f8d1553f1157765eef846c16a55e5899d6ea89132eb701372",
         "signature": "1cb4a7d6a0218762588d090b3a1ad1d64c354b55d8596886b9a2062c7cbaa02b",
         "affectsGlobalScope": false
       },
       "../src/lib/SapphireClient.ts": {
-        "version": "b1909122397638e5a39648bac1b6a7f009aa3950eefb2a8b788f3d66dc27bdf8",
-        "signature": "297094d1d62d705ac18d73f02987b83afbf169e2bd4cffe7f0da04952b07bac1",
+        "version": "1dc48d8db2aacc6a76004617c9d6a98753da261416c51a97923ab13903fcd94a",
+        "signature": "5f95a53e81664fa7912449be7774cc5fc9b9100430c1dd5b904129acffdd07d9",
         "affectsGlobalScope": false
       },
       "../src/lib/plugins/Plugin.ts": {
@@ -737,8 +747,8 @@
         "affectsGlobalScope": false
       },
       "../src/index.ts": {
-        "version": "5b5417674f370eb4d945fa5dabe4e23e1eb56ceef9609bbcdc7ca315f5bab621",
-        "signature": "b2b9f7bdb32d74e9942059cde3a9fc60d31955d2e13efabc4ae98035b2c2e278",
+        "version": "bebda3da9513707b35885d33489ecdbef152b32d20cfce66e0cd682105732345",
+        "signature": "c437c9c893110994a5a13ef1da5d8836e189c75cd07249f175f689d70c4d42ee",
         "affectsGlobalScope": false
       },
       "../src/arguments/CoreInteger.ts": {
@@ -2637,6 +2647,8 @@
         "../src/lib/utils/Args.ts",
         "../src/lib/utils/Result.ts",
         "../src/lib/utils/Types.ts",
+        "../src/lib/utils/logger/ILogger.ts",
+        "../src/lib/utils/logger/Logger.ts",
         "../src/lib/utils/preconditions/IPreconditionContainer.ts",
         "../src/lib/utils/preconditions/PreconditionContainer.ts",
         "../src/lib/utils/preconditions/PreconditionContainerAny.ts",
@@ -2662,7 +2674,9 @@
         "../src/lib/types/Enums.ts",
         "../src/lib/types/Events.ts",
         "../src/lib/utils/RootDir.ts",
-        "../src/lib/utils/Types.ts"
+        "../src/lib/utils/Types.ts",
+        "../src/lib/utils/logger/ILogger.ts",
+        "../src/lib/utils/logger/Logger.ts"
       ],
       "../src/lib/errors/UserError.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -2933,6 +2947,25 @@
         "../node_modules/@types/node/ts3.2/process.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/lib/utils/logger/ILogger.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/lib/utils/logger/Logger.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/lib/utils/logger/ILogger.ts"
       ],
       "../src/lib/utils/preconditions/IPreconditionContainer.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -4638,6 +4671,8 @@
         "../src/lib/utils/Args.ts",
         "../src/lib/utils/Result.ts",
         "../src/lib/utils/Types.ts",
+        "../src/lib/utils/logger/ILogger.ts",
+        "../src/lib/utils/logger/Logger.ts",
         "../src/lib/utils/preconditions/IPreconditionContainer.ts",
         "../src/lib/utils/preconditions/PreconditionContainer.ts",
         "../src/lib/utils/preconditions/PreconditionContainerAny.ts",
@@ -4652,7 +4687,8 @@
         "../src/lib/structures/CommandStore.ts",
         "../src/lib/structures/EventStore.ts",
         "../src/lib/structures/PreconditionStore.ts",
-        "../src/lib/utils/Types.ts"
+        "../src/lib/utils/Types.ts",
+        "../src/lib/utils/logger/ILogger.ts"
       ],
       "../src/lib/plugins/Plugin.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
@@ -4749,6 +4785,9 @@
         "../src/lib/structures/Argument.ts",
         "../src/lib/structures/Command.ts",
         "../src/lib/utils/Result.ts"
+      ],
+      "../src/lib/utils/logger/Logger.ts": [
+        "../src/lib/utils/logger/ILogger.ts"
       ],
       "../src/lib/utils/preconditions/IPreconditionContainer.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
@@ -4986,6 +5025,8 @@
       "../src/lib/utils/Result.ts",
       "../src/lib/utils/RootDir.ts",
       "../src/lib/utils/Types.ts",
+      "../src/lib/utils/logger/ILogger.ts",
+      "../src/lib/utils/logger/Logger.ts",
       "../src/lib/utils/preconditions/IPreconditionContainer.ts",
       "../src/lib/utils/preconditions/PreconditionContainer.ts",
       "../src/lib/utils/preconditions/PreconditionContainerAny.ts",

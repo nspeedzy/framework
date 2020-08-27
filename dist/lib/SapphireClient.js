@@ -10,10 +10,12 @@ const EventStore_1 = require("./structures/EventStore");
 const PreconditionStore_1 = require("./structures/PreconditionStore");
 require("./types/Enums");
 const Events_1 = require("./types/Events");
+require("./utils/logger/ILogger");
+const Logger_1 = require("./utils/logger/Logger");
 const RootDir_1 = require("./utils/RootDir");
 class SapphireClient extends discord_js_1.Client {
     constructor(options = {}) {
-        var _a;
+        var _a, _b, _c;
         super(options);
         /**
          * The client's ID, used for the user prefix.
@@ -24,6 +26,16 @@ class SapphireClient extends discord_js_1.Client {
             configurable: true,
             writable: true,
             value: null
+        });
+        /**
+         * The logger to be used by the framework and plugins.
+         * @since 1.0.0
+         */
+        Object.defineProperty(this, "logger", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
         });
         /**
          * The commands the framework has registered.
@@ -107,11 +119,13 @@ class SapphireClient extends discord_js_1.Client {
             writable: true,
             value: () => null
         });
+        // The logger is created before plugins so they can use, or even, override it.
+        this.logger = new Logger_1.Logger((_b = (_a = options.logger) === null || _a === void 0 ? void 0 : _a.level) !== null && _b !== void 0 ? _b : 40 /* Warn */);
         for (const plugin of SapphireClient.plugins.values(0 /* PreInitialization */)) {
             plugin.hook.call(this, options);
             this.emit(Events_1.Events.PluginLoaded, plugin.type, plugin.name);
         }
-        this.id = (_a = options.id) !== null && _a !== void 0 ? _a : null;
+        this.id = (_c = options.id) !== null && _c !== void 0 ? _c : null;
         this.arguments = new ArgumentStore_1.ArgumentStore(this).registerPath(path_1.join(__dirname, '..', 'arguments'));
         this.commands = new CommandStore_1.CommandStore(this);
         this.events = new EventStore_1.EventStore(this).registerPath(path_1.join(__dirname, '..', 'events'));

@@ -28,6 +28,8 @@ __exportStar(require("./lib/structures/Precondition"), exports);
 __exportStar(require("./lib/structures/PreconditionStore"), exports);
 __exportStar(require("./lib/types/Enums"), exports);
 __exportStar(require("./lib/types/Events"), exports);
+__exportStar(require("./lib/utils/logger/ILogger"), exports);
+__exportStar(require("./lib/utils/logger/Logger"), exports);
 __exportStar(require("./lib/utils/preconditions/IPreconditionContainer"), exports);
 __exportStar(require("./lib/utils/preconditions/PreconditionContainer"), exports);
 __exportStar(require("./lib/utils/preconditions/PreconditionContainerAny"), exports);
