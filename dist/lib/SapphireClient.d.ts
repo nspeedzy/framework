@@ -43,6 +43,30 @@ export declare class SapphireClient extends Client {
     stores: Set<Store<Piece>>;
     constructor(options?: ClientOptions);
     /**
+     * Registers all user directories from the process working directory, the default value is obtained by assuming
+     * CommonJS (high accuracy) but with fallback for ECMAScript Modules (reads package.json's `main` entry, fallbacks
+     * to `process.cwd()`).
+     *
+     * By default, if you have this folder structure:
+     * ```
+     * /home/me/my-bot
+     * ├─ src
+     * │  ├─ commands
+     * │  ├─ events
+     * │  └─ main.js
+     * └─ package.json
+     * ```
+     *
+     * And you run `node src/main.js`, the directories `/home/me/my-bot/src/commands` and `/home/me/my-bot/src/events` will
+     * be registered for the commands and events stores respectively, since both directories are located in the same
+     * directory as your main file.
+     *
+     * **Note**: this also registers directories for all other stores, even if they don't have a folder, this allows you
+     * to create new pieces and hot-load them later anytime.
+     * @param rootDirectory The root directory to register pieces at.
+     */
+    registerUserDirectories(rootDirectory?: string): void;
+    /**
      * Registers a store.
      * @param store The store to register.
      */
@@ -95,7 +119,6 @@ declare module 'discord.js' {
     }
     interface ClientOptions {
         id?: string;
-        rootDirectory?: string;
     }
 }
 //# sourceMappingURL=SapphireClient.d.ts.map

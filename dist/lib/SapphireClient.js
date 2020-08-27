@@ -13,7 +13,7 @@ const Events_1 = require("./types/Events");
 const RootDir_1 = require("./utils/RootDir");
 class SapphireClient extends discord_js_1.Client {
     constructor(options = {}) {
-        var _a, _b;
+        var _a;
         super(options);
         /**
          * The client's ID, used for the user prefix.
@@ -61,13 +61,37 @@ class SapphireClient extends discord_js_1.Client {
             .registerStore(this.commands)
             .registerStore(this.events)
             .registerStore(this.preconditions);
-        const rootDirectory = (_b = options.rootDirectory) !== null && _b !== void 0 ? _b : RootDir_1.getRootDirectory();
-        for (const store of this.stores) {
-            store.registerPath(path_1.join(rootDirectory, store.name));
-        }
         for (const plugin of SapphireClient.plugins.values(1 /* PostInitialization */)) {
             plugin.hook.call(this, options);
             this.emit(Events_1.Events.PluginLoaded, plugin.type, plugin.name);
+        }
+    }
+    /**
+     * Registers all user directories from the process working directory, the default value is obtained by assuming
+     * CommonJS (high accuracy) but with fallback for ECMAScript Modules (reads package.json's `main` entry, fallbacks
+     * to `process.cwd()`).
+     *
+     * By default, if you have this folder structure:
+     * ```
+     * /home/me/my-bot
+     * ├─ src
+     * │  ├─ commands
+     * │  ├─ events
+     * │  └─ main.js
+     * └─ package.json
+     * ```
+     *
+     * And you run `node src/main.js`, the directories `/home/me/my-bot/src/commands` and `/home/me/my-bot/src/events` will
+     * be registered for the commands and events stores respectively, since both directories are located in the same
+     * directory as your main file.
+     *
+     * **Note**: this also registers directories for all other stores, even if they don't have a folder, this allows you
+     * to create new pieces and hot-load them later anytime.
+     * @param rootDirectory The root directory to register pieces at.
+     */
+    registerUserDirectories(rootDirectory = RootDir_1.getRootDirectory()) {
+        for (const store of this.stores) {
+            store.registerPath(path_1.join(rootDirectory, store.name));
         }
     }
     /**
