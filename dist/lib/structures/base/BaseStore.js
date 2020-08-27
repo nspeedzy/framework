@@ -11,6 +11,12 @@ class BaseStore extends pieces_1.Store {
             onPostLoad: (store, piece) => client.emit(Events_1.Events.PiecePostLoad, store, piece),
             ...options
         });
+        Object.defineProperty(this, "client", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
         this.client = client;
     }
     get extras() {

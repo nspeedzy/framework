@@ -12,6 +12,15 @@ class UserError extends Error {
      */
     constructor(type, message) {
         super(message);
+        /**
+         * An identifier, useful to localize emitted errors.
+         */
+        Object.defineProperty(this, "identifier", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
         this.identifier = type;
     }
 }

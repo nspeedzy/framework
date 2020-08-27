@@ -19,7 +19,62 @@ class SapphireClient extends discord_js_1.Client {
          * The client's ID, used for the user prefix.
          * @since 1.0.0
          */
-        this.id = null;
+        Object.defineProperty(this, "id", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: null
+        });
+        /**
+         * The commands the framework has registered.
+         * @since 1.0.0
+         */
+        Object.defineProperty(this, "arguments", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
+        /**
+         * The commands the framework has registered.
+         * @since 1.0.0
+         */
+        Object.defineProperty(this, "commands", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
+        /**
+         * The events the framework has registered.
+         * @since 1.0.0
+         */
+        Object.defineProperty(this, "events", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
+        /**
+         * The precondition the framework has registered.
+         * @since 1.0.0
+         */
+        Object.defineProperty(this, "preconditions", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
+        /**
+         * The registered stores.
+         * @since 1.0.0
+         */
+        Object.defineProperty(this, "stores", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
         /**
          * The method to be overriden by the developer.
          * @since 1.0.0
@@ -46,7 +101,12 @@ class SapphireClient extends discord_js_1.Client {
          * };
          * ```
          */
-        this.fetchPrefix = () => null;
+        Object.defineProperty(this, "fetchPrefix", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: () => null
+        });
         for (const plugin of SapphireClient.plugins.values(0 /* PreInitialization */)) {
             plugin.hook.call(this, options);
             this.emit(Events_1.Events.PluginLoaded, plugin.type, plugin.name);
@@ -127,5 +187,10 @@ class SapphireClient extends discord_js_1.Client {
     }
 }
 exports.SapphireClient = SapphireClient;
-SapphireClient.plugins = new PluginManager_1.PluginManager();
+Object.defineProperty(SapphireClient, "plugins", {
+    enumerable: true,
+    configurable: true,
+    writable: true,
+    value: new PluginManager_1.PluginManager()
+});
 //# sourceMappingURL=SapphireClient.js.map

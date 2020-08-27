@@ -8,7 +8,36 @@ const Result_1 = require("./Result");
  */
 class Args {
     constructor(message, command, parser) {
-        this.states = [];
+        /**
+         * The original message that triggered the command.
+         */
+        Object.defineProperty(this, "message", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
+        /**
+         * The command that is being running.
+         */
+        Object.defineProperty(this, "command", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
+        Object.defineProperty(this, "parser", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
+        Object.defineProperty(this, "states", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: []
+        });
         this.message = message;
         this.command = command;
         this.parser = parser;

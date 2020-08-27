@@ -13,6 +13,18 @@ function isSingle(entry) {
 }
 class PreconditionContainerAny {
     constructor(client, data) {
+        Object.defineProperty(this, "entries", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
+        Object.defineProperty(this, "mode", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
         this.entries = [];
         const [mode, entries] = PreconditionContainerAny.resolveData(data);
         this.mode = mode;

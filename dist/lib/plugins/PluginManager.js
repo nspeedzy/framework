@@ -5,7 +5,12 @@ require("../types/Enums");
 const symbols_1 = require("./symbols");
 class PluginManager {
     constructor() {
-        this.registry = new Set();
+        Object.defineProperty(this, "registry", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: new Set()
+        });
     }
     registerHook(hook, type, name) {
         if (typeof hook !== 'function')

@@ -217,8 +217,8 @@
         "affectsGlobalScope": true
       },
       "../node_modules/@types/node/async_hooks.d.ts": {
-        "version": "4ed9f71ddbb5753771ee391f64297078a88f7dfd1480646dcf08c31395778682",
-        "signature": "4ed9f71ddbb5753771ee391f64297078a88f7dfd1480646dcf08c31395778682",
+        "version": "93a45c42b3b0d24b09a0303b987407e22e13adab7d2e49f3bd7332ca30afcf82",
+        "signature": "93a45c42b3b0d24b09a0303b987407e22e13adab7d2e49f3bd7332ca30afcf82",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/buffer.d.ts": {
@@ -847,8 +847,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/istanbul-reports/index.d.ts": {
-        "version": "029769d13d9917e3284cb2356ed28a6576e8b07ae6a06ee1e672518adf21a102",
-        "signature": "029769d13d9917e3284cb2356ed28a6576e8b07ae6a06ee1e672518adf21a102",
+        "version": "905c3e8f7ddaa6c391b60c05b2f4c3931d7127ad717a080359db3df510b7bdab",
+        "signature": "905c3e8f7ddaa6c391b60c05b2f4c3931d7127ad717a080359db3df510b7bdab",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/jest/node_modules/jest-diff/build/cleanupSemantic.d.ts": {
@@ -901,6 +901,11 @@
         "signature": "ecdf947a5111318568ba99f2a87b8498382d8871207f1bc6271ff3b9536a2448",
         "affectsGlobalScope": false
       },
+      "../node_modules/@types/minimatch/index.d.ts": {
+        "version": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
+        "signature": "1d1e6bd176eee5970968423d7e215bfd66828b6db8d54d17afec05a831322633",
+        "affectsGlobalScope": false
+      },
       "../node_modules/@types/minimist/index.d.ts": {
         "version": "3602dfff3072caea42f23a9b63fb34a7b0c95a62b93ce2add5fe6b159447845e",
         "signature": "3602dfff3072caea42f23a9b63fb34a7b0c95a62b93ce2add5fe6b159447845e",
@@ -917,8 +922,8 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@types/prettier/index.d.ts": {
-        "version": "4dda712df262b9a427ff5f5d2b9618ed19cb03603639c2cdea832e71b9ad3a4c",
-        "signature": "4dda712df262b9a427ff5f5d2b9618ed19cb03603639c2cdea832e71b9ad3a4c",
+        "version": "ad54f8e1b76fd15833256be9a4fe1af3a569ed1d561d55c57d57fe84c518d0b0",
+        "signature": "ad54f8e1b76fd15833256be9a4fe1af3a569ed1d561d55c57d57fe84c518d0b0",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/stack-utils/index.d.ts": {
@@ -940,28 +945,35 @@
     "options": {
       "allowSyntheticDefaultImports": true,
       "alwaysStrict": true,
+      "declaration": true,
+      "declarationMap": true,
       "emitDecoratorMetadata": true,
+      "esModuleInterop": true,
       "experimentalDecorators": true,
+      "forceConsistentCasingInFileNames": true,
+      "importsNotUsedAsValues": 2,
       "incremental": true,
       "lib": [
         "lib.esnext.d.ts"
       ],
       "module": 1,
       "moduleResolution": 2,
+      "newLine": 1,
+      "noFallthroughCasesInSwitch": true,
+      "noImplicitReturns": true,
       "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "preserveConstEnums": true,
       "pretty": false,
+      "removeComments": false,
       "resolveJsonModule": true,
       "sourceMap": true,
       "strict": true,
       "target": 6,
-      "declaration": true,
-      "declarationMap": true,
-      "removeComments": false,
-      "importsNotUsedAsValues": 2,
+      "useDefineForClassFields": true,
       "rootDir": "../src",
       "outDir": "./",
       "composite": true,
-      "preserveConstEnums": true,
       "configFilePath": "../src/tsconfig.json"
     },
     "referencedMap": {
@@ -1230,7 +1242,6 @@
       ],
       "../node_modules/@types/istanbul-reports/index.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/istanbul-lib-coverage/index.d.ts",
         "../node_modules/@types/istanbul-lib-report/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -1333,6 +1344,15 @@
         "../node_modules/@types/node/util.d.ts"
       ],
       "../node_modules/@types/json-schema/index.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@types/minimatch/index.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -3280,7 +3300,6 @@
       ],
       "../node_modules/@types/istanbul-reports/index.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
-        "../node_modules/@types/istanbul-lib-coverage/index.d.ts",
         "../node_modules/@types/istanbul-lib-report/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -3383,6 +3402,15 @@
         "../node_modules/@types/node/util.d.ts"
       ],
       "../node_modules/@types/json-schema/index.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@types/minimatch/index.d.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -4813,6 +4841,7 @@
       "../node_modules/@types/jest/node_modules/pretty-format/build/types.d.ts",
       "../node_modules/@types/jest/ts3.2/index.d.ts",
       "../node_modules/@types/json-schema/index.d.ts",
+      "../node_modules/@types/minimatch/index.d.ts",
       "../node_modules/@types/minimist/index.d.ts",
       "../node_modules/@types/node/async_hooks.d.ts",
       "../node_modules/@types/node/base.d.ts",

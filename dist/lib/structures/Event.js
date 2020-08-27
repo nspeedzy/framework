@@ -21,6 +21,24 @@ class Event extends BasePiece_1.BasePiece {
     constructor(context, options = {}) {
         var _a, _b, _c;
         super(context, options);
+        Object.defineProperty(this, "emitter", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
+        Object.defineProperty(this, "event", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
+        Object.defineProperty(this, "once", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
         // eslint-disable-next-line @typescript-eslint/explicit-member-accessibility
         _listener.set(this, void 0);
         this.emitter =
