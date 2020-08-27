@@ -95,6 +95,7 @@ declare module 'discord.js' {
     }
     interface ClientOptions {
         id?: string;
+        rootDirectory?: string;
     }
 }
 //# sourceMappingURL=SapphireClient.d.ts.map

@@ -497,13 +497,13 @@
         "affectsGlobalScope": false
       },
       "../node_modules/@sapphire/pieces/dist/lib/Store.d.ts": {
-        "version": "3d74691df70f308ec32986f54e6d0305244d91f48f2389495ebad079c45441fc",
-        "signature": "3d74691df70f308ec32986f54e6d0305244d91f48f2389495ebad079c45441fc",
+        "version": "7c094a08113cee125c9cb2a226cfd5075a7b893e54e4333f61bb6a75e7b9529f",
+        "signature": "7c094a08113cee125c9cb2a226cfd5075a7b893e54e4333f61bb6a75e7b9529f",
         "affectsGlobalScope": false
       },
       "../node_modules/@sapphire/pieces/dist/lib/Piece.d.ts": {
-        "version": "54de053cacad9db6e64ddcd37e9bcdac569ab4a81f48c59e3c3d42be2ec93b1b",
-        "signature": "54de053cacad9db6e64ddcd37e9bcdac569ab4a81f48c59e3c3d42be2ec93b1b",
+        "version": "4ef9bda24b2cb0f7882e2cb55eef6a387f42654a8ac8207e22202a26efbf1fc7",
+        "signature": "4ef9bda24b2cb0f7882e2cb55eef6a387f42654a8ac8207e22202a26efbf1fc7",
         "affectsGlobalScope": false
       },
       "../node_modules/@sapphire/pieces/dist/lib/AliasPiece.d.ts": {
@@ -521,14 +521,14 @@
         "signature": "dfa9ca287dac217afd4fd6f8090834b3558a4ef32f9333358214d210cc5ea83c",
         "affectsGlobalScope": false
       },
+      "../node_modules/@sapphire/pieces/dist/lib/errors/MissingExportsError.d.ts": {
+        "version": "50f04e8654d013809df669d32724b22525f106993d20f3f75eccfde754c3bfd8",
+        "signature": "50f04e8654d013809df669d32724b22525f106993d20f3f75eccfde754c3bfd8",
+        "affectsGlobalScope": false
+      },
       "../node_modules/@sapphire/pieces/dist/lib/strategies/filters/LoadJavaScript.d.ts": {
         "version": "8c5412b256ed255f9943193f030912cff28cc1d21d8eaffd899ad502edbc8d0b",
         "signature": "8c5412b256ed255f9943193f030912cff28cc1d21d8eaffd899ad502edbc8d0b",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@sapphire/pieces/dist/lib/strategies/loaders/LoadSingle.d.ts": {
-        "version": "2ce05593dffce10a2ba27ca79637b3dbe751d19300289b5363da77c2cf029b4d",
-        "signature": "2ce05593dffce10a2ba27ca79637b3dbe751d19300289b5363da77c2cf029b4d",
         "affectsGlobalScope": false
       },
       "../node_modules/@sapphire/pieces/dist/lib/strategies/loaders/LoadMultiple.d.ts": {
@@ -536,9 +536,14 @@
         "signature": "e05fc036c5829183c29f9a1bbcb065250b662ee79e39ca2edcb712f0b055c1c1",
         "affectsGlobalScope": false
       },
+      "../node_modules/@sapphire/pieces/dist/lib/strategies/loaders/LoadSingle.d.ts": {
+        "version": "2ce05593dffce10a2ba27ca79637b3dbe751d19300289b5363da77c2cf029b4d",
+        "signature": "2ce05593dffce10a2ba27ca79637b3dbe751d19300289b5363da77c2cf029b4d",
+        "affectsGlobalScope": false
+      },
       "../node_modules/@sapphire/pieces/dist/index.d.ts": {
-        "version": "e41c42c374ff24f7a63cacfd7cb046fd43de4e7cbacf1fc9c46b76a5df1f496f",
-        "signature": "e41c42c374ff24f7a63cacfd7cb046fd43de4e7cbacf1fc9c46b76a5df1f496f",
+        "version": "47b9e7168286487757f5d7a016cd669080201bcc054e8a7b9402fbaf250f68eb",
+        "signature": "47b9e7168286487757f5d7a016cd669080201bcc054e8a7b9402fbaf250f68eb",
         "affectsGlobalScope": false
       },
       "../src/lib/types/Enums.ts": {
@@ -687,38 +692,43 @@
         "affectsGlobalScope": false
       },
       "../src/lib/structures/base/BaseStore.ts": {
-        "version": "0ffae20f02b48b681c6bd3dd918289795d5810555aea386755b71a8b7a0dfe0e",
-        "signature": "4a90c1820a00c1b0dee9c16b1c3a6e2dc469481c38efe411a68afeef9800eca9",
+        "version": "626c7b832c0428925ff446bc540852319bc4d262e38b8287df3e8f86668d041d",
+        "signature": "7ce5a2ff4259fb75eed897213e53fa3ce66b827720ac285487d2c60cb0534905",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/ArgumentStore.ts": {
-        "version": "646aa51ef7fe89b53bcf27a99af55958713759c89e2653fa803e117391c97557",
+        "version": "5d2468b2898bc35eab36b36820fddcc76e6096cbc3ef646cdf0803832979c0b7",
         "signature": "6ba4e5b529664f898ea5d8373b19dcfb9c79c0d2ab9e115eb01cf8ef1b987b55",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/base/BaseAliasStore.ts": {
-        "version": "377d19b4fb1bce0b768b6f8ec07f625b60d27198e1b5ba8a003cbb2fe366cf25",
-        "signature": "83b11990a4a3f86441475361572a504284cedd393219b56655c6d515788a01ed",
+        "version": "6f66d57501f28bf962564464159b30f271142885fdce9fcfc13b6c4a3078ec5a",
+        "signature": "8745f8821fa735bf0faa392f990ea6d14dda6a66151cd656a7e0715e6271e2b2",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/CommandStore.ts": {
-        "version": "971d2830544cc4b1396523a0764313fbd7dcb872b4504be392c998d4a9ecff2e",
+        "version": "87dc0b607396101080e584a7a7248b8707d7df1cf029b5decdb939e7b20e3d7e",
         "signature": "9e2911e366c41eacd273a7e51a9e647f8e9090e12a0b764fbbe6463a31257788",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/EventStore.ts": {
-        "version": "c40940dda58a619ae213e6b8507e84063d715eb4fc37f5dde35008988b6154f4",
+        "version": "ad20b3de557d79c7b4210652ebb28d6000b97f8aa64743beba8ce037bed28659",
         "signature": "4a06fb618ad48b58e017ef2de7f8aa827ff33d266783c61c21b68c7b7c1141cf",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/PreconditionStore.ts": {
-        "version": "010ac2c94122baeca3bea7c3a13f219d1ed586f5ed704bb52ecb19ac45947daf",
+        "version": "6a340a8882e4fb9bef3fbe3bac9d5cada50241ff1a668e61654dd5c574a84125",
         "signature": "bb1aabd85898145f43a295ffd51ab2c45b38a275f3422b4cc094f5d2ed8f8f1e",
         "affectsGlobalScope": false
       },
+      "../src/lib/utils/RootDir.ts": {
+        "version": "f6ca59a1e2f5ae6f8d1553f1157765eef846c16a55e5899d6ea89132eb701372",
+        "signature": "1cb4a7d6a0218762588d090b3a1ad1d64c354b55d8596886b9a2062c7cbaa02b",
+        "affectsGlobalScope": false
+      },
       "../src/lib/SapphireClient.ts": {
-        "version": "6cd772d66b4b85bd9aabbfb6e58374b489aa3665b4c230b83ca1321937ba0c74",
-        "signature": "e79c5abf6b1dc693625961687c780775fcbafe740460c5c9021bce8790f494d5",
+        "version": "797b538ab5d59f9878b1276f28de7f874547707968a3bcabf6198233eaf7d44e",
+        "signature": "93d243219fd98955c3cdd347f7a5dcd328d5efaaa70e76a0f62013e2a2a30010",
         "affectsGlobalScope": false
       },
       "../src/lib/plugins/Plugin.ts": {
@@ -989,6 +999,7 @@
         "../node_modules/@sapphire/pieces/dist/lib/Piece.d.ts",
         "../node_modules/@sapphire/pieces/dist/lib/Store.d.ts",
         "../node_modules/@sapphire/pieces/dist/lib/errors/LoaderError.d.ts",
+        "../node_modules/@sapphire/pieces/dist/lib/errors/MissingExportsError.d.ts",
         "../node_modules/@sapphire/pieces/dist/lib/strategies/filters/IFilter.d.ts",
         "../node_modules/@sapphire/pieces/dist/lib/strategies/filters/LoadJavaScript.d.ts",
         "../node_modules/@sapphire/pieces/dist/lib/strategies/loaders/ILoader.d.ts",
@@ -1048,6 +1059,16 @@
         "../node_modules/@types/node/util.d.ts"
       ],
       "../node_modules/@sapphire/pieces/dist/lib/errors/LoaderError.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@sapphire/pieces/dist/lib/errors/MissingExportsError.d.ts": [
+        "../node_modules/@sapphire/pieces/dist/lib/errors/LoaderError.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -2620,6 +2641,7 @@
         "../src/lib/structures/PreconditionStore.ts",
         "../src/lib/types/Enums.ts",
         "../src/lib/types/Events.ts",
+        "../src/lib/utils/RootDir.ts",
         "../src/lib/utils/Types.ts"
       ],
       "../src/lib/errors/UserError.ts": [
@@ -2873,6 +2895,16 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
       ],
+      "../src/lib/utils/RootDir.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/path.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
       "../src/lib/utils/Types.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -3017,6 +3049,7 @@
         "../node_modules/@sapphire/pieces/dist/lib/Piece.d.ts",
         "../node_modules/@sapphire/pieces/dist/lib/Store.d.ts",
         "../node_modules/@sapphire/pieces/dist/lib/errors/LoaderError.d.ts",
+        "../node_modules/@sapphire/pieces/dist/lib/errors/MissingExportsError.d.ts",
         "../node_modules/@sapphire/pieces/dist/lib/strategies/filters/IFilter.d.ts",
         "../node_modules/@sapphire/pieces/dist/lib/strategies/filters/LoadJavaScript.d.ts",
         "../node_modules/@sapphire/pieces/dist/lib/strategies/loaders/ILoader.d.ts",
@@ -3076,6 +3109,16 @@
         "../node_modules/@types/node/util.d.ts"
       ],
       "../node_modules/@sapphire/pieces/dist/lib/errors/LoaderError.d.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../node_modules/@sapphire/pieces/dist/lib/errors/MissingExportsError.d.ts": [
+        "../node_modules/@sapphire/pieces/dist/lib/errors/LoaderError.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -4743,6 +4786,7 @@
       "../node_modules/@sapphire/pieces/dist/lib/Piece.d.ts",
       "../node_modules/@sapphire/pieces/dist/lib/Store.d.ts",
       "../node_modules/@sapphire/pieces/dist/lib/errors/LoaderError.d.ts",
+      "../node_modules/@sapphire/pieces/dist/lib/errors/MissingExportsError.d.ts",
       "../node_modules/@sapphire/pieces/dist/lib/strategies/Shared.d.ts",
       "../node_modules/@sapphire/pieces/dist/lib/strategies/filters/IFilter.d.ts",
       "../node_modules/@sapphire/pieces/dist/lib/strategies/filters/LoadJavaScript.d.ts",
@@ -4911,6 +4955,7 @@
       "../src/lib/types/Events.ts",
       "../src/lib/utils/Args.ts",
       "../src/lib/utils/Result.ts",
+      "../src/lib/utils/RootDir.ts",
       "../src/lib/utils/Types.ts",
       "../src/lib/utils/preconditions/IPreconditionContainer.ts",
       "../src/lib/utils/preconditions/PreconditionContainer.ts",

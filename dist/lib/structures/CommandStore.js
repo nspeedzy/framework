@@ -10,8 +10,7 @@ const Command_1 = require("./Command");
  */
 class CommandStore extends BaseAliasStore_1.BaseAliasStore {
     constructor(client) {
-        // @ts-expect-error Abstract classes are not assignable to Ctor<T>.
-        super(client, Command_1.Command);
+        super(client, Command_1.Command, { name: 'commands' });
     }
 }
 exports.CommandStore = CommandStore;

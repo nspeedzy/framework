@@ -10,9 +10,10 @@ const EventStore_1 = require("./structures/EventStore");
 const PreconditionStore_1 = require("./structures/PreconditionStore");
 require("./types/Enums");
 const Events_1 = require("./types/Events");
+const RootDir_1 = require("./utils/RootDir");
 class SapphireClient extends discord_js_1.Client {
     constructor(options = {}) {
-        var _a;
+        var _a, _b;
         super(options);
         /**
          * The client's ID, used for the user prefix.
@@ -60,6 +61,10 @@ class SapphireClient extends discord_js_1.Client {
             .registerStore(this.commands)
             .registerStore(this.events)
             .registerStore(this.preconditions);
+        const rootDirectory = (_b = options.rootDirectory) !== null && _b !== void 0 ? _b : RootDir_1.getRootDirectory();
+        for (const store of this.stores) {
+            store.registerPath(path_1.join(rootDirectory, store.name));
+        }
         for (const plugin of SapphireClient.plugins.values(1 /* PostInitialization */)) {
             plugin.hook.call(this, options);
             this.emit(Events_1.Events.PluginLoaded, plugin.type, plugin.name);
