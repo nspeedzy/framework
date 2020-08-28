@@ -737,8 +737,8 @@
         "affectsGlobalScope": false
       },
       "../src/lib/SapphireClient.ts": {
-        "version": "1dc48d8db2aacc6a76004617c9d6a98753da261416c51a97923ab13903fcd94a",
-        "signature": "5f95a53e81664fa7912449be7774cc5fc9b9100430c1dd5b904129acffdd07d9",
+        "version": "dc05b49e3cd35aa92488ed6b5818cb0b1325643dce15c77344a33a1721a533c9",
+        "signature": "2f11a4d41637b167b987ee61892197032fbdfde0bcb7be06ef03c7324bf21d8f",
         "affectsGlobalScope": false
       },
       "../src/lib/plugins/Plugin.ts": {

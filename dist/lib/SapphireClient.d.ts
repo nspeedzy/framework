@@ -23,7 +23,7 @@ export declare class SapphireClient extends Client {
      */
     logger: ILogger;
     /**
-     * The commands the framework has registered.
+     * The arguments the framework has registered.
      * @since 1.0.0
      */
     arguments: ArgumentStore;

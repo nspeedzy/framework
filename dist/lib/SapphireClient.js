@@ -38,7 +38,7 @@ class SapphireClient extends discord_js_1.Client {
             value: void 0
         });
         /**
-         * The commands the framework has registered.
+         * The arguments the framework has registered.
          * @since 1.0.0
          */
         Object.defineProperty(this, "arguments", {
