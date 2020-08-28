@@ -672,7 +672,7 @@
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Command.ts": {
-        "version": "e9652d4ec2073ed02652c8d6c66fd51eb269dd785dcabe9d30f8b893e4b6635b",
+        "version": "6f862cc6103a26f38beca68b88b5803300697d2aa2e6a0168ef6fdac7913aa2e",
         "signature": "1f3ef4755a01b602756ce4ae7dcc740c28565abc405fb429408767f84451069a",
         "affectsGlobalScope": false
       },
@@ -707,7 +707,7 @@
         "affectsGlobalScope": false
       },
       "../src/lib/structures/CommandStore.ts": {
-        "version": "87dc0b607396101080e584a7a7248b8707d7df1cf029b5decdb939e7b20e3d7e",
+        "version": "a06c11bfdbb36869f3334062456f6d6e96fec9df7499b5287ea7f40d5df73885",
         "signature": "9e2911e366c41eacd273a7e51a9e647f8e9090e12a0b764fbbe6463a31257788",
         "affectsGlobalScope": false
       },
