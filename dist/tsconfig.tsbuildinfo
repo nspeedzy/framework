@@ -637,8 +637,8 @@
         "affectsGlobalScope": false
       },
       "../src/lib/utils/Args.ts": {
-        "version": "488ed05c22ece079b08170ddf50d317757706ef1f98990f70592f2874ab2d898",
-        "signature": "0c29f113d3f1fe9c21a6e440945b0549f0b9d8b895b6e94a2f04b4ac6ee9a234",
+        "version": "8fb0c5e91c5ba2113dd0258a4fc181a1d1310f43fbb347a2c114a13c6a182ea6",
+        "signature": "cad87b4e5b14b8853b7cd6ebd2341eb3459e128564b4999e3654f4f259ae203c",
         "affectsGlobalScope": false
       },
       "../src/lib/utils/preconditions/IPreconditionContainer.ts": {
@@ -677,8 +677,8 @@
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Argument.ts": {
-        "version": "df1620af0e0028c8ba6750d34a7fa99fda2988dc4d2cd0878866260f4c7b43a0",
-        "signature": "f2a2555e6cd92cb6bba442db7f9e5091c1fc44c44711e7031511ee8f8c9996cc",
+        "version": "77c50abdc27e3eb8543ebbdb183232ac53fd124c557d567349a83389e5328acd",
+        "signature": "9af2df7cf543dc6c1df29c08912b45399ce8973a9858507bde3b0c6c4194344f",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Event.ts": {

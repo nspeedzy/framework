@@ -4,8 +4,11 @@ import type { Result } from '../utils/Result';
 import type { Awaited } from '../utils/Types';
 import { BasePiece } from './base/BasePiece';
 import type { Command } from './Command';
-export declare abstract class Argument extends BasePiece {
-    abstract run(argument: string, context: ArgumentContext): Awaited<Result<unknown, UserError>>;
+export interface IArgument<T> {
+    run(argument: string, context: ArgumentContext): Awaited<Result<T, UserError>>;
+}
+export declare abstract class Argument<T = unknown> extends BasePiece implements IArgument<T> {
+    abstract run(argument: string, context: ArgumentContext): Awaited<Result<T, UserError>>;
 }
 export interface ArgumentContext extends Record<PropertyKey, unknown> {
     message: Message;
