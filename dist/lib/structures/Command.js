@@ -38,18 +38,8 @@ class Command extends BaseAliasPiece_1.BaseAliasPiece {
      * @param options Optional Command settings.
      */
     constructor(context, { name, ...options } = {}) {
-        var _a, _b, _c, _d, _e, _f;
-        super(context, { ...options, name: name === null || name === void 0 ? void 0 : name.toLowerCase() });
-        /**
-         * Delete command's response if the trigger message was deleted
-         * @since 1.0.0
-         */
-        Object.defineProperty(this, "deletable", {
-            enumerable: true,
-            configurable: true,
-            writable: true,
-            value: void 0
-        });
+        var _a, _b, _c, _d, _e;
+        super(context, { ...options, name: (name !== null && name !== void 0 ? name : context.name).toLowerCase() });
         /**
          * A basic summary about the command
          * @since 1.0.0
@@ -74,7 +64,7 @@ class Command extends BaseAliasPiece_1.BaseAliasPiece {
          * Longer version of command's summary and how to use it
          * @since 1.0.0
          */
-        Object.defineProperty(this, "extendedHelp", {
+        Object.defineProperty(this, "detailedDescription", {
             enumerable: true,
             configurable: true,
             writable: true,
@@ -97,32 +87,35 @@ class Command extends BaseAliasPiece_1.BaseAliasPiece {
          */
         // eslint-disable-next-line @typescript-eslint/explicit-member-accessibility
         _lexer.set(this, new Lexure.Lexer());
-        this.deletable = (_a = options.deletable) !== null && _a !== void 0 ? _a : false;
-        this.description = (_b = options.description) !== null && _b !== void 0 ? _b : '';
+        this.description = (_a = options.description) !== null && _a !== void 0 ? _a : '';
+        this.detailedDescription = (_b = options.detailedDescription) !== null && _b !== void 0 ? _b : '';
         this.preconditions = new PreconditionContainer_1.PreconditionContainerAll(this.client, (_c = options.preconditions) !== null && _c !== void 0 ? _c : []);
-        this.extendedHelp = (_d = options.extendedHelp) !== null && _d !== void 0 ? _d : '';
-        this.flags = (_e = options.flags) !== null && _e !== void 0 ? _e : [];
-        __classPrivateFieldGet(this, _lexer).setQuotes((_f = options.quotes) !== null && _f !== void 0 ? _f : [
+        this.flags = (_d = options.flags) !== null && _d !== void 0 ? _d : [];
+        __classPrivateFieldGet(this, _lexer).setQuotes((_e = options.quotes) !== null && _e !== void 0 ? _e : [
             ['"', '"'],
             ['“', '”'],
             ['「', '」'] // Corner brackets (CJK)
         ]);
     }
+    /**
+     * The pre-parse method. This method can be overriden by plugins to define their own argument parser.
+     * @param message The message that triggered the command.
+     * @param parameters The raw parameters as a single string.
+     */
     preParse(message, parameters) {
         const parser = new Lexure.Parser(__classPrivateFieldGet(this, _lexer).setInput(parameters).lex());
         const args = new Lexure.Args(parser.parse());
         return new Args_1.Args(message, this, args);
     }
     /**
-     * Defines the JSON.stringify behavior of the command
-     * @returns {Object}
+     * Defines the JSON.stringify behavior of the command.
      */
     toJSON() {
         return {
             ...super.toJSON(),
-            deletable: this.deletable,
             description: this.description,
-            extendedHelp: this.extendedHelp
+            detailedDescription: this.detailedDescription,
+            flags: this.flags
         };
     }
 }

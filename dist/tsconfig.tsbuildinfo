@@ -672,8 +672,8 @@
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Command.ts": {
-        "version": "6f862cc6103a26f38beca68b88b5803300697d2aa2e6a0168ef6fdac7913aa2e",
-        "signature": "1f3ef4755a01b602756ce4ae7dcc740c28565abc405fb429408767f84451069a",
+        "version": "55e7a8ae65e6c3d983cbe92942c0bae66545f85ecf3c6fdbf8adcab36e77391c",
+        "signature": "0b2ee35fbfe2123412cbdafcf1846b7c1107d2907cda41dff0f7719ef5774be7",
         "affectsGlobalScope": false
       },
       "../src/lib/structures/Argument.ts": {
@@ -2762,7 +2762,6 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
         "../node_modules/lexure/dist/types/index.d.ts",
-        "../src/lib/structures/Precondition.ts",
         "../src/lib/structures/base/BaseAliasPiece.ts",
         "../src/lib/utils/Args.ts",
         "../src/lib/utils/Types.ts",
@@ -4720,8 +4719,8 @@
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/@sapphire/pieces/dist/lib/Piece.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
-        "../src/lib/structures/Precondition.ts",
         "../src/lib/structures/base/BaseAliasPiece.ts",
+        "../src/lib/utils/Args.ts",
         "../src/lib/utils/Types.ts",
         "../src/lib/utils/preconditions/PreconditionContainer.ts",
         "../src/lib/utils/preconditions/PreconditionContainerAny.ts"

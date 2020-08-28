@@ -1,18 +1,13 @@
 import type { AliasPieceOptions } from '@sapphire/pieces';
 import type { PieceContext } from '@sapphire/pieces/dist/lib/Piece';
 import type { Message } from 'discord.js';
+import { Args } from '../utils/Args';
 import { PreconditionContainerAll } from '../utils/preconditions/PreconditionContainer';
 import type { PreconditionContainerResolvable } from '../utils/preconditions/PreconditionContainerAny';
 import type { Awaited } from '../utils/Types';
 import { BaseAliasPiece } from './base/BaseAliasPiece';
-import type { PreconditionContext } from './Precondition';
-export declare abstract class Command extends BaseAliasPiece {
+export declare abstract class Command<T = Args> extends BaseAliasPiece {
     #private;
-    /**
-     * Delete command's response if the trigger message was deleted
-     * @since 1.0.0
-     */
-    deletable: boolean;
     /**
      * A basic summary about the command
      * @since 1.0.0
@@ -27,7 +22,7 @@ export declare abstract class Command extends BaseAliasPiece {
      * Longer version of command's summary and how to use it
      * @since 1.0.0
      */
-    extendedHelp: string;
+    detailedDescription: string;
     /**
      * Accepted flags for the command
      * @since 1.0.0
@@ -39,29 +34,62 @@ export declare abstract class Command extends BaseAliasPiece {
      * @param options Optional Command settings.
      */
     protected constructor(context: PieceContext, { name, ...options }?: CommandOptions);
-    preParse(message: Message, parameters: string): Awaited<unknown>;
-    abstract run(message: Message, args: unknown): Awaited<unknown>;
     /**
-     * Defines the JSON.stringify behavior of the command
-     * @returns {Object}
+     * The pre-parse method. This method can be overriden by plugins to define their own argument parser.
+     * @param message The message that triggered the command.
+     * @param parameters The raw parameters as a single string.
+     */
+    preParse(message: Message, parameters: string): Awaited<T>;
+    /**
+     * Executes the command's logic.
+     * @param message The message that triggered the command.
+     * @param args The value returned by [[Command.preParse]], by default an instance of [[Args]].
+     */
+    abstract run(message: Message, args: T): Awaited<unknown>;
+    /**
+     * Defines the JSON.stringify behavior of the command.
      */
     toJSON(): Record<string, any>;
 }
-export interface CommandPrecondition {
-    readonly name: string;
-    readonly context: Readonly<PreconditionContext>;
-}
-export declare type PreconditionResolvable = string | {
-    name: string;
-    context?: PreconditionContext;
-};
+/**
+ * The [[Command]] options.
+ * @since 1.0.0
+ */
 export interface CommandOptions extends AliasPieceOptions {
-    bucket?: number;
-    deletable?: boolean;
+    /**
+     * The description for the command.
+     * @since 1.0.0
+     * @default ''
+     */
     description?: string;
+    /**
+     * The detailed description for the command.
+     * @since 1.0.0
+     * @default ''
+     */
+    detailedDescription?: string;
+    /**
+     * The [[Precondition]]s to be run, accepts an array of their names.
+     * @since 1.0.0
+     * @default []
+     */
     preconditions?: PreconditionContainerResolvable;
-    extendedHelp?: string;
+    /**
+     * The accepted flags by the command.
+     * @since 1.0.0
+     * @default []
+     */
     flags?: string[];
+    /**
+     * The quotes accepted by this command, pass `[]` to disable them.
+     * @since 1.0.0
+     * @default
+     * [
+     *   ['"', '"'], // Double quotes
+     *   ['“', '”'], // Fancy quotes (on iOS)
+     *   ['「', '」'] // Corner brackets (CJK)
+     * ]
+     */
     quotes?: [string, string][];
 }
 //# sourceMappingURL=Command.d.ts.map
