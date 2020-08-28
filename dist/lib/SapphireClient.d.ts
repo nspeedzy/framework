@@ -6,8 +6,10 @@ import { ArgumentStore } from './structures/ArgumentStore';
 import { CommandStore } from './structures/CommandStore';
 import { EventStore } from './structures/EventStore';
 import { PreconditionStore } from './structures/PreconditionStore';
+import type { IInternationalization } from './utils/i18n/IInternationalization';
 import { ILogger, LogLevel } from './utils/logger/ILogger';
 import type { Awaited } from './utils/Types';
+import './extensions/SapphireMessage';
 export interface SapphirePrefixHook {
     (message: Message): Awaited<string | readonly string[] | null>;
 }
@@ -22,6 +24,11 @@ export declare class SapphireClient extends Client {
      * @since 1.0.0
      */
     logger: ILogger;
+    /**
+     * The internationalization handler to be used by the framework and plugins.
+     * @since 1.0.0
+     */
+    i18n: IInternationalization;
     /**
      * The arguments the framework has registered.
      * @since 1.0.0
@@ -118,6 +125,7 @@ declare module 'discord.js' {
     interface Client {
         id: string | null;
         logger: ILogger;
+        i18n: IInternationalization;
         arguments: ArgumentStore;
         commands: CommandStore;
         events: EventStore;
@@ -127,9 +135,31 @@ declare module 'discord.js' {
     interface ClientOptions {
         id?: string;
         logger?: ClientLoggerOptions;
+        i18n?: ClientInternationalizationOptions;
     }
     interface ClientLoggerOptions {
-        level: LogLevel;
+        level?: LogLevel;
+        instance?: ILogger;
+    }
+    interface ClientInternationalizationOptions {
+        defaultName?: string;
+        instance?: IInternationalization;
+    }
+    interface Message {
+        fetchLanguage(): Awaited<string>;
+        fetchLanguageKey(key: string, ...values: readonly unknown[]): Promise<string>;
+        sendTranslated(key: string, values?: readonly unknown[], options?: MessageOptions | (MessageOptions & {
+            split?: false;
+        }) | MessageAdditions): Promise<Message>;
+        sendTranslated(key: string, values?: readonly unknown[], options?: MessageOptions & {
+            split: true | SplitOptions;
+        }): Promise<Message[]>;
+        sendTranslated(key: string, options?: MessageOptions | (MessageOptions & {
+            split?: false;
+        }) | MessageAdditions): Promise<Message>;
+        sendTranslated(key: string, options?: MessageOptions & {
+            split: true | SplitOptions;
+        }): Promise<Message[]>;
     }
 }
 //# sourceMappingURL=SapphireClient.d.ts.map

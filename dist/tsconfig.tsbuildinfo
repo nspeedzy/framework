@@ -546,6 +546,11 @@
         "signature": "453abbd598aa3aeac131ddad5e17dcf7aa29c38dd3da1aaad47adb619900896a",
         "affectsGlobalScope": true
       },
+      "../src/lib/extensions/SapphireMessage.ts": {
+        "version": "add7e804376a7c82210bbe85864ba98d2d30c328abd797bec5dee1d83251e93b",
+        "signature": "231bcf1f06521c5e9669c3f26aa4820dc4efc8cb89533a18abafb470570c34a0",
+        "affectsGlobalScope": false
+      },
       "../src/lib/types/Enums.ts": {
         "version": "1006ed1f8dc98e18192b1e63cbe884250b2fc4059f915b905525876b76cbe73d",
         "signature": "2f7c82d0719477442e9793dc7a55c126219b68112aa446fa07cb80185cd943fc",
@@ -721,6 +726,16 @@
         "signature": "bb1aabd85898145f43a295ffd51ab2c45b38a275f3422b4cc094f5d2ed8f8f1e",
         "affectsGlobalScope": false
       },
+      "../src/lib/utils/i18n/IInternationalization.ts": {
+        "version": "4760f5cfdfec265019dcc0a648ddc245b2a7898eb8895e6d43cb49b6888189c4",
+        "signature": "fe34f9ba51fa89b5f7ecbe69aa028e876a05656860d730dc155dcca2960967ae",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/utils/i18n/Internationalization.ts": {
+        "version": "32975d2d260e9eca151ec1dd63eeda89b040660497652e5f2da2982ebbd126a1",
+        "signature": "aef87a3468ee0b6d27d862e5115880f28c75acaf40d68a6bff7ba2b4c654e12a",
+        "affectsGlobalScope": false
+      },
       "../src/lib/utils/logger/ILogger.ts": {
         "version": "33ffcc35488b101b3742419a02202936c4bf31ff5341a6a3ba405832540e7aea",
         "signature": "a37f1603d7e7a7ca95fd5e7e3f1aa06ec4132c1d11619dae4befaa9e6f9fa25e",
@@ -737,8 +752,8 @@
         "affectsGlobalScope": false
       },
       "../src/lib/SapphireClient.ts": {
-        "version": "dc05b49e3cd35aa92488ed6b5818cb0b1325643dce15c77344a33a1721a533c9",
-        "signature": "2f11a4d41637b167b987ee61892197032fbdfde0bcb7be06ef03c7324bf21d8f",
+        "version": "3240bb3f0e956e0e757f6023291809e064d749758f39405d7153508cbfa5e1ab",
+        "signature": "fad1b681afba0b5fc12d250d94dd650d308a2229e94430f57ff8e29ef9448911",
         "affectsGlobalScope": false
       },
       "../src/lib/plugins/Plugin.ts": {
@@ -747,8 +762,8 @@
         "affectsGlobalScope": false
       },
       "../src/index.ts": {
-        "version": "c1cd4446331c3caa5dc5296bf64a8ea7c3fb8ee93b51ea59b6f8b5b81269fbcf",
-        "signature": "adea94785643a28f0323ce4e19aae55a396be12e4ec5438e0b2019baa53ca2c5",
+        "version": "632196031c1be9f90c4b13bb787b42635b0bab656be406d63ae81dcf5c5b5f73",
+        "signature": "e53494104337b7f33926cd0fb351c5bef3ef5555c2b305ce305a87799ffba428",
         "affectsGlobalScope": false
       },
       "../src/arguments/CoreInteger.ts": {
@@ -2628,6 +2643,7 @@
         "../node_modules/@types/node/util.d.ts",
         "../src/lib/SapphireClient.ts",
         "../src/lib/errors/UserError.ts",
+        "../src/lib/extensions/SapphireMessage.ts",
         "../src/lib/plugins/Plugin.ts",
         "../src/lib/plugins/PluginManager.ts",
         "../src/lib/plugins/symbols.ts",
@@ -2648,6 +2664,8 @@
         "../src/lib/utils/Args.ts",
         "../src/lib/utils/Result.ts",
         "../src/lib/utils/Types.ts",
+        "../src/lib/utils/i18n/IInternationalization.ts",
+        "../src/lib/utils/i18n/Internationalization.ts",
         "../src/lib/utils/logger/ILogger.ts",
         "../src/lib/utils/logger/Logger.ts",
         "../src/lib/utils/preconditions/IPreconditionContainer.ts",
@@ -2666,6 +2684,7 @@
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/extensions/SapphireMessage.ts",
         "../src/lib/plugins/Plugin.ts",
         "../src/lib/plugins/PluginManager.ts",
         "../src/lib/structures/ArgumentStore.ts",
@@ -2676,6 +2695,8 @@
         "../src/lib/types/Events.ts",
         "../src/lib/utils/RootDir.ts",
         "../src/lib/utils/Types.ts",
+        "../src/lib/utils/i18n/IInternationalization.ts",
+        "../src/lib/utils/i18n/Internationalization.ts",
         "../src/lib/utils/logger/ILogger.ts",
         "../src/lib/utils/logger/Logger.ts"
       ],
@@ -2687,6 +2708,17 @@
         "../node_modules/@types/node/ts3.2/process.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/lib/extensions/SapphireMessage.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts"
       ],
       "../src/lib/plugins/Plugin.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -2947,6 +2979,29 @@
         "../node_modules/@types/node/ts3.2/process.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/lib/utils/i18n/IInternationalization.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/utils/Types.ts"
+      ],
+      "../src/lib/utils/i18n/Internationalization.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/utils/Types.ts",
+        "../src/lib/utils/i18n/IInternationalization.ts"
       ],
       "../src/lib/utils/logger/ILogger.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
@@ -4652,6 +4707,7 @@
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../src/lib/SapphireClient.ts",
         "../src/lib/errors/UserError.ts",
+        "../src/lib/extensions/SapphireMessage.ts",
         "../src/lib/plugins/Plugin.ts",
         "../src/lib/plugins/PluginManager.ts",
         "../src/lib/plugins/symbols.ts",
@@ -4672,6 +4728,8 @@
         "../src/lib/utils/Args.ts",
         "../src/lib/utils/Result.ts",
         "../src/lib/utils/Types.ts",
+        "../src/lib/utils/i18n/IInternationalization.ts",
+        "../src/lib/utils/i18n/Internationalization.ts",
         "../src/lib/utils/logger/ILogger.ts",
         "../src/lib/utils/logger/Logger.ts",
         "../src/lib/utils/preconditions/IPreconditionContainer.ts",
@@ -4682,6 +4740,7 @@
       "../src/lib/SapphireClient.ts": [
         "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/extensions/SapphireMessage.ts",
         "../src/lib/plugins/Plugin.ts",
         "../src/lib/plugins/PluginManager.ts",
         "../src/lib/structures/ArgumentStore.ts",
@@ -4689,7 +4748,12 @@
         "../src/lib/structures/EventStore.ts",
         "../src/lib/structures/PreconditionStore.ts",
         "../src/lib/utils/Types.ts",
+        "../src/lib/utils/i18n/IInternationalization.ts",
         "../src/lib/utils/logger/ILogger.ts"
+      ],
+      "../src/lib/extensions/SapphireMessage.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
+        "../node_modules/discord.js/typings/index.d.ts"
       ],
       "../src/lib/plugins/Plugin.ts": [
         "../node_modules/discord.js/typings/index.d.ts",
@@ -4786,6 +4850,15 @@
         "../src/lib/structures/Argument.ts",
         "../src/lib/structures/Command.ts",
         "../src/lib/utils/Result.ts"
+      ],
+      "../src/lib/utils/i18n/IInternationalization.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/utils/Types.ts"
+      ],
+      "../src/lib/utils/i18n/Internationalization.ts": [
+        "../node_modules/discord.js/typings/index.d.ts",
+        "../src/lib/utils/Types.ts",
+        "../src/lib/utils/i18n/IInternationalization.ts"
       ],
       "../src/lib/utils/logger/Logger.ts": [
         "../src/lib/utils/logger/ILogger.ts"
@@ -5005,6 +5078,7 @@
       "../src/index.ts",
       "../src/lib/SapphireClient.ts",
       "../src/lib/errors/UserError.ts",
+      "../src/lib/extensions/SapphireMessage.ts",
       "../src/lib/plugins/Plugin.ts",
       "../src/lib/plugins/PluginManager.ts",
       "../src/lib/plugins/symbols.ts",
@@ -5026,6 +5100,8 @@
       "../src/lib/utils/Result.ts",
       "../src/lib/utils/RootDir.ts",
       "../src/lib/utils/Types.ts",
+      "../src/lib/utils/i18n/IInternationalization.ts",
+      "../src/lib/utils/i18n/Internationalization.ts",
       "../src/lib/utils/logger/ILogger.ts",
       "../src/lib/utils/logger/Logger.ts",
       "../src/lib/utils/preconditions/IPreconditionContainer.ts",

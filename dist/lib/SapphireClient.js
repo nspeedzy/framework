@@ -10,12 +10,15 @@ const EventStore_1 = require("./structures/EventStore");
 const PreconditionStore_1 = require("./structures/PreconditionStore");
 require("./types/Enums");
 const Events_1 = require("./types/Events");
+const Internationalization_1 = require("./utils/i18n/Internationalization");
 require("./utils/logger/ILogger");
 const Logger_1 = require("./utils/logger/Logger");
 const RootDir_1 = require("./utils/RootDir");
+// Extensions
+require("./extensions/SapphireMessage");
 class SapphireClient extends discord_js_1.Client {
     constructor(options = {}) {
-        var _a, _b, _c;
+        var _a, _b, _c, _d, _e, _f, _g, _h, _j;
         super(options);
         /**
          * The client's ID, used for the user prefix.
@@ -32,6 +35,16 @@ class SapphireClient extends discord_js_1.Client {
          * @since 1.0.0
          */
         Object.defineProperty(this, "logger", {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: void 0
+        });
+        /**
+         * The internationalization handler to be used by the framework and plugins.
+         * @since 1.0.0
+         */
+        Object.defineProperty(this, "i18n", {
             enumerable: true,
             configurable: true,
             writable: true,
@@ -120,12 +133,13 @@ class SapphireClient extends discord_js_1.Client {
             value: () => null
         });
         // The logger is created before plugins so they can use, or even, override it.
-        this.logger = new Logger_1.Logger((_b = (_a = options.logger) === null || _a === void 0 ? void 0 : _a.level) !== null && _b !== void 0 ? _b : 40 /* Warn */);
+        this.logger = (_b = (_a = options.logger) === null || _a === void 0 ? void 0 : _a.instance) !== null && _b !== void 0 ? _b : new Logger_1.Logger((_d = (_c = options.logger) === null || _c === void 0 ? void 0 : _c.level) !== null && _d !== void 0 ? _d : 40 /* Warn */);
+        this.i18n = (_f = (_e = options.i18n) === null || _e === void 0 ? void 0 : _e.instance) !== null && _f !== void 0 ? _f : new Internationalization_1.Internationalization((_h = (_g = options.i18n) === null || _g === void 0 ? void 0 : _g.defaultName) !== null && _h !== void 0 ? _h : 'en-US');
         for (const plugin of SapphireClient.plugins.values(0 /* PreInitialization */)) {
             plugin.hook.call(this, options);
             this.emit(Events_1.Events.PluginLoaded, plugin.type, plugin.name);
         }
-        this.id = (_c = options.id) !== null && _c !== void 0 ? _c : null;
+        this.id = (_j = options.id) !== null && _j !== void 0 ? _j : null;
         this.arguments = new ArgumentStore_1.ArgumentStore(this).registerPath(path_1.join(__dirname, '..', 'arguments'));
         this.commands = new CommandStore_1.CommandStore(this);
         this.events = new EventStore_1.EventStore(this).registerPath(path_1.join(__dirname, '..', 'events'));
