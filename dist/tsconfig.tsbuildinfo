@@ -201,14 +201,79 @@
         "signature": "cd6efb9467a8b6338ece2e2855e37765700f2cd061ca54b01b33878cf5c7677e",
         "affectsGlobalScope": true
       },
-      "../src/lib/errors/UserError.ts": {
-        "version": "a69bd2ca6538028a1b3df185c3d8bd5048598d09af21511a3c7eb64ba1cbaa4f",
-        "signature": "f4a595bdb04795ac41465d07f48bbe77f74bb83e9983568f1a93b8587662d32f",
-        "affectsGlobalScope": false
-      },
       "../node_modules/@discordjs/collection/dist/index.d.ts": {
         "version": "7be7f76b784383fa84812ca7eb8ad10315c9d482c0d25f178645365405509d44",
         "signature": "7be7f76b784383fa84812ca7eb8ad10315c9d482c0d25f178645365405509d44",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sapphire/pieces/dist/lib/strategies/filters/IFilter.d.ts": {
+        "version": "ba060b0cdeb240d55d67d524a51d12c9e00198c7f38c2a7f44107d026e992be8",
+        "signature": "ba060b0cdeb240d55d67d524a51d12c9e00198c7f38c2a7f44107d026e992be8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sapphire/pieces/dist/lib/strategies/Shared.d.ts": {
+        "version": "1a84afff8894517b9e3dd7ea9d52798e9c8c618e301eb060db281b403f5c023a",
+        "signature": "1a84afff8894517b9e3dd7ea9d52798e9c8c618e301eb060db281b403f5c023a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sapphire/pieces/dist/lib/strategies/loaders/ILoader.d.ts": {
+        "version": "7ab6fa8f8fb219183631c55780d33db7bde09716b9638191192ec44bf879c5c6",
+        "signature": "7ab6fa8f8fb219183631c55780d33db7bde09716b9638191192ec44bf879c5c6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sapphire/pieces/dist/lib/Store.d.ts": {
+        "version": "7c094a08113cee125c9cb2a226cfd5075a7b893e54e4333f61bb6a75e7b9529f",
+        "signature": "7c094a08113cee125c9cb2a226cfd5075a7b893e54e4333f61bb6a75e7b9529f",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sapphire/pieces/dist/lib/Piece.d.ts": {
+        "version": "4ef9bda24b2cb0f7882e2cb55eef6a387f42654a8ac8207e22202a26efbf1fc7",
+        "signature": "4ef9bda24b2cb0f7882e2cb55eef6a387f42654a8ac8207e22202a26efbf1fc7",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sapphire/pieces/dist/lib/AliasPiece.d.ts": {
+        "version": "fc5c8669f222e8ec99da61a6f872becefcb1401124cb0d6025f1ab2c385fa767",
+        "signature": "fc5c8669f222e8ec99da61a6f872becefcb1401124cb0d6025f1ab2c385fa767",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sapphire/pieces/dist/lib/AliasStore.d.ts": {
+        "version": "2b5a4c62d5ef574be422824782eeb7b5910e14b3754d7c7ae3075c66466df283",
+        "signature": "2b5a4c62d5ef574be422824782eeb7b5910e14b3754d7c7ae3075c66466df283",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sapphire/pieces/dist/lib/errors/LoaderError.d.ts": {
+        "version": "dfa9ca287dac217afd4fd6f8090834b3558a4ef32f9333358214d210cc5ea83c",
+        "signature": "dfa9ca287dac217afd4fd6f8090834b3558a4ef32f9333358214d210cc5ea83c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sapphire/pieces/dist/lib/errors/MissingExportsError.d.ts": {
+        "version": "50f04e8654d013809df669d32724b22525f106993d20f3f75eccfde754c3bfd8",
+        "signature": "50f04e8654d013809df669d32724b22525f106993d20f3f75eccfde754c3bfd8",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sapphire/pieces/dist/lib/strategies/filters/LoadJavaScript.d.ts": {
+        "version": "8c5412b256ed255f9943193f030912cff28cc1d21d8eaffd899ad502edbc8d0b",
+        "signature": "8c5412b256ed255f9943193f030912cff28cc1d21d8eaffd899ad502edbc8d0b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sapphire/pieces/dist/lib/strategies/loaders/LoadMultiple.d.ts": {
+        "version": "e05fc036c5829183c29f9a1bbcb065250b662ee79e39ca2edcb712f0b055c1c1",
+        "signature": "e05fc036c5829183c29f9a1bbcb065250b662ee79e39ca2edcb712f0b055c1c1",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sapphire/pieces/dist/lib/strategies/loaders/LoadSingle.d.ts": {
+        "version": "2ce05593dffce10a2ba27ca79637b3dbe751d19300289b5363da77c2cf029b4d",
+        "signature": "2ce05593dffce10a2ba27ca79637b3dbe751d19300289b5363da77c2cf029b4d",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@sapphire/pieces/dist/index.d.ts": {
+        "version": "47b9e7168286487757f5d7a016cd669080201bcc054e8a7b9402fbaf250f68eb",
+        "signature": "47b9e7168286487757f5d7a016cd669080201bcc054e8a7b9402fbaf250f68eb",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/errors/UserError.ts": {
+        "version": "a69bd2ca6538028a1b3df185c3d8bd5048598d09af21511a3c7eb64ba1cbaa4f",
+        "signature": "f4a595bdb04795ac41465d07f48bbe77f74bb83e9983568f1a93b8587662d32f",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/node/globals.d.ts": {
@@ -481,71 +546,6 @@
         "signature": "453abbd598aa3aeac131ddad5e17dcf7aa29c38dd3da1aaad47adb619900896a",
         "affectsGlobalScope": true
       },
-      "../node_modules/@sapphire/pieces/dist/lib/strategies/filters/IFilter.d.ts": {
-        "version": "ba060b0cdeb240d55d67d524a51d12c9e00198c7f38c2a7f44107d026e992be8",
-        "signature": "ba060b0cdeb240d55d67d524a51d12c9e00198c7f38c2a7f44107d026e992be8",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@sapphire/pieces/dist/lib/strategies/Shared.d.ts": {
-        "version": "1a84afff8894517b9e3dd7ea9d52798e9c8c618e301eb060db281b403f5c023a",
-        "signature": "1a84afff8894517b9e3dd7ea9d52798e9c8c618e301eb060db281b403f5c023a",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@sapphire/pieces/dist/lib/strategies/loaders/ILoader.d.ts": {
-        "version": "7ab6fa8f8fb219183631c55780d33db7bde09716b9638191192ec44bf879c5c6",
-        "signature": "7ab6fa8f8fb219183631c55780d33db7bde09716b9638191192ec44bf879c5c6",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@sapphire/pieces/dist/lib/Store.d.ts": {
-        "version": "7c094a08113cee125c9cb2a226cfd5075a7b893e54e4333f61bb6a75e7b9529f",
-        "signature": "7c094a08113cee125c9cb2a226cfd5075a7b893e54e4333f61bb6a75e7b9529f",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@sapphire/pieces/dist/lib/Piece.d.ts": {
-        "version": "4ef9bda24b2cb0f7882e2cb55eef6a387f42654a8ac8207e22202a26efbf1fc7",
-        "signature": "4ef9bda24b2cb0f7882e2cb55eef6a387f42654a8ac8207e22202a26efbf1fc7",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@sapphire/pieces/dist/lib/AliasPiece.d.ts": {
-        "version": "fc5c8669f222e8ec99da61a6f872becefcb1401124cb0d6025f1ab2c385fa767",
-        "signature": "fc5c8669f222e8ec99da61a6f872becefcb1401124cb0d6025f1ab2c385fa767",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@sapphire/pieces/dist/lib/AliasStore.d.ts": {
-        "version": "2b5a4c62d5ef574be422824782eeb7b5910e14b3754d7c7ae3075c66466df283",
-        "signature": "2b5a4c62d5ef574be422824782eeb7b5910e14b3754d7c7ae3075c66466df283",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@sapphire/pieces/dist/lib/errors/LoaderError.d.ts": {
-        "version": "dfa9ca287dac217afd4fd6f8090834b3558a4ef32f9333358214d210cc5ea83c",
-        "signature": "dfa9ca287dac217afd4fd6f8090834b3558a4ef32f9333358214d210cc5ea83c",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@sapphire/pieces/dist/lib/errors/MissingExportsError.d.ts": {
-        "version": "50f04e8654d013809df669d32724b22525f106993d20f3f75eccfde754c3bfd8",
-        "signature": "50f04e8654d013809df669d32724b22525f106993d20f3f75eccfde754c3bfd8",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@sapphire/pieces/dist/lib/strategies/filters/LoadJavaScript.d.ts": {
-        "version": "8c5412b256ed255f9943193f030912cff28cc1d21d8eaffd899ad502edbc8d0b",
-        "signature": "8c5412b256ed255f9943193f030912cff28cc1d21d8eaffd899ad502edbc8d0b",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@sapphire/pieces/dist/lib/strategies/loaders/LoadMultiple.d.ts": {
-        "version": "e05fc036c5829183c29f9a1bbcb065250b662ee79e39ca2edcb712f0b055c1c1",
-        "signature": "e05fc036c5829183c29f9a1bbcb065250b662ee79e39ca2edcb712f0b055c1c1",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@sapphire/pieces/dist/lib/strategies/loaders/LoadSingle.d.ts": {
-        "version": "2ce05593dffce10a2ba27ca79637b3dbe751d19300289b5363da77c2cf029b4d",
-        "signature": "2ce05593dffce10a2ba27ca79637b3dbe751d19300289b5363da77c2cf029b4d",
-        "affectsGlobalScope": false
-      },
-      "../node_modules/@sapphire/pieces/dist/index.d.ts": {
-        "version": "47b9e7168286487757f5d7a016cd669080201bcc054e8a7b9402fbaf250f68eb",
-        "signature": "47b9e7168286487757f5d7a016cd669080201bcc054e8a7b9402fbaf250f68eb",
-        "affectsGlobalScope": false
-      },
       "../src/lib/types/Enums.ts": {
         "version": "1006ed1f8dc98e18192b1e63cbe884250b2fc4059f915b905525876b76cbe73d",
         "signature": "2f7c82d0719477442e9793dc7a55c126219b68112aa446fa07cb80185cd943fc",
@@ -747,8 +747,8 @@
         "affectsGlobalScope": false
       },
       "../src/index.ts": {
-        "version": "bebda3da9513707b35885d33489ecdbef152b32d20cfce66e0cd682105732345",
-        "signature": "c437c9c893110994a5a13ef1da5d8836e189c75cd07249f175f689d70c4d42ee",
+        "version": "c1cd4446331c3caa5dc5296bf64a8ea7c3fb8ee93b51ea59b6f8b5b81269fbcf",
+        "signature": "adea94785643a28f0323ce4e19aae55a396be12e4ec5438e0b2019baa53ca2c5",
         "affectsGlobalScope": false
       },
       "../src/arguments/CoreInteger.ts": {
@@ -2618,6 +2618,7 @@
         "../src/lib/types/Events.ts"
       ],
       "../src/index.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -4649,6 +4650,7 @@
         "../src/lib/types/Events.ts"
       ],
       "../src/index.ts": [
+        "../node_modules/@sapphire/pieces/dist/index.d.ts",
         "../src/lib/SapphireClient.ts",
         "../src/lib/errors/UserError.ts",
         "../src/lib/plugins/Plugin.ts",
